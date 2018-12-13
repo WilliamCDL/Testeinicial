@@ -1,13 +1,104 @@
 #!/usr/bin/python
 import ast
 import os
+#variaveis globais para salvar o nome da func e a lista das funcs desejadas
 NomeDeFunc=""
+NomeDeClass=""
+Contador = 0
 DicionarioDeNomedeFunc = {}
 
 class MyCustomVisitor(ast.NodeVisitor):
-    
+    #variavel para guardar a quantidade de funcoes
     def __init__(self):
         self.counter = 0
+        global Contador
+        Contador = 0
+        
+    #apenas para teste do catch
+        try:
+            1 + 1
+        except TypeError:
+            print("nao tem pass")
+            print("nao tem pass")
+        except IndentationError:
+            pass
+        except IndentationError:
+            pass
+
+
+    def visit_FunctionDef(self, node):
+        global NomeDeFunc
+        global Contador
+        global NomeDeClass
+        
+        
+        print("Foi declarado uma funcao chamada : " + node.name)
+        
+        if Contador > 1 :
+            Contador -= 1
+            
+        #Salvando o nome da funcao e seus parametros
+        
+            
+        NomeDeFunc = NomeDeClass + node.name+"("
+        for Parametros in node.args.args:
+            if Parametros == node.args.args[-1] :
+                NomeDeFunc+=Parametros.arg
+            else :
+                NomeDeFunc+=Parametros.arg+","
+        NomeDeFunc+=")" 
+                    
+            
+
+        #necessario para poder visitar os filhos
+        super(MyCustomVisitor, self).generic_visit(node)
+
+       
+
+    def visit_ExceptHandler(self, node):
+        global NomeDeFunc
+        global NomeDeClass
+        global Contador
+        global DicionarioDeNomedeFunc
+
+        #caso a lista tenha tamanho 1
+        if node.body[0] == node.body[-1] :
+            #verifica se o valor eh igual a pass
+            if isinstance(node.body[0], ast.Pass):
+                #caso seja incrementa o contador em 1
+                self.counter = self.counter + 1
+                #verifica se a funcao ja esta salva, caso sim incrementa o contador, caso nao adiciona no dic
+                if NomeDeFunc not in DicionarioDeNomedeFunc :
+                    DicionarioDeNomedeFunc.update({NomeDeFunc : 1})
+                else :
+                    DicionarioDeNomedeFunc.update({NomeDeFunc : DicionarioDeNomedeFunc[NomeDeFunc]+1})
+        if Contador == 1 :
+            Contador = 0
+            NomeDeClass = ""
+            NomeDeFunc = ""
+            #print("Found in the Func "+NomeDeFunc)
+            
+            #comparar = str(node.body[0])
+            #if comparar.find("Pass") == -1:
+            #    pass
+            #else:
+            #    if NomeDeFunc not in DicionarioDeNomedeFunc :
+            #        DicionarioDeNomedeFunc.update({NomeDeFunc : 1})
+            #    else :
+            #        DicionarioDeNomedeFunc.update({NomeDeFunc : DicionarioDeNomedeFunc[NomeDeFunc]+1})
+            #    print("Found in the Func "+NomeDeFunc)
+            #    self.counter = self.counter + 1
+        
+    def visit_ClassDef(self, node) :
+        global Contador
+        global NomeDeClass
+        NomeDeClass = node.name
+        Contador = 0
+        for x in node.body :
+            if isinstance(x, ast.FunctionDef):
+                Contador+=1
+        super(MyCustomVisitor, self).generic_visit(node)
+def teste(int ):
     try:
         1 + 1
     except TypeError:
@@ -17,65 +108,6 @@ class MyCustomVisitor(ast.NodeVisitor):
         pass
     except IndentationError:
         pass
-
-    '''
-    # Aux function
-    def get_call_name(self, node):
-        if isinstance(node.func, ast.Name):
-            return node.func.id
-        elif isinstance(node.func, ast.Attribute):
-            return node.func.attr
-        else:
-            raise NotImplementedError("Could not extract call-name from node: " + str(node))
-    '''
-    
-    def visit_FunctionDef(self, node):
-        global NomeDeFunc
-        NomeDeFunc = node.name
-        print("Foi declarado uma funcao chamada : " + NomeDeFunc)
-        super(MyCustomVisitor, self).generic_visit(node)
-
-    '''
-    def visit_Call(self, node):
-        call_name = self.get_call_name(node)
-        print(str("\t\t'{0}' was called.").format(call_name))
-        super(MyCustomVisitor, self).generic_visit(node)
-    '''
-    '''
-    def visit_Try(self , node):
-        
-        print("Try")
-        contador = 0
-        while (node.handlers[0].body[contador] != node.handlers[0].body[-1]) :     
-            contador = contador + 1
-        
-        if  ast.Pass() == node.handlers[0].body[-1] :
-            print("Funcao vazia")
-        print(node.handlers[0].body[-1])
-        print(ast.Pass())
-        
-        super(MyCustomVisitor, self).generic_visit(node)
-    '''        
-
-    def visit_ExceptHandler(self, node):
-        global NomeDeFunc
-        global DicionarioDeNomedeFunc
-
-
-        if node.body[0] == node.body[-1] :
-            comparar = str(node.body[0])
-            if comparar.find("Pass") == -1:
-                pass
-            else:
-                if NomeDeFunc not in DicionarioDeNomedeFunc :
-                    DicionarioDeNomedeFunc.update({NomeDeFunc : 1})
-                else :
-                    DicionarioDeNomedeFunc.update({NomeDeFunc : DicionarioDeNomedeFunc[NomeDeFunc]+1})
-                print("Found in the Func "+NomeDeFunc)
-                self.counter = self.counter + 1
-        
-        
-        
 
 if __name__ == "__main__":
     import sys
@@ -85,7 +117,7 @@ if __name__ == "__main__":
         print("nao tem pass")
         print("nao tem pass")
     except IndentationError:
-        print("nao tem pass")
+        pass
     except IndentationError:
         pass
     
