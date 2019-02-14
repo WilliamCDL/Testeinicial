@@ -30,13 +30,17 @@ class MyCustomVisitor(ast.NodeVisitor):
         global NomeDeFunc
         global Contador
         global NomeDeClass
-        
+
+
+        if Contador == 0 :
+            NomeDeClass = ""
+            NomeDeFunc = ""
         
         print("Foi declarado uma funcao chamada : " + node.name)
         
-        if Contador > 1 :
+        if Contador >= 1 :
             Contador -= 1
-            
+        
         #Salvando o nome da funcao e seus parametros
         
             
@@ -72,10 +76,11 @@ class MyCustomVisitor(ast.NodeVisitor):
                     DicionarioDeNomedeFunc.update({NomeDeFunc : 1})
                 else :
                     DicionarioDeNomedeFunc.update({NomeDeFunc : DicionarioDeNomedeFunc[NomeDeFunc]+1})
-        if Contador == 1 :
-            Contador = 0
-            NomeDeClass = ""
-            NomeDeFunc = ""
+        
+        
+            
+            
+
             #print("Found in the Func "+NomeDeFunc)
             
             #comparar = str(node.body[0])
@@ -142,3 +147,15 @@ if __name__ == "__main__":
         print("A total of {0} ExceptHandler just with pass were found in {1}.".format(visitor.counter, input_path))
         
         print (DicionarioDeNomedeFunc)
+        
+        for index,value in DicionarioDeNomedeFunc.items():
+            print(index, ";" , value)
+             
+        arq = open('lista.txt', 'w')
+        for index,value in DicionarioDeNomedeFunc.items():
+            armazenar_Linha_Unica_De_Valor = index+";"+str(value)
+            arq.write(armazenar_Linha_Unica_De_Valor+'\n')
+        
+        arq.close()   
+
+        
