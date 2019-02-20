@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import ast
 import os
+from pydriller import RepositoryMining
 #variaveis globais para salvar o nome da func e a lista das funcs desejadas
 NomeDeFunc=""
 NomeDeClass=""
@@ -137,25 +138,31 @@ if __name__ == "__main__":
 
         # reads the content of this file
         file_str  = input.read()
-
+        for lista in RepositoryMining('https://github.com/WilliamCDL/Testeinicial').traverse_commits():
+            for arquivos in lista.modifications :
+                root = ast.parse(arquivos.source_code)
+                visitor = MyCustomVisitor()
+                visitor.visit(root)
+                print("A total of {0} ExceptHandler just with pass were found in {1}.".format(visitor.counter, arquivos.filename))
+        
+                print (DicionarioDeNomedeFunc)
+                DicionarioDeNomedeFunc.clear()
         # parses the content of this file
-        root = ast.parse(file_str)
+        
 
         # visits the Abstract Syntax Tree
-        visitor = MyCustomVisitor()
-        visitor.visit(root)
-        print("A total of {0} ExceptHandler just with pass were found in {1}.".format(visitor.counter, input_path))
         
-        print (DicionarioDeNomedeFunc)
         
-        for index,value in DicionarioDeNomedeFunc.items():
-            print(index, ";" , value)
+        
+        #for index,value in DicionarioDeNomedeFunc.items():
+        #    print(index, ";" , value)
              
-        arq = open('lista.txt', 'w')
-        for index,value in DicionarioDeNomedeFunc.items():
-            armazenar_Linha_Unica_De_Valor = index+";"+str(value)
-            arq.write(armazenar_Linha_Unica_De_Valor+'\n')
+        #arq = open('lista.txt', 'w')
+        #for index,value in DicionarioDeNomedeFunc.items():
+        #    arq.write(index)
+        #    arq.write(";")
+        #    arq.write(str(value)+'\n')
         
-        arq.close()   
+        #arq.close()   
 
         
