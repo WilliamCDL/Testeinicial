@@ -144,7 +144,13 @@ if __name__ == "__main__":
                 visitor = MyCustomVisitor()
                 visitor.visit(root)
                 print("A total of {0} ExceptHandler just with pass were found in {1}.".format(visitor.counter, arquivos.filename))
-        
+                nomedotxt = "Testes/"+lista.project_name+"/"+arquivos.filename
+                arq = open(nomedotxt, 'w')
+                for index,value in DicionarioDeNomedeFunc.items():
+                    arq.write(index)
+                    arq.write(";")
+                    arq.write(str(value)+'\n')
+                arq.close() 
                 print (DicionarioDeNomedeFunc)
                 DicionarioDeNomedeFunc.clear()
         # parses the content of this file
@@ -157,12 +163,9 @@ if __name__ == "__main__":
         #for index,value in DicionarioDeNomedeFunc.items():
         #    print(index, ";" , value)
              
-        #arq = open('lista.txt', 'w')
-        #for index,value in DicionarioDeNomedeFunc.items():
-        #    arq.write(index)
-        #    arq.write(";")
-        #    arq.write(str(value)+'\n')
+        #
+        #
         
-        #arq.close()   
+        #  
 
         
