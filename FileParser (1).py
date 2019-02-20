@@ -5,28 +5,18 @@ from pydriller import RepositoryMining
 #variaveis globais para salvar o nome da func e a lista das funcs desejadas
 NomeDeFunc=""
 NomeDeClass=""
+#variavel para guardar a quantidade de funcoes numa classe
 Contador = 0
 DicionarioDeNomedeFunc = {}
 
 class MyCustomVisitor(ast.NodeVisitor):
-    #variavel para guardar a quantidade de funcoes
+    
     def __init__(self):
         self.counter = 0
+        
         global Contador
         Contador = 0
         
-    #apenas para teste do catch
-        try:
-            1 + 1
-        except TypeError:
-            print("nao tem pass")
-            print("nao tem pass")
-        except IndentationError:
-            pass
-        except IndentationError:
-            pass
-
-
     def visit_FunctionDef(self, node):
         global NomeDeFunc
         global Contador
@@ -36,8 +26,6 @@ class MyCustomVisitor(ast.NodeVisitor):
         if Contador == 0 :
             NomeDeClass = ""
             NomeDeFunc = ""
-        
-        print("Foi declarado uma funcao chamada : " + node.name)
         
         if Contador >= 1 :
             Contador -= 1
@@ -77,23 +65,7 @@ class MyCustomVisitor(ast.NodeVisitor):
                     DicionarioDeNomedeFunc.update({NomeDeFunc : 1})
                 else :
                     DicionarioDeNomedeFunc.update({NomeDeFunc : DicionarioDeNomedeFunc[NomeDeFunc]+1})
-        
-        
-            
-            
 
-            #print("Found in the Func "+NomeDeFunc)
-            
-            #comparar = str(node.body[0])
-            #if comparar.find("Pass") == -1:
-            #    pass
-            #else:
-            #    if NomeDeFunc not in DicionarioDeNomedeFunc :
-            #        DicionarioDeNomedeFunc.update({NomeDeFunc : 1})
-            #    else :
-            #        DicionarioDeNomedeFunc.update({NomeDeFunc : DicionarioDeNomedeFunc[NomeDeFunc]+1})
-            #    print("Found in the Func "+NomeDeFunc)
-            #    self.counter = self.counter + 1
         
     def visit_ClassDef(self, node) :
         global Contador
@@ -104,68 +76,40 @@ class MyCustomVisitor(ast.NodeVisitor):
             if isinstance(x, ast.FunctionDef):
                 Contador+=1
         super(MyCustomVisitor, self).generic_visit(node)
-def teste(int ):
-    try:
-        1 + 1
-    except TypeError:
-        print("nao tem pass")
-        print("nao tem pass")
-    except IndentationError:
-        pass
-    except IndentationError:
-        pass
 
-if __name__ == "__main__":
-    import sys
-    try:
-        1 + 1
-    except TypeError:
-        print("nao tem pass")
-        print("nao tem pass")
-    except IndentationError:
-        pass
-    except IndentationError:
+class RodarAnalise() :
+    def __init__ (self) :
         pass
     
-    if len(sys.argv) == 2 :
-        input_path = sys.argv[1]
-    else :
-        input_path =  __file__
+if __name__ == "__main__":
+   
+    numeroDoComit = 0
+    for lista in RepositoryMining('https://github.com/WilliamCDL/Testeinicial', only_modifications_with_file_types=['.py']).traverse_commits():
+        
+        for arquivos in lista.modifications :
 
-    print("Processing file: " + input_path)
-
-    with open(input_path, "r") as input:
-
-        # reads the content of this file
-        file_str  = input.read()
-        for lista in RepositoryMining('https://github.com/WilliamCDL/Testeinicial').traverse_commits():
-            for arquivos in lista.modifications :
+            if ".py" in arquivos.filename :
                 root = ast.parse(arquivos.source_code)
                 visitor = MyCustomVisitor()
                 visitor.visit(root)
-                print("A total of {0} ExceptHandler just with pass were found in {1}.".format(visitor.counter, arquivos.filename))
-                nomedotxt = "Testes/"+lista.project_name+"/"+arquivos.filename
-                arq = open(nomedotxt, 'w')
-                for index,value in DicionarioDeNomedeFunc.items():
-                    arq.write(index)
-                    arq.write(";")
-                    arq.write(str(value)+'\n')
-                arq.close() 
-                print (DicionarioDeNomedeFunc)
-                DicionarioDeNomedeFunc.clear()
-        # parses the content of this file
+                if len(DicionarioDeNomedeFunc) > 0 :
+                    print("A total of {0} ExceptHandler just with pass were found in {1}.".format(visitor.counter, arquivos.filename))
+                    #tira a estensão .py, para criar um arquivo de mesmo nome porem diferente extensão
+                    auxiliarParaNomeArquivo = arquivos.filename
+                    auxiliarParaNomeArquivo = auxiliarParaNomeArquivo.replace('.py', '')
+                    #caminho para o arquivo onde sera criado/salvo
+                    nomedotxt = "Testes/" + lista.project_name + "/" + auxiliarParaNomeArquivo + "Versao" + str(numeroDoComit) + ".txt"
+                    arq = open(nomedotxt, 'w')
+                    for index,value in DicionarioDeNomedeFunc.items():
+                        arq.write(index)
+                        arq.write(";")
+                        arq.write(str(value)+'\n')
+                    arq.close() 
+                    print (DicionarioDeNomedeFunc)
+                    DicionarioDeNomedeFunc.clear()
         
-
-        # visits the Abstract Syntax Tree
+        numeroDoComit+=1
         
-        
-        
-        #for index,value in DicionarioDeNomedeFunc.items():
-        #    print(index, ";" , value)
-             
-        #
-        #
-        
-        #  
+       
 
         
