@@ -80,12 +80,13 @@ class MyCustomVisitor(ast.NodeVisitor):
 class RodarAnalise() :
     def __init__ (self) :
         pass
+
     
 if __name__ == "__main__":
-   
+
     numeroDoComit = 0
-    for lista in RepositoryMining('https://github.com/WilliamCDL/Testeinicial', only_modifications_with_file_types=['.py']).traverse_commits():
-        
+    for lista in RepositoryMining('https://github.com/spulec/moto', only_modifications_with_file_types=['.py']).traverse_commits():
+            
         for arquivos in lista.modifications :
 
             if ".py" in arquivos.filename :
@@ -98,7 +99,14 @@ if __name__ == "__main__":
                     auxiliarParaNomeArquivo = arquivos.filename
                     auxiliarParaNomeArquivo = auxiliarParaNomeArquivo.replace('.py', '')
                     #caminho para o arquivo onde sera criado/salvo
-                    nomedotxt = "Testes/" + lista.project_name + "/" + auxiliarParaNomeArquivo + "Versao" + str(numeroDoComit) + ".txt"
+                    
+                    pasta = 'Testes/spulec/'+lista.project_name+"/"
+                    if os.path.isdir(pasta): # vemos de este diretorio ja existe
+                        print ('Ja existe uma pasta com esse nome!')
+                    else:
+                        os.makedirs(pasta) # aqui criamos a pasta caso nao exista
+                        print ('Pasta criada com sucesso!')
+                    nomedotxt = pasta + auxiliarParaNomeArquivo + "Versao" + str(numeroDoComit) + ".txt"
                     arq = open(nomedotxt, 'w')
                     for index,value in DicionarioDeNomedeFunc.items():
                         arq.write(index)
@@ -107,8 +115,10 @@ if __name__ == "__main__":
                     arq.close() 
                     print (DicionarioDeNomedeFunc)
                     DicionarioDeNomedeFunc.clear()
-        
+            
         numeroDoComit+=1
+   
+    
         
        
 
