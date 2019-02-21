@@ -1,2 +1,2 @@
-reload_plugin(modulename);1
 unload_module(module);3
+reload_plugin(modulename);1

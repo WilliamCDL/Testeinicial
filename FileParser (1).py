@@ -14,8 +14,15 @@ class MyCustomVisitor(ast.NodeVisitor):
     def __init__(self):
         self.counter = 0
         
+        global NomeDeFunc
         global Contador
+        global NomeDeClass
+        global DicionarioDeNomedeFunc
         Contador = 0
+        NomeDeFunc=""
+        NomeDeClass=""
+        DicionarioDeNomedeFunc.clear()
+        
         
     def visit_FunctionDef(self, node):
         global NomeDeFunc
@@ -85,7 +92,7 @@ class RodarAnalise() :
 if __name__ == "__main__":
 
     numeroDoComit = 0
-    for lista in RepositoryMining('https://github.com/spulec/moto', only_modifications_with_file_types=['.py']).traverse_commits():
+    for lista in RepositoryMining('https://github.com/WilliamCDL/Testeinicial', only_modifications_with_file_types=['.py']).traverse_commits():
             
         for arquivos in lista.modifications :
 
@@ -94,18 +101,17 @@ if __name__ == "__main__":
                 visitor = MyCustomVisitor()
                 visitor.visit(root)
                 if len(DicionarioDeNomedeFunc) > 0 :
-                    print("A total of {0} ExceptHandler just with pass were found in {1}.".format(visitor.counter, arquivos.filename))
+                    
                     #tira a estensão .py, para criar um arquivo de mesmo nome porem diferente extensão
                     auxiliarParaNomeArquivo = arquivos.filename
                     auxiliarParaNomeArquivo = auxiliarParaNomeArquivo.replace('.py', '')
                     #caminho para o arquivo onde sera criado/salvo
                     
-                    pasta = 'Testes/spulec/'+lista.project_name+"/"
+                    pasta = 'Testes/WilliamCDL/'+lista.project_name+"/"
                     if os.path.isdir(pasta): # vemos de este diretorio ja existe
-                        print ('Ja existe uma pasta com esse nome!')
+                        pass
                     else:
                         os.makedirs(pasta) # aqui criamos a pasta caso nao exista
-                        print ('Pasta criada com sucesso!')
                     nomedotxt = pasta + auxiliarParaNomeArquivo + "Versao" + str(numeroDoComit) + ".txt"
                     arq = open(nomedotxt, 'w')
                     for index,value in DicionarioDeNomedeFunc.items():
@@ -113,10 +119,10 @@ if __name__ == "__main__":
                         arq.write(";")
                         arq.write(str(value)+'\n')
                     arq.close() 
-                    print (DicionarioDeNomedeFunc)
-                    DicionarioDeNomedeFunc.clear()
+                    
             
         numeroDoComit+=1
+
    
     
         
