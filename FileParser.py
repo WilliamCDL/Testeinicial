@@ -19,6 +19,8 @@ class MyCustomVisitor(ast.NodeVisitor):
         global NomeDeClass
         global DicionarioDeNomedeFunc
         Contador = 0
+        self.commit_message = ''
+        self.except_found = False
         NomeDeFunc=""
         NomeDeClass=""
         DicionarioDeNomedeFunc.clear()
@@ -96,8 +98,15 @@ if __name__ == "__main__":
             
         for arquivos in lista.modifications :
 
-            if ".py" in arquivos.filename :
-                root = ast.parse(arquivos.source_code)
+            if arquivos.filename.endswith('.py') :
+                try:
+                    root = ast.parse(arquivos.source_code)
+                except (SyntaxError, ValueError) as e1:
+                    #logging.error('{}\n\t{}'.format(e1.msg, e1.text))
+                    continue
+                except IndentationError as e2:
+                    logging.error(e2.print_file_and_line)
+                    continue
                 visitor = MyCustomVisitor()
                 visitor.visit(root)
                 if len(DicionarioDeNomedeFunc) > 0 :
@@ -113,6 +122,7 @@ if __name__ == "__main__":
                     else:
                         os.makedirs(pasta) # aqui criamos a pasta caso nao exista
                     nomedotxt = pasta + auxiliarParaNomeArquivo + "Versao" + str(numeroDoComit) + ".txt"
+                    if os.
                     arq = open(nomedotxt, 'w')
                     for index,value in DicionarioDeNomedeFunc.items():
                         arq.write(index)
