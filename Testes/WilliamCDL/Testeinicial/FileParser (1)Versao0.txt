@@ -1,2 +1,0 @@
-MyCustomVisitorvisit_ExceptHandler(self,node);1
-MyCustomVisitor__init__(self);2

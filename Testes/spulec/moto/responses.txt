@@ -1,0 +1,2 @@
+Metodo;quantidade de except
+CloudFormationResponsevalidate_template(self);2

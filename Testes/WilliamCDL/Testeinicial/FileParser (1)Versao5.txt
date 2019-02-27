@@ -1,2 +1,0 @@
-teste(int);4
-MyCustomVisitor__init__(self);2

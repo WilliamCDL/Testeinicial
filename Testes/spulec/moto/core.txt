@@ -1,0 +1,5 @@
+Metodo;quantidade de except
+;1
+HTTPrettyRequest__init__(self,headers,body);1
+httprettydisable(cls);1
+fake_sslcontext_wrap_socket(cls);1

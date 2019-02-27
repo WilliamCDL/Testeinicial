@@ -1,0 +1,4 @@
+Metodo;quantidade de except
+Instance__del__(self);1
+Subnetrequest_ip(self,ip,instance);1
+Subnetdel_subnet_ip(self,ip);1

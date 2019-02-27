@@ -1,0 +1,2 @@
+Metodo;quantidade de except
+write_implementation_coverage_to_file(coverage);1
