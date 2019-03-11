@@ -121,14 +121,58 @@ if __name__ == "__main__":
                         pass
                     else:
                         os.makedirs(pasta) # aqui criamos a pasta caso nao exista
-                    nomedotxt = pasta + auxiliarParaNomeArquivo + "Versao" + str(numeroDoComit) + ".txt"
-                    if os.
-                    arq = open(nomedotxt, 'w')
-                    for index,value in DicionarioDeNomedeFunc.items():
-                        arq.write(index)
-                        arq.write(";")
-                        arq.write(str(value)+'\n')
-                    arq.close() 
+
+
+                    nomedotxt = pasta + auxiliarParaNomeArquivo+ ".txt"
+                    if os.path.isfile(nomedotxt) :
+                    	arq = open(nomedotxt, 'a')
+                    	for index,value in DicionarioDeNomedeFunc.items():
+                        	arq.write(arquivos.filename)
+                        	arq.write(";")
+                        	arq.write(index)
+                        	arq.write(";")
+                        	arq.write(str(value))
+                        	arq.write(";")
+                        	arq.write(lista.author.name)
+                        	arq.write(";")
+                        	arq.write(lista.author.email)
+                        	arq.write(";")
+                        	arq.write(str(lista.author_date))
+                        	arq.write(";")
+                        	arq.write(lista.hash+"\n")
+
+                    	arq.close()
+                    else:
+                    	arq = open(nomedotxt, 'w')
+                    	arq.write("Filename")
+                    	arq.write(";")
+                    	arq.write("NomeDeFunc")
+                    	arq.write(";")
+                    	arq.write("Quantidade")
+                    	arq.write(";")
+                    	arq.write("Autor")
+                    	arq.write(";")
+                    	arq.write("Email")
+                    	arq.write(";")
+                    	arq.write("Data")
+                    	arq.write(";")
+                    	arq.write("Hash\n")
+                    	for index,value in DicionarioDeNomedeFunc.items():
+                        	arq.write(arquivos.filename)
+                        	arq.write(";")
+                        	arq.write(index)
+                        	arq.write(";")
+                        	arq.write(str(value))
+                        	arq.write(";")
+                        	arq.write(lista.author.name)
+                        	arq.write(";")
+                        	arq.write(lista.author.email)
+                        	arq.write(";")
+                        	arq.write(str(lista.author_date))
+                        	arq.write(";")
+                        	arq.write(lista.hash+"\n")
+                        	
+                    	arq.close()
                     
             
         numeroDoComit+=1
