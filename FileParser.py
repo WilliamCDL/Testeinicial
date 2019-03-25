@@ -94,7 +94,6 @@ class RodarAnalise() :
 if __name__ == "__main__":
 
     numeroDoComit = 0
-    contadorteste = 0
     for lista in RepositoryMining('https://github.com/WilliamCDL/Testeinicial', only_modifications_with_file_types=['.py']).traverse_commits():
             
         for arquivos in lista.modifications :
@@ -114,8 +113,7 @@ if __name__ == "__main__":
                     
                     #tira a estensão .py, para criar um arquivo de mesmo nome porem diferente extensão
                     auxiliarParaNomeArquivo = arquivos.filename
-                    auxiliarParaNomeArquivo = auxiliarParaNomeArquivo.replace('.py', 'csv')
-                    contadorteste+=1
+                    auxiliarParaNomeArquivo = auxiliarParaNomeArquivo.replace('.py', '')
                     #caminho para o arquivo onde sera criado/salvo
                     
                     pasta = 'Testes/WilliamCDL/'+lista.project_name+"/"
@@ -125,7 +123,7 @@ if __name__ == "__main__":
                         os.makedirs(pasta) # aqui criamos a pasta caso nao exista
 
 
-                    nomedotxt = pasta + auxiliarParaNomeArquivo
+                    nomedotxt = pasta + auxiliarParaNomeArquivo+ ".txt"
                     if os.path.isfile(nomedotxt) :
                     	arq = open(nomedotxt, 'a')
                     	for index,value in DicionarioDeNomedeFunc.items():
@@ -178,7 +176,6 @@ if __name__ == "__main__":
                     
             
         numeroDoComit+=1
-        print(contadorteste)
 
    
     
