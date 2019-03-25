@@ -1,2 +1,3 @@
-Metodo;quantidade de except
-clean_json(resource_json,resources_map);1
+Filename;NomeDeFunc;Quantidade;Autor;Email;Data;Hash
+parsing.py;clean_json(resource_json,resources_map);1;Joseph Lawson;joe@joekiller.com;2014-10-21 14:51:26-04:00;20a69255c30f5d327052ba732f262a29c2af883a
+parsing.py;clean_json(resource_json,resources_map);1;Joseph Lawson;joe@joekiller.com;2014-10-21 16:29:51-04:00;54794651d3d7ccb3b917e371ee3e118857f93680

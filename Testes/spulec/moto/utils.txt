@@ -1,2 +1,58 @@
-Metodo;quantidade de except
-_wrapper();2
+Filename;NomeDeFunc;Quantidade;Autor;Email;Data;Hash
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Richard Eames;reames@asymmetricventures.com;2014-06-27 15:37:51-06:00;e972000bb4aa9aee2bffdc0c5d27bef2ed6a0aab
+utils.py;_VersionedKeyStoreget(self,key,default);1;Richard Eames;reames@asymmetricventures.com;2014-06-27 15:37:51-06:00;e972000bb4aa9aee2bffdc0c5d27bef2ed6a0aab
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-06-29 22:07:24-04:00;50fae3035f6a05fbe7a19f21beeff318b352e2fa
+utils.py;_VersionedKeyStoreget(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-06-29 22:07:24-04:00;50fae3035f6a05fbe7a19f21beeff318b352e2fa
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;David Baumgold;david@davidbaumgold.com;2014-08-27 11:17:06-04:00;4201e6b430e74d45e0c1f84b094575285429b0bb
+utils.py;_VersionedKeyStoreget(self,key,default);1;David Baumgold;david@davidbaumgold.com;2014-08-27 11:17:06-04:00;4201e6b430e74d45e0c1f84b094575285429b0bb
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-08-27 21:19:50-04:00;ca13c141d3dc9928f2b9280382c6cf5e38048325
+utils.py;_VersionedKeyStoreget(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-08-27 21:19:50-04:00;ca13c141d3dc9928f2b9280382c6cf5e38048325
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;David Baumgold;david@davidbaumgold.com;2014-08-26 13:25:50-04:00;eedb4c4b738c01642f00628b1de2827d03fc5209
+utils.py;_VersionedKeyStoreget(self,key,default);1;David Baumgold;david@davidbaumgold.com;2014-08-26 13:25:50-04:00;eedb4c4b738c01642f00628b1de2827d03fc5209
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-08-29 19:28:54-04:00;c1144a0cb45418f37149d7c7ff427e17cbac8114
+utils.py;_VersionedKeyStoreget(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-08-29 19:28:54-04:00;c1144a0cb45418f37149d7c7ff427e17cbac8114
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-12-07 12:43:14-05:00;3a82f089a27d6111694092677761f26cd20ec92a
+utils.py;_VersionedKeyStoreget(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-12-07 12:43:14-05:00;3a82f089a27d6111694092677761f26cd20ec92a
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-12-10 20:20:43-05:00;a2e56afef83e4be4eaa3793b28d5382c732c098f
+utils.py;_VersionedKeyStoreget(self,key,default);1;Steve Pulec;spulec@gmail.com;2014-12-10 20:20:43-05:00;a2e56afef83e4be4eaa3793b28d5382c732c098f
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;dreadpirateshawn;dreadpirateshawn@gmail.com;2014-12-12 12:51:29-08:00;7ce83082ca35bfe98668d6ab8d728cb82f013fb5
+utils.py;_VersionedKeyStoreget(self,key,default);1;dreadpirateshawn;dreadpirateshawn@gmail.com;2014-12-12 12:51:29-08:00;7ce83082ca35bfe98668d6ab8d728cb82f013fb5
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;imran;imran2140@gmail.com;2016-09-04 04:31:03+06:00;478e791c39c3bcda667021cda2a25a1abb867d86
+utils.py;_VersionedKeyStoreget(self,key,default);1;imran;imran2140@gmail.com;2016-09-04 04:31:03+06:00;478e791c39c3bcda667021cda2a25a1abb867d86
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Steve Pulec;spulec@gmail.com;2016-09-13 21:54:28-04:00;4d9a0f7dc63d83474accfa4645950ff85d006f94
+utils.py;_VersionedKeyStoreget(self,key,default);1;Steve Pulec;spulec@gmail.com;2016-09-13 21:54:28-04:00;4d9a0f7dc63d83474accfa4645950ff85d006f94
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Steve Pulec;spulec@gmail.com;2017-02-23 21:37:43-05:00;f37bad0e0070c87c0be5b0077cb8635d88a09c34
+utils.py;_VersionedKeyStoreget(self,key,default);1;Steve Pulec;spulec@gmail.com;2017-02-23 21:37:43-05:00;f37bad0e0070c87c0be5b0077cb8635d88a09c34
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611
+utils.py;_VersionedKeyStoreget(self,key,default);1;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd
+utils.py;_VersionedKeyStoreget(self,key,default);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd
+utils.py;_wrapper();2;Terry Cain;terrycain@users.noreply.github.com;2017-10-17 01:06:22+01:00;49ddb500a839daaee8b916fb0af365825d66467d
+utils.py;_wrapper();2;Terry Cain;terry@terrys-home.co.uk;2017-10-19 21:16:40+01:00;d67ef8d1289fd636d76a7a892db03e059a8c59e3
+utils.py;_wrapper();2;Terry Cain;terry@terrys-home.co.uk;2017-10-27 18:58:11+01:00;6adfb977532d5303334ac0680df3c55ebb074ac8
+utils.py;_wrapper();2;Steve Pulec;spulec@gmail.com;2017-11-04 15:50:56-04:00;2d9e622e79ebb019e9e5e7ef87f7b171e31d36ca
+utils.py;_wrapper();2;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838
+utils.py;_wrapper();2;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+utils.py;_wrapper();2;Waldemar Hummer;whummer@ibm.com;2017-12-27 22:58:24-05:00;24f83e91f26f95c27877a7049ecceda422f0944a
+utils.py;_wrapper();2;Jack Danger;github@jackcanty.com;2017-12-28 00:55:29-08:00;e85bbe2ebc9ade89f504bc6f5a83cba5debf4d4a
+utils.py;_wrapper();2;George Ionita;ionitageorge@gmail.com;2018-01-14 19:08:16+02:00;baba13c9bbd8d4c00d546302fe6bd8e77fd8f5e2
+utils.py;_wrapper();2;ciprianaradulescu;ciprian.aradulescu@gmail.com;2018-01-14 19:58:48+02:00;c431a3a7744c2b15c70d54b3800a19019f3aa87e
+utils.py;_wrapper();2;Ciprian Radulescu;ciprianradulescu@Ciprians-MacBook-Pro.local;2018-01-14 20:03:03+02:00;cf12624cfb48bb5d32e146245eec378f83d26f56
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Taro Sato;okomestudio@gmail.com;2018-01-30 16:10:43-08:00;5e70d0ce4c24d8f365b0998fb12535dceb0cf416
+utils.py;_VersionedKeyStoreget(self,key,default);1;Taro Sato;okomestudio@gmail.com;2018-01-30 16:10:43-08:00;5e70d0ce4c24d8f365b0998fb12535dceb0cf416
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Steve Pulec;spulec@gmail.com;2018-03-06 21:57:57-05:00;326698f3fa499375d355d1a40684b3c3f7efaea0
+utils.py;_VersionedKeyStoreget(self,key,default);1;Steve Pulec;spulec@gmail.com;2018-03-06 21:57:57-05:00;326698f3fa499375d355d1a40684b3c3f7efaea0
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:34-05:00;8a0cf49b7d552795bdb8b5854c1084a07bc46620
+utils.py;_VersionedKeyStoreget(self,key,default);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:34-05:00;8a0cf49b7d552795bdb8b5854c1084a07bc46620
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Colin Jones;colin.jones.x@googlemail.com;2018-03-21 16:33:09+00:00;1a8a4a084d843939ecd2a7ea23789e606d542850
+utils.py;_VersionedKeyStoreget(self,key,default);1;Colin Jones;colin.jones.x@googlemail.com;2018-03-21 16:33:09+00:00;1a8a4a084d843939ecd2a7ea23789e606d542850
+utils.py;_wrapper();2;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+utils.py;_VersionedKeyStoregetlist(self,key,default);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+utils.py;_VersionedKeyStoreget(self,key,default);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+utils.py;_wrapper();2;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-09-21 10:39:42-05:00;276da0616851183bd5a2cd6dd8f80882816aea4a
+utils.py;_wrapper();2;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-09-21 10:45:22-05:00;1729681106203f4b692d12283ec01ffadaca20c4
+utils.py;_wrapper();2;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-09-21 13:28:13-05:00;7daee905a5a62b534d3e098558ce29d40278751f
+utils.py;_wrapper();2;Jordan Guymon;jogu.sd@gmail.com;2018-09-06 15:15:27-07:00;8e909f580a13bc87e6281cea8d44c8ccf32cc2ac
+utils.py;_wrapper();2;Steve Pulec;spulec@gmail.com;2018-11-04 17:26:57-05:00;0fc00e2a3be74e4954227c413a75a89707e080d8
+utils.py;_wrapper();2;Jon Beilke;jrbeilke@gmail.com;2018-12-06 11:46:14-06:00;9cdc4d45f54133154b9588b65bd39d1194590487
+utils.py;_wrapper();2;Steve Pulec;spulec@gmail.com;2018-12-28 19:50:34-05:00;0c5010989a6089770ec9decd2d64df9c811ac3d8

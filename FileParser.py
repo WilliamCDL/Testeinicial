@@ -94,6 +94,7 @@ class RodarAnalise() :
 if __name__ == "__main__":
 
     numeroDoComit = 0
+    contadorteste = 0
     for lista in RepositoryMining('https://github.com/WilliamCDL/Testeinicial', only_modifications_with_file_types=['.py']).traverse_commits():
             
         for arquivos in lista.modifications :
@@ -113,7 +114,8 @@ if __name__ == "__main__":
                     
                     #tira a estensão .py, para criar um arquivo de mesmo nome porem diferente extensão
                     auxiliarParaNomeArquivo = arquivos.filename
-                    auxiliarParaNomeArquivo = auxiliarParaNomeArquivo.replace('.py', '')
+                    auxiliarParaNomeArquivo = auxiliarParaNomeArquivo.replace('.py', 'csv')
+                    contadorteste+=1
                     #caminho para o arquivo onde sera criado/salvo
                     
                     pasta = 'Testes/WilliamCDL/'+lista.project_name+"/"
@@ -121,16 +123,62 @@ if __name__ == "__main__":
                         pass
                     else:
                         os.makedirs(pasta) # aqui criamos a pasta caso nao exista
-                    nomedotxt = pasta + auxiliarParaNomeArquivo + "Versao" + str(numeroDoComit) + ".txt"
-                    arq = open(nomedotxt, 'w')
-                    for index,value in DicionarioDeNomedeFunc.items():
-                        arq.write(index)
-                        arq.write(";")
-                        arq.write(str(value)+'\n')
-                    arq.close() 
+
+
+                    nomedotxt = pasta + auxiliarParaNomeArquivo
+                    if os.path.isfile(nomedotxt) :
+                    	arq = open(nomedotxt, 'a')
+                    	for index,value in DicionarioDeNomedeFunc.items():
+                        	arq.write(arquivos.filename)
+                        	arq.write(";")
+                        	arq.write(index)
+                        	arq.write(";")
+                        	arq.write(str(value))
+                        	arq.write(";")
+                        	arq.write(lista.author.name)
+                        	arq.write(";")
+                        	arq.write(lista.author.email)
+                        	arq.write(";")
+                        	arq.write(str(lista.author_date))
+                        	arq.write(";")
+                        	arq.write(lista.hash+"\n")
+
+                    	arq.close()
+                    else:
+                    	arq = open(nomedotxt, 'w')
+                    	arq.write("Filename")
+                    	arq.write(";")
+                    	arq.write("NomeDeFunc")
+                    	arq.write(";")
+                    	arq.write("Quantidade")
+                    	arq.write(";")
+                    	arq.write("Autor")
+                    	arq.write(";")
+                    	arq.write("Email")
+                    	arq.write(";")
+                    	arq.write("Data")
+                    	arq.write(";")
+                    	arq.write("Hash\n")
+                    	for index,value in DicionarioDeNomedeFunc.items():
+                        	arq.write(arquivos.filename)
+                        	arq.write(";")
+                        	arq.write(index)
+                        	arq.write(";")
+                        	arq.write(str(value))
+                        	arq.write(";")
+                        	arq.write(lista.author.name)
+                        	arq.write(";")
+                        	arq.write(lista.author.email)
+                        	arq.write(";")
+                        	arq.write(str(lista.author_date))
+                        	arq.write(";")
+                        	arq.write(lista.hash+"\n")
+                        	
+                    	arq.close()
                     
             
         numeroDoComit+=1
+        print(contadorteste)
 
    
     

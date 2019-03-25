@@ -1,4 +1,676 @@
-Metodo;quantidade de except
-Instance__del__(self);1
-Subnetrequest_ip(self,ip,instance);1
-Subnetdel_subnet_ip(self,ip);1
+Filename;NomeDeFunc;Quantidade;Autor;Email;Data;Hash
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-04-28 09:42:10-04:00;7dcfa85fb8208d81cae22562b4e3a82f7d631c6a
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-05-01 22:34:16-04:00;c308ef4364aa935afe9c50474f54fc8e59922cac
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-05-01 22:34:16-04:00;c308ef4364aa935afe9c50474f54fc8e59922cac
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-05-04 22:10:11-04:00;8ce2d3c8bf148b3f86a8a7eff4495b70897f0346
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-05-04 22:10:11-04:00;8ce2d3c8bf148b3f86a8a7eff4495b70897f0346
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Marco Rucci;marco.rucci@gmail.com;2016-05-15 20:04:00+02:00;e47fc4cafc3d0bc2e2373917449aaaa4219ca266
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Marco Rucci;marco.rucci@gmail.com;2016-05-15 21:17:59+02:00;a330b1d346054f9a510891a6de20e010b15f46a3
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Marco Rucci;marco.rucci@gmail.com;2016-05-15 21:17:59+02:00;a330b1d346054f9a510891a6de20e010b15f46a3
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-05-17 21:01:45-04:00;00becdbed41321494af88aad72a5c500e2335f47
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-05-17 21:02:13-04:00;4372c346d97cc7447116e0600b59296a1cc98788
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-05-17 21:02:13-04:00;4372c346d97cc7447116e0600b59296a1cc98788
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;hummus;hummus@gmail.com;2016-06-03 09:57:33-04:00;8fa53c14532609889ca9e53584936dd183aff6ef
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jesse Chahal;jessec@dnbcloud.com;2016-06-16 17:24:50-07:00;0efea0af2bfcd27e8c292c389ce8fb1efcc7092f
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jesse Chahal;jessec@dnbcloud.com;2016-06-16 17:24:50-07:00;0efea0af2bfcd27e8c292c389ce8fb1efcc7092f
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jesse Chahal;jessec@dnbcloud.com;2016-06-17 18:51:28-07:00;1d2042876e4c8ececa9953badfc5f6c9cb0f40d9
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jesse Chahal;jessec@dnbcloud.com;2016-06-17 18:51:28-07:00;1d2042876e4c8ececa9953badfc5f6c9cb0f40d9
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-06-17 22:00:22-04:00;0b8de6772dbcaf1414a1deb285a2a0799c563506
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-06-17 22:00:22-04:00;0b8de6772dbcaf1414a1deb285a2a0799c563506
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-06-20 15:10:49-04:00;a9e54482fcf112cdf861ef36b48a24980c9c9bfd
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alfred Moreno;malfred@amazon.com;2016-09-20 17:41:23-07:00;9a7556b3af97c9ecbfad0f5d72ddb683df3ca301
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-09-21 21:32:22-04:00;79fe9df6cc58eb1192ae7ceb83ff956e59aa5537
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alfred Moreno;malfred@amazon.com;2016-09-22 18:38:47-07:00;6560063ceba44514263af69811950b6a580b85fd
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2016-10-09 18:58:17-04:00;81d489ce46535e98b379a8f3d00503d9870307d9
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Rene Martin;rene_martin@intuit.com;2016-10-10 07:47:11+01:00;bd9e7deb95e2ad51997e63be5faec5cba68d000f
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Taro Sato;okomestudio@gmail.com;2017-01-11 17:37:57-08:00;02324ad70844a95ec85f526466b9277ec0cc6b8b
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jia Chen;jichen@amplify.com;2017-01-11 20:40:57-05:00;2a02259a3c3f8a6b634af3f429ef5c5a7299c05f
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jia Chen;jichen@amplify.com;2017-01-11 20:40:57-05:00;2a02259a3c3f8a6b634af3f429ef5c5a7299c05f
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Michael Nussbaum;michaelnussbaum08@gmail.com;2017-01-18 20:02:04-08:00;51129f6ef3f25c9f53fafdbf86fd2f586c5f13e0
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-02-15 22:35:45-05:00;fde721bed7db62ad289c13667e428bbfb1399aa1
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-02-16 22:51:04-05:00;cad185c74da5ec14cbd3f3212ad9e6f7b8303c6d
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-02-20 14:31:19-05:00;51df02e7cf922d17e3fcb34993ada166444f11cd
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-02-20 18:25:10-05:00;cb28eeefbbe75a289fe3ca165bfc73ca2baddd9e
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-02-23 19:43:48-05:00;81836b698107debc9dffe056530820c9694c8c77
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-02-23 21:37:43-05:00;f37bad0e0070c87c0be5b0077cb8635d88a09c34
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-02-23 21:37:43-05:00;f37bad0e0070c87c0be5b0077cb8635d88a09c34
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-02-23 21:37:43-05:00;f37bad0e0070c87c0be5b0077cb8635d88a09c34
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-02-23 21:37:43-05:00;f37bad0e0070c87c0be5b0077cb8635d88a09c34
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-02-23 21:37:43-05:00;f37bad0e0070c87c0be5b0077cb8635d88a09c34
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;David Wilcox;dave@davidgwilcox.com;2017-03-05 14:31:45+11:00;8d737eb59d031b2e00a4dd32b5c3a8ac6af3af69
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;William Richard;william.richard.no.s@gmail.com;2017-03-04 22:51:01-05:00;f46a24180f9a2a84b61b05efdb57126cffaca113
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;William Richard;william.richard.no.s@gmail.com;2017-03-04 22:51:01-05:00;f46a24180f9a2a84b61b05efdb57126cffaca113
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-05 09:58:39-05:00;3b4ef2cf159836f20630a8dcb8ee46d0598c8009
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-05 09:58:39-05:00;3b4ef2cf159836f20630a8dcb8ee46d0598c8009
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-05 09:58:39-05:00;3b4ef2cf159836f20630a8dcb8ee46d0598c8009
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-03-11 22:45:42-05:00;1709208872b59e937dee4b82f25c7d1f9bb9c66d
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-03-11 23:18:58-05:00;caea5f441daf63191132d522f177fb1c7dfcee55
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-11 23:41:12-05:00;6d422d1f37d8734dd006d6e3411b4fdb41cb0ccb
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-11 23:41:12-05:00;6d422d1f37d8734dd006d6e3411b4fdb41cb0ccb
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-11 23:41:12-05:00;6d422d1f37d8734dd006d6e3411b4fdb41cb0ccb
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-11 23:41:12-05:00;6d422d1f37d8734dd006d6e3411b4fdb41cb0ccb
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-03-12 13:04:36-04:00;24affc7a5f189e7b9a92c6b3c67bf6d732172e30
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-12 20:26:42-04:00;5807a38092553360cf7024214453ba5c56ee7a8e
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-12 20:26:42-04:00;5807a38092553360cf7024214453ba5c56ee7a8e
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-03-12 20:26:42-04:00;5807a38092553360cf7024214453ba5c56ee7a8e
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-12 20:26:42-04:00;5807a38092553360cf7024214453ba5c56ee7a8e
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-12 20:26:42-04:00;5807a38092553360cf7024214453ba5c56ee7a8e
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-03-12 20:35:45-04:00;d2c56619cd770a47732fb53642cacd72ad5cdfd8
+models.py;ResponsesMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2017-03-12 21:04:19-04:00;cda553abfb84ca575f9fe24d546fbd2117f302a8
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Andrew Garrett;andrew.garrett@getbraintree.com;2017-03-14 19:52:36+00:00;6346e44c9d83d83ac26a88178b9dba0d2157411a
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-15 23:39:36-04:00;25e2af0320e2f1718d68f11d170dc0ab459131a8
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Andrew Garrett;andrew.garrett@getbraintree.com;2017-03-17 02:45:58+00:00;f2b7ba03b4cd8d46621dafbe4da98a69c1b775ee
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-03-16 22:55:13-04:00;a6e762340dc45fd8e91003d2728670676b1a7ca8
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-04-12 22:25:07-04:00;30b1de507cb08794edade449505fbddd0a8a043b
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Michael van Tellingen;michael@mvantellingen.nl;2017-04-18 19:09:10+02:00;783a1d73b4ce31ee80ccd45931bcf9b08aa72b3e
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Steve Pulec;spulec@gmail.com;2017-05-10 20:53:32-04:00;0934b43b76e83238e93a525d57fde7e2c31939ba
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-05-10 21:58:42-04:00;0adebeed2482ffd27ed16b0cfbbb1e014d8b0a40
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-05-10 21:58:42-04:00;0adebeed2482ffd27ed16b0cfbbb1e014d8b0a40
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-05-10 21:58:42-04:00;0adebeed2482ffd27ed16b0cfbbb1e014d8b0a40
+models.py;ResponsesMockAWSdisable_patching(self);1;Pierre Tardy;tardyp@gmail.com;2017-05-15 11:28:42+02:00;2bae587a76aaa4f2b80f8c5566db3c9ade16ad0c
+models.py;ResponsesMockAWSdisable_patching(self);1;Jack Danger;github@jackcanty.com;2017-05-15 12:10:28-07:00;af7a5859fe7a4e12b6ec7c68c7de4c2e65fab857
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611
+models.py;ResponsesMockAWSdisable_patching(self);1;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Paul Carleton;carleton@stripe.com;2017-06-09 12:27:49-07:00;d94d7f696218aca14571e289113b8bf1e7040ba1
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Paul Carleton;carleton@stripe.com;2017-06-09 12:27:49-07:00;d94d7f696218aca14571e289113b8bf1e7040ba1
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Paul Carleton;carleton@stripe.com;2017-06-09 15:22:39-07:00;5429f3590ec6e5fcd8b25adbcfa8534f343ae338
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Paul Carleton;carleton@stripe.com;2017-06-09 15:22:39-07:00;5429f3590ec6e5fcd8b25adbcfa8534f343ae338
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-06-09 15:29:11-07:00;e079fab9e3feacceed868e3fb0db10ec6be30a6b
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-06-09 15:29:11-07:00;e079fab9e3feacceed868e3fb0db10ec6be30a6b
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger Canty;github@jackcanty.com;2017-06-12 16:42:42-07:00;c8794e842d89991224d92a11de9d364948a5685f
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2017-06-14 20:39:29-04:00;3ce2e4777bf6106ba3fdb9a1eb776fc3ff36e183
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Declan Shanaghy;dshanaghy@splunk.com;2017-06-19 18:22:33-07:00;c118d12e6fa5e8791133c8135c73906e1164a8b4
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Declan Shanaghy;dshanaghy@splunk.com;2017-06-20 11:47:53-07:00;db20dfcd82034ca49d98ed3d112bc454bbacf1d4
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Declan Shanaghy;dshanaghy@splunk.com;2017-06-20 12:55:01-07:00;f0fae81af1f522e7344708e5117b70d2ae7957c1
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;William Richard;william.richard.no.s@gmail.com;2017-06-21 12:58:01-04:00;c5ce2848befef6b8475da22d6ab3804493e19f6a
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;William Richard;william.richard.no.s@gmail.com;2017-06-21 12:58:01-04:00;c5ce2848befef6b8475da22d6ab3804493e19f6a
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-06-21 14:22:12-07:00;7afc101eec3174f0ea805d5f33210bfd568f5db4
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-06-21 14:22:12-07:00;7afc101eec3174f0ea805d5f33210bfd568f5db4
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Jack Danger;github@jackcanty.com;2017-07-04 14:30:24-07:00;8f2a0a83a1225668d21aa84c0f379fd57b8bff2e
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-07-06 21:52:01-07:00;98342bfcc3c66d63c4e691c492e19840149cfdbb
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-07-06 22:09:20-07:00;28b1d99100aa568a265fe3382e3adcdccf9b8de6
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;eric-weaver;eric@canary.is;2017-07-15 18:00:42-04:00;38880c4c9e2a80e19f268b26acb8dc4e7e62b447
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;eric-weaver;eric@canary.is;2017-07-15 18:00:42-04:00;38880c4c9e2a80e19f268b26acb8dc4e7e62b447
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-07-19 15:58:49-07:00;6ed8d12317f2f223767320930d8f886472796d05
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-07-19 17:41:53-07:00;074ff68bf12f4ea9efd4a80de7ef84dedcd3e380
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Taro Sato;okomestudio@gmail.com;2017-07-20 15:40:53-07:00;e66b6173c95552fc01666f16e6b46f9fab7e4f59
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;James Brennan;james@jamesbrennan.ca;2017-07-26 11:38:12+00:00;a5089c3d690ad835d3b6034cd7948662e1d753fa
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Jack Danger;github@jackcanty.com;2017-07-26 11:50:59-07:00;c350562c3548d0a7178185f97cdb8ab6469ef775
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd
+models.py;ResponsesMockAWSdisable_patching(self);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Ali Rizwan;ari@hellofresh.com;2017-08-11 15:19:36+02:00;d8b0df2bef12787058a4b6a2c984f8f3a9e3ad44
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Ali Rizwan;ari@hellofresh.com;2017-08-11 15:19:36+02:00;d8b0df2bef12787058a4b6a2c984f8f3a9e3ad44
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Jack Danger;github@jackcanty.com;2017-08-13 23:47:03-07:00;d22671a756201de40b8ded4114ce191982c655c7
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Jack Danger;github@jackcanty.com;2017-08-13 23:47:03-07:00;d22671a756201de40b8ded4114ce191982c655c7
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;aohara-admin;aohara@prontoforms.com;2017-09-13 15:00:39-04:00;98f95dd4a7c656a258f0e16afed95b69aafefad2
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Jack Danger;github@jackcanty.com;2017-09-13 15:21:21-07:00;11b7284b830ed4a51156e798ae4149135e9915f2
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Chris Keogh;chris.keogh@xero.com;2017-09-14 14:06:05+12:00;c20d3650211bb57354f874cb9d473cba93b683f2
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Chris Keogh;chris.keogh@xero.com;2017-09-15 14:49:32+12:00;2c8326e9b9b63fc991904b3465a59b92f8caf3c0
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Chris Keogh;chris.keogh@xero.com;2017-09-15 15:07:02+12:00;101dfaa4129bd7d22fead5e0a72b2b35a423cf52
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Jack Danger;github@jackcanty.com;2017-09-14 22:57:48-07:00;0eeeffb3f8ec80526f7c71448a357652a7acf4ec
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Terry Cain;TerryCain@fico.com;2017-09-18 14:13:02+01:00;cf7e07b728e10ad47d067084f6816c4b7b440c4a
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Terry Cain;TerryCain@fico.com;2017-09-18 14:13:02+01:00;cf7e07b728e10ad47d067084f6816c4b7b440c4a
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Jack Danger;github@jackcanty.com;2017-09-18 14:00:05-07:00;066382fabc9577a4bae274ff9ad6dc74183fc658
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Jack Danger;github@jackcanty.com;2017-09-18 14:00:05-07:00;066382fabc9577a4bae274ff9ad6dc74183fc658
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Terry Cain;terry@terrys-home.co.uk;2017-09-22 00:20:26+01:00;283b67cb9bbb8e9d4f1a4fb87c469d701010862c
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Terry Cain;terry@terrys-home.co.uk;2017-09-22 00:22:50+01:00;ea318edc9462f568ac00a79661c8699f1211da97
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Terry Cain;TerryCain@fico.com;2017-09-22 11:21:36+01:00;edbbbf6d200b95279f91266f01507a30342a912d
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Terry Cain;TerryCain@fico.com;2017-09-22 14:26:05+01:00;e3034275dbc67156122e7d1043047b5beb7286d8
+models.py;SQSBackendcreate_queue(self,name);1;Terry Cain;terry@terrys-home.co.uk;2017-09-22 20:37:32+01:00;81e615f5c1bd3cc4ae1baae11bcefa6a88575c84
+models.py;SQSBackendcreate_queue(self,name);1;Jack Danger;github@jackcanty.com;2017-09-22 13:23:20-07:00;d69221992758e8fcced467c7b1c7cbd5f5a2d671
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Terry Cain;terry@terrys-home.co.uk;2017-09-22 23:50:01+01:00;17d9701d19a3713a5ac553543366ff1d85ef4146
+models.py;SQSBackendcreate_queue(self,name);1;Terry Cain;terry@terrys-home.co.uk;2017-09-22 23:56:43+01:00;a401b4f36d003a4b669f67b6f09c66f28fc17237
+models.py;SQSBackendcreate_queue(self,name);1;Toshiya Kawasaki;kawasakitoshiya@gmail.com;2017-09-23 17:29:18+09:00;aaa5f9ef6b85fa7a4aa1178265565193a6883401
+models.py;SQSBackendcreate_queue(self,name);1;Chris Keogh;chris.keogh@xero.com;2017-09-25 11:40:02+13:00;631252dd50c27eaa9aff3a5cad69aafdee82eaf9
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-09-25 14:00:10-07:00;23d4a672bb41d87babaefeea3e2af9b9a825c935
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Jack Danger;github@jackcanty.com;2017-09-25 14:36:08-07:00;8e79fadb0f212e33146dddb007ecdd0c370a2416
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alexander Mohr;thehesiod@users.noreply.github.com;2017-09-27 16:04:58-07:00;9008b852995146b85296174108fc94c5f727bcb5
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Brian Pandola;bpandola@users.noreply.github.com;2017-09-27 17:18:28-07:00;5bb6b98f6d0364543018b63b61c66e5813964cb9
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Terry Cain;terry@terrys-home.co.uk;2017-09-29 22:11:15+01:00;ea10c4dfb6be18f9b42ac3ebc87f6427a88f1d8b
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Terry Cain;terry@terrys-home.co.uk;2017-09-29 22:11:15+01:00;ea10c4dfb6be18f9b42ac3ebc87f6427a88f1d8b
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51
+models.py;SQSBackendcreate_queue(self,name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Chris Keogh;chris.keogh@xero.com;2017-10-03 15:23:00+13:00;9bb07e6b6e42811fa768849618a7c32d9f55d4d1
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Jack Danger;github@jackcanty.com;2017-10-03 10:22:13-07:00;40fdbd4907733c1b5670dba24b3acc1f811841f3
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Terry Cain;terry@terrys-home.co.uk;2017-10-03 19:37:53+01:00;a027f86cc8601e376cf244b8d002683a5a7ee877
+models.py;SQSBackendcreate_queue(self,name);1;Jack Danger;github@jackcanty.com;2017-10-10 12:51:48-07:00;dc40fce146d8bf22db4d68f4eb6bc655a58c9197
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-10 13:10:46-07:00;5fe5efdb2d75600c7e5930184908c0b846eb47c1
+models.py;SQSBackendcreate_queue(self,name);1;Jack Danger;github@jackcanty.com;2017-10-10 13:36:45-07:00;aa46795adef066d7cd9ee4176042afbdbf5367dc
+models.py;SQSBackendcreate_queue(self,name);1;Terry Cain;terry@terrys-home.co.uk;2017-10-11 23:02:47+01:00;ddd52a5a97b2e66a49cf95aa924492c5938548ff
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;John Kerkstra;jrkerkstra@gmail.com;2017-10-16 19:09:51-05:00;5ef236e96666debfac0cf8374afc798a525c8141
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;John Kerkstra;jrkerkstra@gmail.com;2017-10-16 19:09:51-05:00;5ef236e96666debfac0cf8374afc798a525c8141
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;John Kerkstra;jrkerkstra@gmail.com;2017-10-16 21:07:00-05:00;0af3427c15bf7e9f61cc2503849f676c684251f4
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;John Kerkstra;jrkerkstra@gmail.com;2017-10-16 21:07:00-05:00;0af3427c15bf7e9f61cc2503849f676c684251f4
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;John Kerkstra;jrkerkstra@gmail.com;2017-10-17 00:04:47-05:00;b8bb6c2dcfe2c241928523a1d0c1aa186fb867fa
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;John Kerkstra;jrkerkstra@gmail.com;2017-10-17 00:04:47-05:00;b8bb6c2dcfe2c241928523a1d0c1aa186fb867fa
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;John Kerkstra;jrkerkstra@gmail.com;2017-10-18 16:23:14-05:00;b8a0cfd6f75c266cf5844635007af9f77b469f51
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;John Kerkstra;jrkerkstra@gmail.com;2017-10-18 16:23:14-05:00;b8a0cfd6f75c266cf5844635007af9f77b469f51
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Argishti Rostamian;arostamian@truecar.com;2017-10-18 17:30:00-07:00;760f466a9cbeb958dc1251f152c6c10fcd9d70de
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Terry Cain;terry@terrys-home.co.uk;2017-10-19 21:16:40+01:00;d67ef8d1289fd636d76a7a892db03e059a8c59e3
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Terry Cain;terry@terrys-home.co.uk;2017-10-19 21:16:40+01:00;d67ef8d1289fd636d76a7a892db03e059a8c59e3
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Jack Danger;github@jackcanty.com;2017-10-19 13:35:32-07:00;d63040c5d13b465b803d43b37439be50a97d7e5b
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Paul Carleton;carleton@stripe.com;2017-10-20 10:50:00-07:00;21c3775cb17dd947c3a85cbd27aa9e4412b369cd
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Paul Carleton;carleton@stripe.com;2017-10-20 10:50:00-07:00;21c3775cb17dd947c3a85cbd27aa9e4412b369cd
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Paul Carleton;carleton@stripe.com;2017-10-20 11:25:09-07:00;685e9163a836904787fdb04ffaabae8050d611d3
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Paul Carleton;carleton@stripe.com;2017-10-20 11:25:09-07:00;685e9163a836904787fdb04ffaabae8050d611d3
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-10-17 02:42:17+00:00;993b0920832345a414888e5368e479fd586f27c0
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-10-17 02:42:17+00:00;993b0920832345a414888e5368e479fd586f27c0
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Terry Cain;terry@terrys-home.co.uk;2017-10-21 22:10:45+01:00;ae6f9dcb71f8c4d3231540daeda09706d0045710
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-10-21 22:10:36+00:00;97ab15d8837d3e0aaa5bc0efaf457e731fc7acd9
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-10-21 22:10:36+00:00;97ab15d8837d3e0aaa5bc0efaf457e731fc7acd9
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-10-21 15:41:12-07:00;9bcd4177ff892519fd4409a05b7f6b9466a4df72
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-10-21 15:41:12-07:00;9bcd4177ff892519fd4409a05b7f6b9466a4df72
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-10-22 11:53:19-07:00;66a554470b5b14c304f71781f5eac594de12594f
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-10-23 09:41:52-07:00;aaa0202d08a23e319e330d9619e4b7d8bf2fdf9d
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-10-23 09:41:52-07:00;aaa0202d08a23e319e330d9619e4b7d8bf2fdf9d
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-10-23 09:42:19-07:00;8bf0ed697a3db33ece7e19ab5253d2c57277f2bf
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-10-23 09:42:19-07:00;8bf0ed697a3db33ece7e19ab5253d2c57277f2bf
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Andrey Melentyev;andrey.melentyev@gmail.com;2017-10-23 17:25:40+02:00;4e390530a77ad26fffe00b94af618cf528695b19
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-10-24 04:17:22-07:00;9a4c496f30e3950e4e7b5d672d925884401d8430
+models.py;Subnetrequest_ip(self,ip,instance);1;Terry Cain;terry@terrys-home.co.uk;2017-10-24 23:57:43+01:00;5b0e463554c9afb5919e006ee73f6ef476b277fe
+models.py;Subnetdel_subnet_ip(self,ip);1;Terry Cain;terry@terrys-home.co.uk;2017-10-24 23:57:43+01:00;5b0e463554c9afb5919e006ee73f6ef476b277fe
+models.py;Instance__del__(self);1;Terry Cain;terry@terrys-home.co.uk;2017-10-24 23:57:43+01:00;5b0e463554c9afb5919e006ee73f6ef476b277fe
+models.py;Subnetrequest_ip(self,ip,instance);1;Terry Cain;terry@terrys-home.co.uk;2017-10-25 19:29:56+01:00;9ddf7fe43694031a9ac09037d882ac3cecd05b14
+models.py;Subnetdel_subnet_ip(self,ip);1;Terry Cain;terry@terrys-home.co.uk;2017-10-25 19:29:56+01:00;9ddf7fe43694031a9ac09037d882ac3cecd05b14
+models.py;Instance__del__(self);1;Terry Cain;terry@terrys-home.co.uk;2017-10-25 19:29:56+01:00;9ddf7fe43694031a9ac09037d882ac3cecd05b14
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Terry Cain;terry@terrys-home.co.uk;2017-10-25 20:04:00+01:00;62a2d8f75692329bac4b694e41a4fdd197dcde76
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Jack Danger;github@jackcanty.com;2017-10-28 03:48:16+02:00;d187942eeb2efa3376ed4273a21bb1eb57a92c24
+models.py;Subnetrequest_ip(self,ip,instance);1;Jack Danger;github@jackcanty.com;2017-10-28 03:48:16+02:00;d187942eeb2efa3376ed4273a21bb1eb57a92c24
+models.py;Subnetdel_subnet_ip(self,ip);1;Jack Danger;github@jackcanty.com;2017-10-28 03:48:16+02:00;d187942eeb2efa3376ed4273a21bb1eb57a92c24
+models.py;Instance__del__(self);1;Jack Danger;github@jackcanty.com;2017-10-28 03:48:16+02:00;d187942eeb2efa3376ed4273a21bb1eb57a92c24
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Terry Cain;terry@terrys-home.co.uk;2017-10-29 18:59:40+00:00;75f0deb8289dbd21dc377d164995765042b4623a
+models.py;SQSBackendcreate_queue(self,name);1;Terry Cain;terry@terrys-home.co.uk;2017-10-29 18:59:40+00:00;75f0deb8289dbd21dc377d164995765042b4623a
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Terry Cain;terry@terrys-home.co.uk;2017-10-29 19:26:27+00:00;c4273c9da185564dddc8192371394c5fef84f576
+models.py;Subnetrequest_ip(self,ip,instance);1;Terry Cain;terry@terrys-home.co.uk;2017-10-29 19:26:27+00:00;c4273c9da185564dddc8192371394c5fef84f576
+models.py;Subnetdel_subnet_ip(self,ip);1;Terry Cain;terry@terrys-home.co.uk;2017-10-29 19:26:27+00:00;c4273c9da185564dddc8192371394c5fef84f576
+models.py;Instance__del__(self);1;Terry Cain;terry@terrys-home.co.uk;2017-10-29 19:26:27+00:00;c4273c9da185564dddc8192371394c5fef84f576
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2017-11-04 15:15:20-04:00;adf41244cd3a710ba1c3f785b93873223cf9fdc2
+models.py;SQSBackendcreate_queue(self,name);1;Steve Pulec;spulec@gmail.com;2017-11-04 15:15:20-04:00;adf41244cd3a710ba1c3f785b93873223cf9fdc2
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838
+models.py;Subnetrequest_ip(self,ip,instance);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838
+models.py;Subnetdel_subnet_ip(self,ip);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838
+models.py;Instance__del__(self);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838
+models.py;SQSBackendcreate_queue(self,name);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Kai Xia(夏恺);xiaket@users.noreply.github.com;2017-11-06 20:44:54+11:00;3740db80598fd4fb96a681bae0232f2c6afdda63
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Kai Xia(夏恺);xiaket@users.noreply.github.com;2017-11-06 20:44:54+11:00;3740db80598fd4fb96a681bae0232f2c6afdda63
+models.py;ResponsesMockAWSdisable_patching(self);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-06 21:39:08+00:00;d447929d299a4acd1852d25b8557d1958bcc6a0b
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Kai Xia(夏恺);xiaket@users.noreply.github.com;2017-11-06 20:44:54+11:00;70e7f08d8f126424856bcf0e65a71d4b44251f33
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Kai Xia(夏恺);xiaket@users.noreply.github.com;2017-11-06 20:44:54+11:00;70e7f08d8f126424856bcf0e65a71d4b44251f33
+models.py;ResponsesMockAWSdisable_patching(self);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-06 21:39:08+00:00;d4745a575b1bed852fd753e281a3ce2b096cb044
+models.py;Subnetrequest_ip(self,ip,instance);1;Florent Rivoire;frivoire@users.noreply.github.com;2017-11-07 14:29:24+01:00;6e199d35b33c9516eb691e7985de3f0996b7c830
+models.py;Subnetdel_subnet_ip(self,ip);1;Florent Rivoire;frivoire@users.noreply.github.com;2017-11-07 14:29:24+01:00;6e199d35b33c9516eb691e7985de3f0996b7c830
+models.py;Instance__del__(self);1;Florent Rivoire;frivoire@users.noreply.github.com;2017-11-07 14:29:24+01:00;6e199d35b33c9516eb691e7985de3f0996b7c830
+models.py;Subnetrequest_ip(self,ip,instance);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-12 11:18:25+00:00;bd8c1e456737f395468c26e61b2815a4d608ec65
+models.py;Subnetdel_subnet_ip(self,ip);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-12 11:18:25+00:00;bd8c1e456737f395468c26e61b2815a4d608ec65
+models.py;Instance__del__(self);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-12 11:18:25+00:00;bd8c1e456737f395468c26e61b2815a4d608ec65
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-11-12 16:15:03+00:00;64adbe5852da2423bf070c3954fb1b9894b4bde3
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-11-12 16:15:03+00:00;64adbe5852da2423bf070c3954fb1b9894b4bde3
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-11-12 09:04:02-08:00;5a204993af99897d4d842bbeb99f291754514edd
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jack Danger;github@jackcanty.com;2017-11-12 09:04:02-08:00;5a204993af99897d4d842bbeb99f291754514edd
+models.py;Subnetrequest_ip(self,ip,instance);1;Archa91;archa91.dev@gmail.com;2017-11-14 15:31:54+01:00;474023f9a1bbaa5f4eed8423dcfeed605deae4e2
+models.py;Subnetdel_subnet_ip(self,ip);1;Archa91;archa91.dev@gmail.com;2017-11-14 15:31:54+01:00;474023f9a1bbaa5f4eed8423dcfeed605deae4e2
+models.py;Instance__del__(self);1;Archa91;archa91.dev@gmail.com;2017-11-14 15:31:54+01:00;474023f9a1bbaa5f4eed8423dcfeed605deae4e2
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Victor Hiairrassary;victor@zendesk.com;2017-11-17 00:57:11-08:00;caec929506a0e856fadf4013c46cc60396800ccd
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Victor Hiairrassary;victor@zendesk.com;2017-11-17 00:57:11-08:00;caec929506a0e856fadf4013c46cc60396800ccd
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Terry Cain;terrycain@users.noreply.github.com;2017-11-26 21:28:28+00:00;d5ee48eedd0c9324ba6510f66634d31626bef68b
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;ResponsesMockAWSdisable_patching(self);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;Subnetrequest_ip(self,ip,instance);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;Subnetdel_subnet_ip(self,ip);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;Instance__del__(self);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;SQSBackendcreate_queue(self,name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
+models.py;Subnetrequest_ip(self,ip,instance);1;Pierre Tardy;tardyp@gmail.com;2017-12-05 10:22:13+01:00;d8f6f77a0f5dff2263cc6f2a6db89baa9efe8302
+models.py;Subnetdel_subnet_ip(self,ip);1;Pierre Tardy;tardyp@gmail.com;2017-12-05 10:22:13+01:00;d8f6f77a0f5dff2263cc6f2a6db89baa9efe8302
+models.py;Instance__del__(self);1;Pierre Tardy;tardyp@gmail.com;2017-12-05 10:22:13+01:00;d8f6f77a0f5dff2263cc6f2a6db89baa9efe8302
+models.py;Subnetrequest_ip(self,ip,instance);1;Enis Afgan;afgane@gmail.com;2017-12-06 05:14:56-05:00;0c01c7f495154d6206a6eadbc5e246280ae873b7
+models.py;Subnetdel_subnet_ip(self,ip);1;Enis Afgan;afgane@gmail.com;2017-12-06 05:14:56-05:00;0c01c7f495154d6206a6eadbc5e246280ae873b7
+models.py;Instance__del__(self);1;Enis Afgan;afgane@gmail.com;2017-12-06 05:14:56-05:00;0c01c7f495154d6206a6eadbc5e246280ae873b7
+models.py;Subnetrequest_ip(self,ip,instance);1;William Richard;william.richard.no.s@gmail.com;2017-12-08 05:48:29-05:00;92f5f7b263fbe3c2427149584dcd1614e73f80ca
+models.py;Subnetdel_subnet_ip(self,ip);1;William Richard;william.richard.no.s@gmail.com;2017-12-08 05:48:29-05:00;92f5f7b263fbe3c2427149584dcd1614e73f80ca
+models.py;Instance__del__(self);1;William Richard;william.richard.no.s@gmail.com;2017-12-08 05:48:29-05:00;92f5f7b263fbe3c2427149584dcd1614e73f80ca
+models.py;Subnetrequest_ip(self,ip,instance);1;Chris Tomlinson;c3st7n@users.noreply.github.com;2017-12-08 21:00:34+00:00;499857e67fb4e5bfc655dd5350fd852f54a0ea15
+models.py;Subnetdel_subnet_ip(self,ip);1;Chris Tomlinson;c3st7n@users.noreply.github.com;2017-12-08 21:00:34+00:00;499857e67fb4e5bfc655dd5350fd852f54a0ea15
+models.py;Instance__del__(self);1;Chris Tomlinson;c3st7n@users.noreply.github.com;2017-12-08 21:00:34+00:00;499857e67fb4e5bfc655dd5350fd852f54a0ea15
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Chris Tomlinson;c3st7n@users.noreply.github.com;2017-12-08 21:02:34+00:00;279efc6b126ff68a2225542e3830e443c7a4af0d
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alexander Mohr;thehesiod@hotmail.com;2017-12-08 17:21:30-08:00;f763de85fbb654f562154355b776b7d17cb5caef
+models.py;Subnetrequest_ip(self,ip,instance);1;Alexander Mohr;thehesiod@hotmail.com;2017-12-08 17:21:30-08:00;f763de85fbb654f562154355b776b7d17cb5caef
+models.py;Subnetdel_subnet_ip(self,ip);1;Alexander Mohr;thehesiod@hotmail.com;2017-12-08 17:21:30-08:00;f763de85fbb654f562154355b776b7d17cb5caef
+models.py;Instance__del__(self);1;Alexander Mohr;thehesiod@hotmail.com;2017-12-08 17:21:30-08:00;f763de85fbb654f562154355b776b7d17cb5caef
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alexander Mohr;thehesiod@users.noreply.github.com;2017-12-10 13:59:04-08:00;9d087b072913ab1f64606087c233a111b040345c
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alexander Mohr;thehesiod@hotmail.com;2017-12-11 15:09:27-08:00;a638019ea2dc23c699793701839384f8ec019990
+models.py;Subnetrequest_ip(self,ip,instance);1;Nuwan Goonasekera;nuwan.ag@gmail.com;2017-12-22 18:38:18+05:18;c68cd650e77f801da4a10fcec3ec616378e5fb72
+models.py;Subnetdel_subnet_ip(self,ip);1;Nuwan Goonasekera;nuwan.ag@gmail.com;2017-12-22 18:38:18+05:18;c68cd650e77f801da4a10fcec3ec616378e5fb72
+models.py;Instance__del__(self);1;Nuwan Goonasekera;nuwan.ag@gmail.com;2017-12-22 18:38:18+05:18;c68cd650e77f801da4a10fcec3ec616378e5fb72
+models.py;Subnetrequest_ip(self,ip,instance);1;Jack Danger;github@jackcanty.com;2017-12-22 08:14:49-08:00;583622c46840c96ba53db90221a5a106708d91db
+models.py;Subnetdel_subnet_ip(self,ip);1;Jack Danger;github@jackcanty.com;2017-12-22 08:14:49-08:00;583622c46840c96ba53db90221a5a106708d91db
+models.py;Instance__del__(self);1;Jack Danger;github@jackcanty.com;2017-12-22 08:14:49-08:00;583622c46840c96ba53db90221a5a106708d91db
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-12-27 19:17:59+00:00;59cf81fd568bcb0dee9dd5d8665d27cd42b71730
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-12-27 19:17:59+00:00;59cf81fd568bcb0dee9dd5d8665d27cd42b71730
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-12-27 20:22:26+00:00;f7d8e3beb1983d2c61a236e51e66e84640422f9b
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;captainkerk;jrkerkstra@gmail.com;2017-12-27 20:22:26+00:00;f7d8e3beb1983d2c61a236e51e66e84640422f9b
+models.py;Subnetrequest_ip(self,ip,instance);1;Gordon Irving;goraxe@gmail.com;2017-12-28 19:04:37+00:00;6da22f9fa41b1f5d2c661f4d69369270b86b5ee7
+models.py;Subnetdel_subnet_ip(self,ip);1;Gordon Irving;goraxe@gmail.com;2017-12-28 19:04:37+00:00;6da22f9fa41b1f5d2c661f4d69369270b86b5ee7
+models.py;Instance__del__(self);1;Gordon Irving;goraxe@gmail.com;2017-12-28 19:04:37+00:00;6da22f9fa41b1f5d2c661f4d69369270b86b5ee7
+models.py;Subnetrequest_ip(self,ip,instance);1;Gordon Irving;goraxe@gmail.com;2017-12-28 17:16:49+00:00;5fed6988da49516d8214722a477c760876c2f5ee
+models.py;Subnetdel_subnet_ip(self,ip);1;Gordon Irving;goraxe@gmail.com;2017-12-28 17:16:49+00:00;5fed6988da49516d8214722a477c760876c2f5ee
+models.py;Instance__del__(self);1;Gordon Irving;goraxe@gmail.com;2017-12-28 17:16:49+00:00;5fed6988da49516d8214722a477c760876c2f5ee
+models.py;Subnetrequest_ip(self,ip,instance);1;Jack Danger;github@jackcanty.com;2017-12-28 12:03:17-08:00;948a7ac06f6581ed56624260d50f6fa50b89859d
+models.py;Subnetdel_subnet_ip(self,ip);1;Jack Danger;github@jackcanty.com;2017-12-28 12:03:17-08:00;948a7ac06f6581ed56624260d50f6fa50b89859d
+models.py;Instance__del__(self);1;Jack Danger;github@jackcanty.com;2017-12-28 12:03:17-08:00;948a7ac06f6581ed56624260d50f6fa50b89859d
+models.py;Subnetrequest_ip(self,ip,instance);1;Jack Danger;github@jackcanty.com;2017-12-28 14:47:39-08:00;84f2ec5e0429c7e97e132bd011505fbc9ea7d7f4
+models.py;Subnetdel_subnet_ip(self,ip);1;Jack Danger;github@jackcanty.com;2017-12-28 14:47:39-08:00;84f2ec5e0429c7e97e132bd011505fbc9ea7d7f4
+models.py;Instance__del__(self);1;Jack Danger;github@jackcanty.com;2017-12-28 14:47:39-08:00;84f2ec5e0429c7e97e132bd011505fbc9ea7d7f4
+models.py;Subnetrequest_ip(self,ip,instance);1;Nuwan Goonasekera;nuwan.goonasekera@gmail.com;2018-01-04 15:19:17+05:18;56ce26a72809a7e7b56c56002e843e406b2dfd46
+models.py;Subnetdel_subnet_ip(self,ip);1;Nuwan Goonasekera;nuwan.goonasekera@gmail.com;2018-01-04 15:19:17+05:18;56ce26a72809a7e7b56c56002e843e406b2dfd46
+models.py;Instance__del__(self);1;Nuwan Goonasekera;nuwan.goonasekera@gmail.com;2018-01-04 15:19:17+05:18;56ce26a72809a7e7b56c56002e843e406b2dfd46
+models.py;Subnetrequest_ip(self,ip,instance);1;William Richard;william.richard.no.s@gmail.com;2017-12-05 16:53:30-05:00;e0d4728c5d2a149c8b6cd74d4d8a3cf0c294bc73
+models.py;Subnetdel_subnet_ip(self,ip);1;William Richard;william.richard.no.s@gmail.com;2017-12-05 16:53:30-05:00;e0d4728c5d2a149c8b6cd74d4d8a3cf0c294bc73
+models.py;Instance__del__(self);1;William Richard;william.richard.no.s@gmail.com;2017-12-05 16:53:30-05:00;e0d4728c5d2a149c8b6cd74d4d8a3cf0c294bc73
+models.py;Subnetrequest_ip(self,ip,instance);1;William Richard;william.richard.no.s@gmail.com;2018-01-11 14:51:42-05:00;09c5407b86754e5461c0f2c71b333e3e27029fc1
+models.py;Subnetdel_subnet_ip(self,ip);1;William Richard;william.richard.no.s@gmail.com;2018-01-11 14:51:42-05:00;09c5407b86754e5461c0f2c71b333e3e27029fc1
+models.py;Instance__del__(self);1;William Richard;william.richard.no.s@gmail.com;2018-01-11 14:51:42-05:00;09c5407b86754e5461c0f2c71b333e3e27029fc1
+models.py;Subnetrequest_ip(self,ip,instance);1;George Ionita;ionitageorge@gmail.com;2018-01-14 19:08:16+02:00;baba13c9bbd8d4c00d546302fe6bd8e77fd8f5e2
+models.py;Subnetdel_subnet_ip(self,ip);1;George Ionita;ionitageorge@gmail.com;2018-01-14 19:08:16+02:00;baba13c9bbd8d4c00d546302fe6bd8e77fd8f5e2
+models.py;Instance__del__(self);1;George Ionita;ionitageorge@gmail.com;2018-01-14 19:08:16+02:00;baba13c9bbd8d4c00d546302fe6bd8e77fd8f5e2
+models.py;Subnetrequest_ip(self,ip,instance);1;ciprianaradulescu;ciprian.aradulescu@gmail.com;2018-01-14 19:58:48+02:00;c431a3a7744c2b15c70d54b3800a19019f3aa87e
+models.py;Subnetdel_subnet_ip(self,ip);1;ciprianaradulescu;ciprian.aradulescu@gmail.com;2018-01-14 19:58:48+02:00;c431a3a7744c2b15c70d54b3800a19019f3aa87e
+models.py;Instance__del__(self);1;ciprianaradulescu;ciprian.aradulescu@gmail.com;2018-01-14 19:58:48+02:00;c431a3a7744c2b15c70d54b3800a19019f3aa87e
+models.py;Subnetrequest_ip(self,ip,instance);1;Ciprian Radulescu;ciprianradulescu@Ciprians-MacBook-Pro.local;2018-01-14 20:03:03+02:00;cf12624cfb48bb5d32e146245eec378f83d26f56
+models.py;Subnetdel_subnet_ip(self,ip);1;Ciprian Radulescu;ciprianradulescu@Ciprians-MacBook-Pro.local;2018-01-14 20:03:03+02:00;cf12624cfb48bb5d32e146245eec378f83d26f56
+models.py;Instance__del__(self);1;Ciprian Radulescu;ciprianradulescu@Ciprians-MacBook-Pro.local;2018-01-14 20:03:03+02:00;cf12624cfb48bb5d32e146245eec378f83d26f56
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Dan W Anderson;dan@sigopt.com;2018-01-18 15:23:27-08:00;89bad393132da86421368ff823138497ab51d771
+models.py;SQSBackendcreate_queue(self,name);1;Dan W Anderson;dan@sigopt.com;2018-01-18 15:23:27-08:00;89bad393132da86421368ff823138497ab51d771
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Dan W Anderson;dan@sigopt.com;2018-01-18 15:58:11-08:00;8959643e5666872bda234efc1c3c94244a5183c4
+models.py;SQSBackendcreate_queue(self,name);1;Dan W Anderson;dan@sigopt.com;2018-01-18 15:58:11-08:00;8959643e5666872bda234efc1c3c94244a5183c4
+models.py;Subnetrequest_ip(self,ip,instance);1;Jack Danger;github@jackcanty.com;2018-01-24 18:28:40-08:00;4520cd930ff265834689a3d945a172b375133be5
+models.py;Subnetdel_subnet_ip(self,ip);1;Jack Danger;github@jackcanty.com;2018-01-24 18:28:40-08:00;4520cd930ff265834689a3d945a172b375133be5
+models.py;Instance__del__(self);1;Jack Danger;github@jackcanty.com;2018-01-24 18:28:40-08:00;4520cd930ff265834689a3d945a172b375133be5
+models.py;Subnetrequest_ip(self,ip,instance);1;Rasmus Larsen;rla@systime.dk;2018-01-26 14:55:53+01:00;59c49ca34f911da15b9385743b7d2a5124247fd5
+models.py;Subnetdel_subnet_ip(self,ip);1;Rasmus Larsen;rla@systime.dk;2018-01-26 14:55:53+01:00;59c49ca34f911da15b9385743b7d2a5124247fd5
+models.py;Instance__del__(self);1;Rasmus Larsen;rla@systime.dk;2018-01-26 14:55:53+01:00;59c49ca34f911da15b9385743b7d2a5124247fd5
+models.py;Subnetrequest_ip(self,ip,instance);1;Rasmus Larsen;rla@systime.dk;2018-01-26 15:32:22+01:00;796145d62d2b7db9e84d00d6119488a1d44a27da
+models.py;Subnetdel_subnet_ip(self,ip);1;Rasmus Larsen;rla@systime.dk;2018-01-26 15:32:22+01:00;796145d62d2b7db9e84d00d6119488a1d44a27da
+models.py;Instance__del__(self);1;Rasmus Larsen;rla@systime.dk;2018-01-26 15:32:22+01:00;796145d62d2b7db9e84d00d6119488a1d44a27da
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 03:06:57+00:00;d8b124fbf4a641508cb54ecc77c53c0b2cf8e622
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 03:27:06+00:00;92798b9a9fef52f5a79d5cd0b3ea48d2310d2ee7
+models.py;Clusterto_json(self);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 03:27:06+00:00;92798b9a9fef52f5a79d5cd0b3ea48d2310d2ee7
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 03:28:49+00:00;ed066582714d071e2db78ac96f3bd014a8b28a4a
+models.py;Clusterto_json(self);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 03:28:49+00:00;ed066582714d071e2db78ac96f3bd014a8b28a4a
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 03:53:32+00:00;7130dd5239891a5ae2a9219e690c8c6f1c4e5906
+models.py;Clusterto_json(self);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 03:53:32+00:00;7130dd5239891a5ae2a9219e690c8c6f1c4e5906
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 22:58:28+00:00;e514b98747121e71a63e38012c64008c23bdb002
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 23:08:03+00:00;4d77aef7e5d530e47eba836d7c94805e7fd13893
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;captainkerk;jrkerkstra@gmail.com;2018-01-28 23:13:56+00:00;258c076eef09486d998b5d917ac19a7b713b074a
+models.py;Subnetrequest_ip(self,ip,instance);1;Hugo Lopes Tavares;hltbra@gmail.com;2018-02-01 17:09:10-05:00;5f61950096e2d33cfb42021d5f661a71ae192357
+models.py;Subnetdel_subnet_ip(self,ip);1;Hugo Lopes Tavares;hltbra@gmail.com;2018-02-01 17:09:10-05:00;5f61950096e2d33cfb42021d5f661a71ae192357
+models.py;Instance__del__(self);1;Hugo Lopes Tavares;hltbra@gmail.com;2018-02-01 17:09:10-05:00;5f61950096e2d33cfb42021d5f661a71ae192357
+models.py;Subnetrequest_ip(self,ip,instance);1;Jack Danger;github@jackcanty.com;2018-02-02 14:47:02+09:00;553d0742410c46ed9695cbde93dd00d82781dd7c
+models.py;Subnetdel_subnet_ip(self,ip);1;Jack Danger;github@jackcanty.com;2018-02-02 14:47:02+09:00;553d0742410c46ed9695cbde93dd00d82781dd7c
+models.py;Instance__del__(self);1;Jack Danger;github@jackcanty.com;2018-02-02 14:47:02+09:00;553d0742410c46ed9695cbde93dd00d82781dd7c
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Loukas Leontopoulos;loukas@taxibeat.com;2018-02-19 17:28:35+02:00;3d7f584f6453c27f9435d3a7b10b120b93650093
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Chris Wolfe;chriswwolfe@gmail.com;2018-02-19 09:39:29-06:00;99d336241715afd3a3438b049972e713008d527b
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Chris Wolfe;chriswwolfe@gmail.com;2018-02-19 09:39:29-06:00;99d336241715afd3a3438b049972e713008d527b
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Chris Wolfe;chriswwolfe@gmail.com;2018-02-19 09:58:46-06:00;8ac4ff1e99c68c751046932ea360ca2c10d8a9e7
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Chris Wolfe;chriswwolfe@gmail.com;2018-02-19 09:58:46-06:00;8ac4ff1e99c68c751046932ea360ca2c10d8a9e7
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;andrew;andrew@simple.com;2018-02-22 14:58:19-05:00;6ab416724a594e545af42e14a21a4b00db7e38d7
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;andrew;andrew@simple.com;2018-02-23 14:42:49-05:00;7d3af65f2233770a4dfb2ca46c127959bb53505d
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;andrew;andrew@simple.com;2018-02-23 14:52:22-05:00;894906e0ee8332c6e9dc3d78c5e7da016b5c70ae
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Steve Pulec;spulec@gmail.com;2018-03-06 17:33:36-05:00;2a4f306befc117801d5e350682f26d697537a8aa
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:10:29-05:00;ddba69982ef84fb033165f0454ba9d614939f935
+models.py;Clusterto_json(self);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:10:29-05:00;ddba69982ef84fb033165f0454ba9d614939f935
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:34-05:00;8a0cf49b7d552795bdb8b5854c1084a07bc46620
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:34-05:00;8a0cf49b7d552795bdb8b5854c1084a07bc46620
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:34-05:00;8a0cf49b7d552795bdb8b5854c1084a07bc46620
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:34-05:00;8a0cf49b7d552795bdb8b5854c1084a07bc46620
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:34-05:00;8a0cf49b7d552795bdb8b5854c1084a07bc46620
+models.py;Clusterto_json(self);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:34-05:00;8a0cf49b7d552795bdb8b5854c1084a07bc46620
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:42-05:00;df56654e7c31f371c8641c7114935d90d78ef4fa
+models.py;Clusterto_json(self);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:42-05:00;df56654e7c31f371c8641c7114935d90d78ef4fa
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:15:45-05:00;dc03125c1a2a7d3d2f628f3c1a90ad82aee8fe1f
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:15:45-05:00;dc03125c1a2a7d3d2f628f3c1a90ad82aee8fe1f
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:15:45-05:00;dc03125c1a2a7d3d2f628f3c1a90ad82aee8fe1f
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:22:49-05:00;8b3743fa9cd8f3a3690429f78ac6a5ae1673b9cb
+models.py;SQSBackendcreate_queue(self,name);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:22:49-05:00;8b3743fa9cd8f3a3690429f78ac6a5ae1673b9cb
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:42:49-05:00;9e0b8da6cb4fbebdcc62cdbdd429c5b6fb31972d
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-03-06 22:42:49-05:00;9e0b8da6cb4fbebdcc62cdbdd429c5b6fb31972d
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Steve Pulec;spulec@gmail.com;2018-03-07 07:37:44-05:00;d37c355bd33db23b4523bc72f3826d64c4230ef5
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Steve Pulec;spulec@gmail.com;2018-03-07 07:37:44-05:00;d37c355bd33db23b4523bc72f3826d64c4230ef5
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;andrew;andrew@simple.com;2018-03-07 08:38:07-05:00;e2e1c7347b3421adec88e76afbb89b1cad6783ea
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Steve Pulec;spulec@gmail.com;2018-03-07 09:28:26-05:00;4997694fd6664de022a84c8a9b4d77884fae145f
+models.py;Clusterto_json(self);1;Steve Pulec;spulec@gmail.com;2018-03-07 09:28:26-05:00;4997694fd6664de022a84c8a9b4d77884fae145f
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jim Shields;jim.j.shields@gmail.com;2017-12-13 10:15:40-05:00;bfeea007749a771248ffafc6c6d9693b36577f10
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Jim Shields;jim.j.shields@gmail.com;2017-12-13 10:15:40-05:00;bfeea007749a771248ffafc6c6d9693b36577f10
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-03-09 18:19:35-05:00;35d69759ef71b8dcb93ee8f1477554d469e8b5cd
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-03-09 18:19:35-05:00;35d69759ef71b8dcb93ee8f1477554d469e8b5cd
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Iain Bullard;iain.bullard@gmail.com;2018-03-21 15:48:08+00:00;6dce7dcb18491a5630f7454ac1a596f2f91f58e6
+models.py;SQSBackendcreate_queue(self,name);1;Iain Bullard;iain.bullard@gmail.com;2018-03-21 15:48:08+00:00;6dce7dcb18491a5630f7454ac1a596f2f91f58e6
+models.py;Subnetrequest_ip(self,ip,instance);1;Graham Lyons;graham@grahamlyons.com;2018-03-21 15:55:58+00:00;5d51329c34abf4312de89f74faa6a4e9dc224e7e
+models.py;Subnetdel_subnet_ip(self,ip);1;Graham Lyons;graham@grahamlyons.com;2018-03-21 15:55:58+00:00;5d51329c34abf4312de89f74faa6a4e9dc224e7e
+models.py;Instance__del__(self);1;Graham Lyons;graham@grahamlyons.com;2018-03-21 15:55:58+00:00;5d51329c34abf4312de89f74faa6a4e9dc224e7e
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;ramox-;adam@ramox.it;2018-03-21 16:56:57+01:00;508b392697d4d166204a90aff51896031be5ba57
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;ramox-;adam@ramox.it;2018-03-21 16:56:57+01:00;508b392697d4d166204a90aff51896031be5ba57
+models.py;Subnetrequest_ip(self,ip,instance);1;keirbadger;keir.badger@acuris.com;2018-03-21 15:58:32+00:00;fecdf388c2c6dfffd7f95d2a5d16763413dcb57b
+models.py;Subnetdel_subnet_ip(self,ip);1;keirbadger;keir.badger@acuris.com;2018-03-21 15:58:32+00:00;fecdf388c2c6dfffd7f95d2a5d16763413dcb57b
+models.py;Instance__del__(self);1;keirbadger;keir.badger@acuris.com;2018-03-21 15:58:32+00:00;fecdf388c2c6dfffd7f95d2a5d16763413dcb57b
+models.py;Subnetrequest_ip(self,ip,instance);1;Rob Walker;rewalker42@hotmail.com;2018-03-22 02:10:38+10:00;4b3469292a27ff3e6d6ff99fc5ef92d17b928250
+models.py;Subnetdel_subnet_ip(self,ip);1;Rob Walker;rewalker42@hotmail.com;2018-03-22 02:10:38+10:00;4b3469292a27ff3e6d6ff99fc5ef92d17b928250
+models.py;Instance__del__(self);1;Rob Walker;rewalker42@hotmail.com;2018-03-22 02:10:38+10:00;4b3469292a27ff3e6d6ff99fc5ef92d17b928250
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alexander Mohr;thehesiod@users.noreply.github.com;2018-03-21 22:14:10-07:00;941d817da4e62c72f638e4972e3ae39dfbcf4d7b
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-03-29 10:08:39-04:00;7737832bf3d657240ebe485335148ff448b84ca6
+models.py;FakeBucketset_lifecycle(self,rules);1;Mike Grima;mikegrima@users.noreply.github.com;2018-04-02 14:19:14-07:00;4184acc0d27b584a921939fb85467cebf27bb025
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-04-06 09:26:47-04:00;2ee484990d4980cc975f5f5d593ceff04d897d4f
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-04-11 09:39:33-04:00;ec0d8080108e8eeeecc33f50d5a44f509affde22
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-04-13 07:33:53-04:00;929ae286cf6cd31fbdf7bda39bf526d43e4db0c9
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Steve Pulec;spulec@gmail.com;2018-04-13 15:05:13-04:00;94ba2e68bdca09a48114723eedb40d38a75b6ba6
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Steve Pulec;spulec@gmail.com;2018-04-13 15:05:13-04:00;94ba2e68bdca09a48114723eedb40d38a75b6ba6
+models.py;Subnetrequest_ip(self,ip,instance);1;Phil Christensen;pchristensen@logicworks.net;2018-02-09 14:49:40-05:00;a44b7e7f5c114c9a48131abbeef88422f28669d1
+models.py;Subnetdel_subnet_ip(self,ip);1;Phil Christensen;pchristensen@logicworks.net;2018-02-09 14:49:40-05:00;a44b7e7f5c114c9a48131abbeef88422f28669d1
+models.py;Instance__del__(self);1;Phil Christensen;pchristensen@logicworks.net;2018-02-09 14:49:40-05:00;a44b7e7f5c114c9a48131abbeef88422f28669d1
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-04-18 22:51:54-04:00;8fa4c64c150e1c0c84c3143d5486e5371e689e93
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-04-18 22:51:54-04:00;8fa4c64c150e1c0c84c3143d5486e5371e689e93
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-04-18 22:51:54-04:00;8fa4c64c150e1c0c84c3143d5486e5371e689e93
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Darien Hager;darien+git@technofovea.com;2018-04-19 00:22:35-07:00;6556ba89cddbbdd67db6a0b1ae81054ba12b0acd
+models.py;SQSBackendcreate_queue(self,name);1;Darien Hager;darien+git@technofovea.com;2018-04-19 00:22:35-07:00;6556ba89cddbbdd67db6a0b1ae81054ba12b0acd
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-04-19 07:46:24-04:00;4081ece2ea97f401139879a5c6d81d9b21cb7b48
+models.py;SQSBackendcreate_queue(self,name);1;Steve Pulec;spulec@gmail.com;2018-04-19 07:46:24-04:00;4081ece2ea97f401139879a5c6d81d9b21cb7b48
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Darien Hager;darien+git@technofovea.com;2018-04-19 23:25:10-07:00;5cd4d5e02f41dcfe9fa20e7b7faa943f94d5fccf
+models.py;SQSBackendcreate_queue(self,name);1;Darien Hager;darien+git@technofovea.com;2018-04-19 23:25:10-07:00;5cd4d5e02f41dcfe9fa20e7b7faa943f94d5fccf
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Darien Hager;darien+git@technofovea.com;2018-04-20 11:46:12-07:00;3c9d8bca467af10550e92e482ad129cca4e7ebc9
+models.py;SQSBackendcreate_queue(self,name);1;Darien Hager;darien+git@technofovea.com;2018-04-20 11:46:12-07:00;3c9d8bca467af10550e92e482ad129cca4e7ebc9
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Tom Elliff;tomelliff@gmail.com;2018-04-23 19:41:54+01:00;21a264c337cfc6cb30b57420a16fb33eede19248
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Tom Elliff;tomelliff@gmail.com;2018-04-23 19:41:54+01:00;21a264c337cfc6cb30b57420a16fb33eede19248
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Brian Pandola;bpandola@hsdp.io;2018-04-24 17:30:17-07:00;e1d9c2878f2a5bc2b628e0631b9d9e590c7fec3b
+models.py;Clusterto_json(self);1;Brian Pandola;bpandola@hsdp.io;2018-04-24 17:30:17-07:00;e1d9c2878f2a5bc2b628e0631b9d9e590c7fec3b
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Mike Liu;mike.liu.dev@gmail.com;2018-04-25 16:22:10-04:00;a974a3dfe4204e0f0eb690726754a5434486f053
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Mike Liu;mike.liu.dev@gmail.com;2018-04-25 16:22:10-04:00;a974a3dfe4204e0f0eb690726754a5434486f053
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Mike Liu;mike.liu.dev@gmail.com;2018-04-25 16:25:44-04:00;1016487c78b32fa0a67d093c3a43f39cd68aa231
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Mike Liu;mike.liu.dev@gmail.com;2018-04-25 16:25:44-04:00;1016487c78b32fa0a67d093c3a43f39cd68aa231
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Alex Casalboni;alex@alexcasalboni.com;2018-04-30 20:02:47+02:00;cb364eedc6e4edcfa3c65f152c7d13f1e5fe2ea4
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Alex Casalboni;alex@alexcasalboni.com;2018-04-30 20:02:47+02:00;cb364eedc6e4edcfa3c65f152c7d13f1e5fe2ea4
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;ResponsesMockAWSdisable_patching(self);2;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;Subnetrequest_ip(self,ip,instance);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;Subnetdel_subnet_ip(self,ip);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;Instance__del__(self);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;FakeLoadBalancerdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;Clusterto_json(self);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;FakeBucketset_lifecycle(self,rules);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;SQSBackendcreate_queue(self,name);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577
+models.py;FakeBucketset_lifecycle(self,rules);1;Alexander Mohr;thehesiod@hotmail.com;2018-05-03 01:40:49-07:00;7a57dc203422396a4b8ae23cd5bb0955222163a9
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;djkiourtsis;deano.kiourtsis@nimbisservices.com;2018-04-26 15:30:33-04:00;5d6655a7eed858caf90cbff6bcea2e18e13d38d7
+models.py;Subnetrequest_ip(self,ip,instance);1;zane;zane.williamson@gmail.com;2018-05-10 23:39:19-07:00;12188733b73fe5511692f05f0a1ed586a2fa7777
+models.py;Subnetdel_subnet_ip(self,ip);1;zane;zane.williamson@gmail.com;2018-05-10 23:39:19-07:00;12188733b73fe5511692f05f0a1ed586a2fa7777
+models.py;Instance__del__(self);1;zane;zane.williamson@gmail.com;2018-05-10 23:39:19-07:00;12188733b73fe5511692f05f0a1ed586a2fa7777
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Alan Justino da Silva;alan.justino@yahoo.com.br;2018-05-15 15:13:01-03:00;d4cc7f1399a309a6bb81c628ab0603e46430a043
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Steve Pulec;spulec@gmail.com;2018-05-29 21:48:47-04:00;11b2073b871f8ae30596811fa772d5ce0f8836df
+models.py;Clusterto_json(self);1;Steve Pulec;spulec@gmail.com;2018-05-29 21:48:47-04:00;11b2073b871f8ae30596811fa772d5ce0f8836df
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-05-29 21:59:17-04:00;9b8295c8688594f4cd9b19f5aaaa3e68c901ce76
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:07:00-04:00;bc1bdd7ae150c14e4535a50f2b2eaac5848af9de
+models.py;SQSBackendcreate_queue(self,name);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:07:00-04:00;bc1bdd7ae150c14e4535a50f2b2eaac5848af9de
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:12:11-04:00;939329efa74f9dccef9b2bada1a4ff39a3d2dc8f
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:19:25-04:00;69587c151c49f3341f32df1de92047d1c34975cd
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:19:25-04:00;69587c151c49f3341f32df1de92047d1c34975cd
+models.py;Clusterto_json(self);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:19:25-04:00;69587c151c49f3341f32df1de92047d1c34975cd
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:19:25-04:00;69587c151c49f3341f32df1de92047d1c34975cd
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:19:25-04:00;69587c151c49f3341f32df1de92047d1c34975cd
+models.py;SQSBackendcreate_queue(self,name);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:19:25-04:00;69587c151c49f3341f32df1de92047d1c34975cd
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:25:16-04:00;bcefcdb0907256dc59318294fe9bec6a9b959ce2
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:25:16-04:00;bcefcdb0907256dc59318294fe9bec6a9b959ce2
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:25:16-04:00;bcefcdb0907256dc59318294fe9bec6a9b959ce2
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Steve Pulec;spulec@gmail.com;2018-05-29 22:40:00-04:00;e3ff6601bf9e3bdb3f1f22c878006b07c584e187
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Daniel Birnstiel;git@birne.me;2018-05-30 09:22:46+02:00;9b8e62e1f1f258d661a4bb4f71b8d44b9b1c17cd
+models.py;SQSBackendcreate_queue(self,name);1;Daniel Birnstiel;git@birne.me;2018-05-30 09:22:46+02:00;9b8e62e1f1f258d661a4bb4f71b8d44b9b1c17cd
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-05-30 20:36:53-04:00;919c0c9b047a3f8ade2f1e14b3bf59865b11ffa0
+models.py;SQSBackendcreate_queue(self,name);1;Steve Pulec;spulec@gmail.com;2018-05-30 20:36:53-04:00;919c0c9b047a3f8ade2f1e14b3bf59865b11ffa0
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-05-31 22:07:13-04:00;620530c4ee1aa0ae9b16ec2943549963a49c0306
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-05-31 22:07:13-04:00;620530c4ee1aa0ae9b16ec2943549963a49c0306
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-05-31 22:07:13-04:00;620530c4ee1aa0ae9b16ec2943549963a49c0306
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Steve Pulec;spulec@gmail.com;2018-05-31 22:39:22-04:00;cf71532fa9c5f281efd3eca01ed776e7c0d4ac26
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Steve Pulec;spulec@gmail.com;2018-05-31 23:05:50-04:00;1689a2808f95a1b6bdff107f6cb683bee2cc06ed
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-05-31 23:05:50-04:00;1689a2808f95a1b6bdff107f6cb683bee2cc06ed
+models.py;SQSBackendcreate_queue(self,name);1;Steve Pulec;spulec@gmail.com;2018-05-31 23:05:50-04:00;1689a2808f95a1b6bdff107f6cb683bee2cc06ed
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-06 09:57:12+02:00;e118a678a6446f4d680755756185d3a365ced3f2
+models.py;Subnetrequest_ip(self,ip,instance);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-06 09:57:12+02:00;e118a678a6446f4d680755756185d3a365ced3f2
+models.py;Subnetdel_subnet_ip(self,ip);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-06 09:57:12+02:00;e118a678a6446f4d680755756185d3a365ced3f2
+models.py;Instance__del__(self);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-06 09:57:12+02:00;e118a678a6446f4d680755756185d3a365ced3f2
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-06 09:57:12+02:00;e118a678a6446f4d680755756185d3a365ced3f2
+models.py;Clusterto_json(self);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-06 09:57:12+02:00;e118a678a6446f4d680755756185d3a365ced3f2
+models.py;FakeBucketset_lifecycle(self,rules);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-06 09:57:12+02:00;e118a678a6446f4d680755756185d3a365ced3f2
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-06 09:57:12+02:00;e118a678a6446f4d680755756185d3a365ced3f2
+models.py;SQSBackendcreate_queue(self,name);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-06 09:57:12+02:00;e118a678a6446f4d680755756185d3a365ced3f2
+models.py;FakeBucketset_lifecycle(self,rules);1;Alec Rajeev;rajeeva2012@gmail.com;2018-06-07 03:09:36-04:00;6c10dc040378c1ec515b9c5565321bbc97444527
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Mike Liu;mike.liu.dev@gmail.com;2018-06-11 12:28:11-04:00;bbf70bf21c4a477a4575d33c337cfe453485f45e
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Mike Liu;mike.liu.dev@gmail.com;2018-06-11 12:28:11-04:00;bbf70bf21c4a477a4575d33c337cfe453485f45e
+models.py;FakeBucketset_lifecycle(self,rules);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-06-14 08:45:23+02:00;6d12c83b89ea835e4b98bab58a95789397466923
+models.py;FakeBucketset_lifecycle(self,rules);1;Sanjeev Suresh;sasuresh@23andme.com;2018-06-21 15:26:27-07:00;29da006f787a30bba1359c4b91a0210921e4e73a
+models.py;FakeBucketset_lifecycle(self,rules);1;Waleed Hamied;whamied@inmoment.com;2018-07-03 15:36:41-04:00;f8fdd439ad17e9b10ff0e7ca9fa2d78423504ea7
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Nate Peterson;ndpete@gmail.com;2018-07-13 03:24:11-06:00;dcdaca898437dc88bc00ddb53db69ed579460f3f
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Nate Peterson;ndpete@gmail.com;2018-07-13 03:24:11-06:00;dcdaca898437dc88bc00ddb53db69ed579460f3f
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Steve Pulec;spulec@gmail.com;2018-07-19 08:44:30-04:00;f3175118d1b2111f4325f6705bd617b7c0a1c016
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Steve Pulec;spulec@gmail.com;2018-07-19 08:44:30-04:00;f3175118d1b2111f4325f6705bd617b7c0a1c016
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-07-19 09:41:44-04:00;786ec0501ed0a0442f5f2cb9765c1d8903e6728f
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-07-19 10:05:07-04:00;0309d1ec396aa8963bfb534a2d3bc4c2a909a2ac
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Mike Liu;mike.liu.dev@gmail.com;2018-07-24 16:15:53-04:00;12807bb6f0ad1840881b077175409c0c8dacbfb5
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Mike Liu;mike.liu.dev@gmail.com;2018-07-24 16:15:53-04:00;12807bb6f0ad1840881b077175409c0c8dacbfb5
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Nathan Sutton;nate@zencoder.com;2018-08-08 21:10:13-05:00;8393c7f20be1395fcd1f8d3ccc19e946d679ee0b
+models.py;SQSBackendcreate_queue(self,name);2;Nathan Sutton;nate@zencoder.com;2018-08-08 21:10:13-05:00;8393c7f20be1395fcd1f8d3ccc19e946d679ee0b
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Mike Liu;mike.liu.dev@gmail.com;2018-07-25 14:24:01-04:00;1b1fc4c030c446e23165cf28ad503de340ba645a
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Mike Liu;mike.liu.dev@gmail.com;2018-07-25 14:24:01-04:00;1b1fc4c030c446e23165cf28ad503de340ba645a
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Mike Liu;mike.liu.dev@gmail.com;2018-08-09 10:53:32-04:00;de532b93b78a01763ac622bd538ce12c41b86893
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Mike Liu;mike.liu.dev@gmail.com;2018-08-09 10:53:32-04:00;de532b93b78a01763ac622bd538ce12c41b86893
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Brian Pandola;bpandola@hsdp.io;2018-08-20 18:48:13-07:00;c6f5e816ccda6386976a5e3c9677a6b9839ec108
+models.py;Clusterto_json(self);1;Brian Pandola;bpandola@hsdp.io;2018-08-20 18:48:13-07:00;c6f5e816ccda6386976a5e3c9677a6b9839ec108
+models.py;ResponsesMockAWSdisable_patching(self);2;Ollie Ford;dev@ojford.com;2018-09-05 10:39:09+01:00;0ac989cfd4a0e684df2f0170821d1598526484bf
+models.py;FakeBucketset_lifecycle(self,rules);1;Jordan Upiter;jupiter@fitbit.com;2018-01-05 15:12:45-05:00;756b5d6671c04e8a13d86e82224ea35c32a053e4
+models.py;FakeBucketset_lifecycle(self,rules);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-09-12 11:48:19+02:00;88596518f5c5fb093d1ed8508c3072ad0cd488c8
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-09-12 11:48:19+02:00;88596518f5c5fb093d1ed8508c3072ad0cd488c8
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Stephan Huber;stephan.huber@solutions.endress.com;2018-09-12 11:48:19+02:00;88596518f5c5fb093d1ed8508c3072ad0cd488c8
+models.py;Subnetrequest_ip(self,ip,instance);1;hans;hsuchinhaha@gmail.com;2018-09-21 23:29:04+08:00;cedb89dc3b2a7e4701b68f06a010d17f3a06f98f
+models.py;Subnetdel_subnet_ip(self,ip);1;hans;hsuchinhaha@gmail.com;2018-09-21 23:29:04+08:00;cedb89dc3b2a7e4701b68f06a010d17f3a06f98f
+models.py;Instance__del__(self);1;hans;hsuchinhaha@gmail.com;2018-09-21 23:29:04+08:00;cedb89dc3b2a7e4701b68f06a010d17f3a06f98f
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-09-22 15:57:38-04:00;afdda39fc42e5567419eccaf5ac7de86afc3e13d
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Steve Pulec;spulec@gmail.com;2018-09-22 16:08:38-04:00;90de7fc0d25f9556334d4b60b66399092f89f4f9
+models.py;Clusterto_json(self);1;Steve Pulec;spulec@gmail.com;2018-09-22 16:08:38-04:00;90de7fc0d25f9556334d4b60b66399092f89f4f9
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-09-22 16:16:08-04:00;4bb4c96efa7679608f29c13e2072acb0c52f1af6
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Steve Pulec;spulec@gmail.com;2018-09-22 16:34:37-04:00;f071a9cf4f594ba9167da83e8a6f4516d92d471d
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Steve Pulec;spulec@gmail.com;2018-09-22 16:34:37-04:00;f071a9cf4f594ba9167da83e8a6f4516d92d471d
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-09-22 16:36:35-04:00;ec2b278fc8465c3aaf2c4d5573bd5c97cf7bf0ff
+models.py;SQSBackendcreate_queue(self,name);2;Steve Pulec;spulec@gmail.com;2018-09-22 16:36:35-04:00;ec2b278fc8465c3aaf2c4d5573bd5c97cf7bf0ff
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-09-22 16:42:14-04:00;6c8963b9a74c03b66c81af8f16f680a3cfd5c25f
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-09-22 16:42:14-04:00;6c8963b9a74c03b66c81af8f16f680a3cfd5c25f
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-09-22 16:42:14-04:00;6c8963b9a74c03b66c81af8f16f680a3cfd5c25f
+models.py;ResponsesMockAWSdisable_patching(self);2;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;Subnetrequest_ip(self,ip,instance);1;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;Subnetdel_subnet_ip(self,ip);1;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;Instance__del__(self);1;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;Clusterto_json(self);1;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;FakeBucketset_lifecycle(self,rules);1;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;SQSBackendcreate_queue(self,name);2;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79
+models.py;ResponsesMockAWSdisable_patching(self);2;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;Subnetrequest_ip(self,ip,instance);1;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;Subnetdel_subnet_ip(self,ip);1;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;Instance__del__(self);1;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;Clusterto_json(self);1;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;FakeBucketset_lifecycle(self,rules);1;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;SQSBackendcreate_queue(self,name);2;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61
+models.py;ResponsesMockAWSdisable_patching(self);2;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;Subnetrequest_ip(self,ip,instance);1;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;Subnetdel_subnet_ip(self,ip);1;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;Instance__del__(self);1;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;RedshiftBackenddescribe_tags(self,resource_name,resource_type);1;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;Clusterto_json(self);1;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;SQSBackendcreate_queue(self,name);2;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-10-03 00:40:28-05:00;ea4fcaa82a969ffdc2482fbd18c41cf117e22cc9
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-10-03 00:45:47-05:00;691a8722a898edaa824d941a79a11a7e6f6627dd
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-10-03 01:11:11-05:00;9b5f983cb5b4f02a9d7d0842f4f73e01bcab671b
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-10-03 01:26:09-05:00;a1a8ac7286ab30c2888b879bc16ecd2bd91dd1d7
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-10-04 10:25:16-05:00;5b3b52752de5b4edca796c33d9dfd46b99c24a82
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-10-15 01:00:03-04:00;87e7c7df487d8b8b65b96c78208ee4511c78423b
+models.py;ResponsesMockAWSdisable_patching(self);2;Jordan Guymon;jogu.sd@gmail.com;2018-09-06 15:15:27-07:00;8e909f580a13bc87e6281cea8d44c8ccf32cc2ac
+models.py;ResponsesMockAWSdisable_patching(self);2;Jordan Guymon;jogu.sd@gmail.com;2018-10-01 09:45:12-07:00;fd4e5248559545a9c559cc42b263a9b61970c9c1
+models.py;ResponsesMockAWSdisable_patching(self);2;Lorenz Hufnagel;lhufnag@amazon.com;2018-10-14 19:58:56+02:00;b20e190995ed469244da3a7e556d76aeaf0cdfa5
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Lorenz Hufnagel;lhufnag@amazon.com;2018-10-14 19:58:56+02:00;b20e190995ed469244da3a7e556d76aeaf0cdfa5
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;jamesandres;james.andres@gmail.com;2018-10-31 11:39:49+00:00;e38eea751f55d2e139f3271a73f69d35ff64129b
+models.py;SQSBackendcreate_queue(self,name);2;jamesandres;james.andres@gmail.com;2018-10-31 11:39:49+00:00;e38eea751f55d2e139f3271a73f69d35ff64129b
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-11-04 17:26:57-05:00;0fc00e2a3be74e4954227c413a75a89707e080d8
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2018-11-04 17:26:57-05:00;0fc00e2a3be74e4954227c413a75a89707e080d8
+models.py;Subnetrequest_ip(self,ip,instance);1;Mark Challoner;mark.challoner@smarkets.com;2018-11-14 12:03:42+00:00;6e6f23a1b0b7f4c9bce4060b5d32433c776c2dba
+models.py;Subnetdel_subnet_ip(self,ip);1;Mark Challoner;mark.challoner@smarkets.com;2018-11-14 12:03:42+00:00;6e6f23a1b0b7f4c9bce4060b5d32433c776c2dba
+models.py;Instance__del__(self);1;Mark Challoner;mark.challoner@smarkets.com;2018-11-14 12:03:42+00:00;6e6f23a1b0b7f4c9bce4060b5d32433c776c2dba
+models.py;ResponsesMockAWSdisable_patching(self);2;Lorenz Hufnagel;lhufnag@amazon.com;2018-11-16 12:23:39+01:00;cf5bd7665cff971b8f0e470e96773bcbe1e5ad36
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Lorenz Hufnagel;lhufnag@amazon.com;2018-11-16 12:23:39+01:00;cf5bd7665cff971b8f0e470e96773bcbe1e5ad36
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Michaelchuck;jmichaelchuck@tableau.com;2018-11-22 06:08:03-06:00;fb7e52beccd5cc15e10823630de3d99e1a998ba4
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Michaelchuck;jmichaelchuck@tableau.com;2018-11-22 06:16:37-06:00;69e093fcea48e76eb434e84965343f66d4a8babe
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Ka Wai Wan;kawaiwan@yelp.com;2018-11-24 02:32:39-08:00;df2120f38ca4fed270255955aefffed072071e02
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Ka Wai Wan;kawaiwan@yelp.com;2018-11-24 02:32:39-08:00;df2120f38ca4fed270255955aefffed072071e02
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Michaelchuck;jmichaelchuck@tableau.com;2018-11-26 15:56:46-08:00;009b02bcd521626996d38d4983d02a4cf3d890de
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Craig Anderson;craiga@craiga.id.au;2018-11-27 15:31:56+00:00;96ed66c08d384fd3543804adf43253a2b61a5a79
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Craig Anderson;craiga@craiga.id.au;2018-11-27 15:31:56+00:00;96ed66c08d384fd3543804adf43253a2b61a5a79
+models.py;ResponsesMockAWSdisable_patching(self);2;Jon Beilke;jrbeilke@gmail.com;2018-12-06 11:46:14-06:00;9cdc4d45f54133154b9588b65bd39d1194590487
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Jon Beilke;jrbeilke@gmail.com;2018-12-06 11:46:14-06:00;9cdc4d45f54133154b9588b65bd39d1194590487
+models.py;FakeBucketset_lifecycle(self,rules);1;Jon Beilke;jrbeilke@gmail.com;2018-12-06 11:46:14-06:00;9cdc4d45f54133154b9588b65bd39d1194590487
+models.py;Subnetrequest_ip(self,ip,instance);1;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-12-06 12:18:59-06:00;a744adbcc5f3ca88aed521bd6b4e5c02e95687ad
+models.py;Subnetdel_subnet_ip(self,ip);1;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-12-06 12:18:59-06:00;a744adbcc5f3ca88aed521bd6b4e5c02e95687ad
+models.py;Instance__del__(self);1;Jon Beilke;Jonathan.Beilke@windlogics.com;2018-12-06 12:18:59-06:00;a744adbcc5f3ca88aed521bd6b4e5c02e95687ad
+models.py;FakeBucketset_lifecycle(self,rules);1;Diego Argueta;diego@goodrx.com;2018-12-18 14:08:37-08:00;b0a280bde2c7a722c8d7e1b278c3b458781ecf6d
+models.py;FakeBucketset_lifecycle(self,rules);1;Diego Argueta;620513-dargueta@users.noreply.github.com;2018-12-20 00:34:04-08:00;f15f006f7834ab69a5ee38ae30955fdc3863562e
+models.py;FakeBucketset_lifecycle(self,rules);1;Diego Argueta;diego@goodrx.com;2018-12-20 11:15:15-08:00;191ad6d778c9f0769726dac312032c86bbbb48f4
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-12-28 19:24:16-05:00;3a98d2cd033301bbfd2c1a5b00b80cdd74c721bf
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-12-28 19:50:34-05:00;0c5010989a6089770ec9decd2d64df9c811ac3d8
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 19:50:34-05:00;0c5010989a6089770ec9decd2d64df9c811ac3d8
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-12-28 19:50:34-05:00;0c5010989a6089770ec9decd2d64df9c811ac3d8
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:02:53-05:00;fd734fec49787ef277cf793d313d65e8d85acca5
+models.py;SQSBackendcreate_queue(self,name);2;Steve Pulec;spulec@gmail.com;2018-12-28 20:02:53-05:00;fd734fec49787ef277cf793d313d65e8d85acca5
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-12-28 20:14:26-05:00;ca2950f5e2af823a0586bf2b05485854ee5ef278
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:14:26-05:00;ca2950f5e2af823a0586bf2b05485854ee5ef278
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:40:51-05:00;f155028d27ba1e32f9568cf70e759786d4af0bc5
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:40:51-05:00;f155028d27ba1e32f9568cf70e759786d4af0bc5
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:40:51-05:00;f155028d27ba1e32f9568cf70e759786d4af0bc5
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2
+models.py;SQSBackendcreate_queue(self,name);2;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:44-05:00;e020d3222c2d866e9c2e1821b6c644bd746fad6f
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:44-05:00;e020d3222c2d866e9c2e1821b6c644bd746fad6f
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;SQSBackendcreate_queue(self,name);2;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;SQSBackendcreate_queue(self,name);2;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:42-05:00;e9cff5c915306f8b5d84fec52db96f9e1d229256
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:18:41-05:00;302744242a9f7ad5f4c4d2d52c0e7e4052f34806
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:18:41-05:00;302744242a9f7ad5f4c4d2d52c0e7e4052f34806
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:22:28-05:00;93f68090e391b3eb22304863f123bb5755944020
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:22:28-05:00;93f68090e391b3eb22304863f123bb5755944020
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:22:28-05:00;93f68090e391b3eb22304863f123bb5755944020
+models.py;FakeLaunchConfigurationdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;FakeAutoScalingGroupdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;ResponsesMockAWSdisable_patching(self);2;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;BotocoreEventMockAWSdisable_patching(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;Subnetrequest_ip(self,ip,instance);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;Subnetdel_subnet_ip(self,ip);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;Instance__del__(self);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;SQSBackenduntag_queue(self,queue_name,tag_keys);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;SQSBackendcreate_queue(self,name);2;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;SimpleSystemManagerBackenddelete_parameters(self,names);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;SimpleSystemManagerBackenddelete_parameter(self,name);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18
+models.py;FakeBucketset_lifecycle(self,rules);1;Steve Pulec;spulec@gmail.com;2018-12-28 21:29:19-05:00;97d9d4677005d71d6b9bd958b026d0cebd02cdfb
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Jacob Grismo;jacobagriswold@gmail.com;2018-12-28 23:05:25-05:00;7b008ded3e1be9966909d08c739ccb809d3ceb1b
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Steve Pulec;spulec@gmail.com;2019-01-06 17:22:52-05:00;850496f29a66b109b87f9d26d4c5b8456b3b195f
+models.py;Subnetrequest_ip(self,ip,instance);1;acsbendi;acsbendi28@gmail.com;2019-01-15 17:36:10+01:00;22288ef83b32e32d221c129fe1206e0aae38fe43
+models.py;Subnetdel_subnet_ip(self,ip);1;acsbendi;acsbendi28@gmail.com;2019-01-15 17:36:10+01:00;22288ef83b32e32d221c129fe1206e0aae38fe43
+models.py;Instance__del__(self);1;acsbendi;acsbendi28@gmail.com;2019-01-15 17:36:10+01:00;22288ef83b32e32d221c129fe1206e0aae38fe43
+models.py;Subnetrequest_ip(self,ip,instance);1;acsbendi;acsbendi28@gmail.com;2019-01-15 17:37:22+01:00;ca5a8033e54ac049448c4c36394d80c588640668
+models.py;Subnetdel_subnet_ip(self,ip);1;acsbendi;acsbendi28@gmail.com;2019-01-15 17:37:22+01:00;ca5a8033e54ac049448c4c36394d80c588640668
+models.py;Instance__del__(self);1;acsbendi;acsbendi28@gmail.com;2019-01-15 17:37:22+01:00;ca5a8033e54ac049448c4c36394d80c588640668
+models.py;Subnetrequest_ip(self,ip,instance);1;acsbendi;acsbendi28@gmail.com;2019-01-21 13:30:22+01:00;3c5ce6c09ef4765c61ed599507a807a88ce056c3
+models.py;Subnetdel_subnet_ip(self,ip);1;acsbendi;acsbendi28@gmail.com;2019-01-21 13:30:22+01:00;3c5ce6c09ef4765c61ed599507a807a88ce056c3
+models.py;Instance__del__(self);1;acsbendi;acsbendi28@gmail.com;2019-01-21 13:30:22+01:00;3c5ce6c09ef4765c61ed599507a807a88ce056c3
+models.py;Subnetrequest_ip(self,ip,instance);1;acsbendi;acsbendi28@gmail.com;2019-01-21 15:36:49+01:00;68b8e6b636b74cd20dd5d2c769e617527472b31f
+models.py;Subnetdel_subnet_ip(self,ip);1;acsbendi;acsbendi28@gmail.com;2019-01-21 15:36:49+01:00;68b8e6b636b74cd20dd5d2c769e617527472b31f
+models.py;Instance__del__(self);1;acsbendi;acsbendi28@gmail.com;2019-01-21 15:36:49+01:00;68b8e6b636b74cd20dd5d2c769e617527472b31f
+models.py;Subnetrequest_ip(self,ip,instance);1;David Morrison;drmorr@yelp.com;2019-01-23 15:59:31-08:00;b4b63202d9bb4879db151c38a778692f23ab8f05
+models.py;Subnetdel_subnet_ip(self,ip);1;David Morrison;drmorr@yelp.com;2019-01-23 15:59:31-08:00;b4b63202d9bb4879db151c38a778692f23ab8f05
+models.py;Instance__del__(self);1;David Morrison;drmorr@yelp.com;2019-01-23 15:59:31-08:00;b4b63202d9bb4879db151c38a778692f23ab8f05
+models.py;Subnetrequest_ip(self,ip,instance);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-01 11:46:25-08:00;8d17271ee4f9db837da3f60076ef623612b6682b
+models.py;Subnetdel_subnet_ip(self,ip);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-01 11:46:25-08:00;8d17271ee4f9db837da3f60076ef623612b6682b
+models.py;Instance__del__(self);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-01 11:46:25-08:00;8d17271ee4f9db837da3f60076ef623612b6682b
+models.py;Subnetrequest_ip(self,ip,instance);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-01 11:47:36-08:00;d652755f3bc1dfde0fdf843e678582cb678c12ea
+models.py;Subnetdel_subnet_ip(self,ip);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-01 11:47:36-08:00;d652755f3bc1dfde0fdf843e678582cb678c12ea
+models.py;Instance__del__(self);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-01 11:47:36-08:00;d652755f3bc1dfde0fdf843e678582cb678c12ea
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;William Rubel;rubelw@Williams-MacBook-Pro.local;2019-02-16 09:27:23-06:00;4c6f08d463afca69113a8d6b4beb6fd110fa42d0
+models.py;LambdaBackenduntag_resource(self,resource,tagKeys);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-25 09:58:55-08:00;7f0b1d679591a6b69f5d620b2b0ff0a311ed7582
+models.py;Subnetrequest_ip(self,ip,instance);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-25 12:16:40-08:00;09855801ba323326db1a745c4ddd6178749d95d4
+models.py;Subnetdel_subnet_ip(self,ip);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-25 12:16:40-08:00;09855801ba323326db1a745c4ddd6178749d95d4
+models.py;Instance__del__(self);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-25 12:16:40-08:00;09855801ba323326db1a745c4ddd6178749d95d4
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Chih-Hsuan Yen;yan12125@gmail.com;2019-03-01 19:22:26+08:00;9992e23e68fb7f9fb8e07a163d89069aaf662096
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Mark Challoner;mark.challoner@smarkets.com;2019-02-27 10:54:55+00:00;d61ce0584bf53640409b1011e9e46a589a21dab0
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Mark Challoner;mark.challoner@smarkets.com;2019-02-27 10:54:55+00:00;d61ce0584bf53640409b1011e9e46a589a21dab0
+models.py;AWSCertificateManagerBackendremove_tags_from_certificate(self,arn,tags);1;Mike Grima;mikegrima@users.noreply.github.com;2019-03-02 13:31:31-08:00;b4fcbd79d8bdd3bd834c83cbb1d8782ddd50760e
+models.py;FakeBucketset_lifecycle(self,rules);1;Gilbert Gilb's;gilbsgilbert@gmail.com;2019-03-08 22:01:27+01:00;dedb53371e00895a5b0b96ad7e233a0f3fe83edf
+models.py;RecordSetdelete_from_cloudformation_json(cls,resource_name,cloudformation_json,region_name);1;Mike Grima;mikegrima@users.noreply.github.com;2019-03-11 13:50:37-07:00;87a54b9d811b06f9ad0e774c8ee7ce9f02a95853
+models.py;FakeBucketset_lifecycle(self,rules);1;Mike Grima;mikegrima@users.noreply.github.com;2019-03-11 14:13:26-07:00;6ecb840c612d08b83541d2f786d76adb962e6af1
