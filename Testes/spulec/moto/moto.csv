@@ -1,0 +1,182 @@
+Filename;Linha;Tipo;Autor;Email;Data;Hash;Commit
+test_server.py;12;ADD;Steve Pulec;spulec@gmail.com;2013-03-05 08:14:43-05:00;a728b2581a139a1db83610a78020b83772490880;"Adding server mode"
+utils.py;55;ADD;Richard Eames;reames@asymmetricventures.com;2014-06-27 15:37:51-06:00;e972000bb4aa9aee2bffdc0c5d27bef2ed6a0aab;"Keep track of previous versions of keys"
+utils.py;62;ADD;Richard Eames;reames@asymmetricventures.com;2014-06-27 15:37:51-06:00;e972000bb4aa9aee2bffdc0c5d27bef2ed6a0aab;""
+utils.py;55;ADD;Steve Pulec;spulec@gmail.com;2014-06-29 22:07:24-04:00;50fae3035f6a05fbe7a19f21beeff318b352e2fa;"Merge pull request #143 from AsymmetricVentures/bucket_versioning  Added basic implementation of key/bucket versioning"
+utils.py;62;ADD;Steve Pulec;spulec@gmail.com;2014-06-29 22:07:24-04:00;50fae3035f6a05fbe7a19f21beeff318b352e2fa;""
+parsing.py;90;ADD;Joseph Lawson;joe@joekiller.com;2014-10-21 14:51:26-04:00;20a69255c30f5d327052ba732f262a29c2af883a;"tweak Fn::GetAtt to return resource_json if resource is not implemented. DRY  This is better than failing out with a misleading Boto 400 error which should only happen when get_cfn_attribute is called but fails."
+parsing.py;89;DELETED;Joseph Lawson;joe@joekiller.com;2014-10-21 21:58:39-04:00;184d5be54ab67a42c83ef0100a1a34c9d98b9508;"remove debug exception catch"
+__init__.py;39;ADD;Steve Pulec;spulec@gmail.com;2016-03-02 15:20:35-05:00;75a40e45710a9ebadfd78e1892789042ba1969d4;"Wrap botocore patching in tyr/except since we do not require it to be installed."
+__init__.py;39;ADD;Steve Pulec;spulec@gmail.com;2016-03-02 15:39:49-05:00;630c6686512237390db8d4fb2324793eea992ca5;"Merge pull request #556 from spulec/fixboto  Fixboto"
+models.py;94;ADD;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235;"Fix merge conflicts and add EC2 Instance delete. Closes #576."
+models.py;198;ADD;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235;""
+parsing.py;388;ADD;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235;""
+parsing.py;407;ADD;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235;""
+models.py;124;ADD;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235;""
+models.py;106;ADD;Steve Pulec;spulec@gmail.com;2016-04-28 09:21:54-04:00;a600deb96a2391454ac913d8731469e2e2e91235;""
+parsing.py;409;ADD;Hitesh Ghia;hghia@splunk.com;2016-06-07 13:31:42-07:00;d8baa957e917bcb559bbac70b5884b5a6177923f;"Fix cfn delete stack functionality"
+parsing.py;409;DELETED;Hitesh Ghia;hghia@splunk.com;2016-06-07 13:31:42-07:00;d8baa957e917bcb559bbac70b5884b5a6177923f;""
+parsing.py;409;ADD;Steve Pulec;spulec@gmail.com;2016-06-17 18:03:23-04:00;b6d7260f7fa1a72c5191d678db6dda9d29cc116d;"Merge pull request #634 from SplunkStorm/fix_cfn_error_message_and_delete_stack  Fix cfn error message and delete stack"
+parsing.py;409;DELETED;Steve Pulec;spulec@gmail.com;2016-06-17 18:03:23-04:00;b6d7260f7fa1a72c5191d678db6dda9d29cc116d;""
+responses.py;60;ADD;mfranke;2mf@users.noreply.github.com;2016-11-24 02:05:34+01:00;040c2cd8cc241d80e8878be12f2f6cf004a0d9da;"Fix s3bucketpath handling for IP based requests (#765)  * check HTTP header for IPv4 or IPv6 addresses and default to path based S3  * improved IPv4 and IPv6 checking with optional ports  * typo"
+responses.py;69;ADD;mfranke;2mf@users.noreply.github.com;2016-11-24 02:05:34+01:00;040c2cd8cc241d80e8878be12f2f6cf004a0d9da;""
+responses.py;64;DELETED;mfranke;2mf@users.noreply.github.com;2016-12-04 00:15:24+01:00;5dc8e59fab9bd2009437914cb574b1c479239d8b;"Fix s3bucket_path (#784)  * check HTTP header for IPv4 or IPv6 addresses and default to path based S3  * improved IPv4 and IPv6 checking with optional ports  * typo  * subdomain bucket creation with trailing '/' did not work  * Use regex for Host field check to determine IPv4/IPv6  * add testcases for trailing slash, IPv4 and IPv6"
+responses.py;73;DELETED;mfranke;2mf@users.noreply.github.com;2016-12-04 00:15:24+01:00;5dc8e59fab9bd2009437914cb574b1c479239d8b;""
+models.py;144;ADD;Steve Pulec;spulec@gmail.com;2017-02-15 22:35:45-05:00;fde721bed7db62ad289c13667e428bbfb1399aa1;"Testing new version of decorator."
+core.py;174;ADD;Steve Pulec;spulec@gmail.com;2017-02-15 22:35:45-05:00;fde721bed7db62ad289c13667e428bbfb1399aa1;""
+http.py;152;ADD;Steve Pulec;spulec@gmail.com;2017-02-15 22:35:45-05:00;fde721bed7db62ad289c13667e428bbfb1399aa1;""
+responses.py;285;ADD;Steve Pulec;spulec@gmail.com;2017-02-15 22:45:20-05:00;678f73389fd8ce7d1383620ff1e3587f80c6662f;"Fix package being submodule."
+models.py;149;ADD;Steve Pulec;spulec@gmail.com;2017-02-20 14:31:19-05:00;51df02e7cf922d17e3fcb34993ada166444f11cd;"Cleanup Server host parsing."
+models.py;148;DELETED;Steve Pulec;spulec@gmail.com;2017-02-20 14:31:19-05:00;51df02e7cf922d17e3fcb34993ada166444f11cd;""
+responses.py;370;ADD;Steve Pulec;spulec@gmail.com;2017-03-11 22:45:42-05:00;1709208872b59e937dee4b82f25c7d1f9bb9c66d;"First version of dashboard."
+responses.py;370;ADD;Steve Pulec;spulec@gmail.com;2017-03-12 20:26:42-04:00;5807a38092553360cf7024214453ba5c56ee7a8e;"Merge pull request #858 from spulec/dashboard  Add a dashboard"
+models.py;46;ADD;Michael van Tellingen;michael@mvantellingen.nl;2017-04-18 19:09:10+02:00;783a1d73b4ce31ee80ccd45931bcf9b08aa72b3e;"Implement support for SSM parameter store  This commit adds initial support for the Simple System Manager client.  It currently only mocks the following api endpoints:  - delete_parameter()  - put_parameter()  - get_parameters()"
+models.py;46;ADD;Steve Pulec;spulec@gmail.com;2017-05-10 20:53:32-04:00;0934b43b76e83238e93a525d57fde7e2c31939ba;"Merge pull request #907 from mvantellingen/ssm  Implement support for SSM parameter store"
+models.py;148;ADD;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611;"Merge remote-tracking branch 'spulec/master'"
+responses.py;392;ADD;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611;""
+core.py;175;ADD;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611;""
+http.py;152;ADD;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611;""
+responses.py;286;ADD;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611;""
+responses.py;60;DELETED;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611;""
+responses.py;69;DELETED;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611;""
+models.py;46;ADD;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611;""
+responses.py;342;ADD;Steve Pulec;spulec@gmail.com;2017-06-03 19:29:59-04:00;113bfcb4eacaa3346e28f1e5103928aaa4c47c83;"Fix duplicate bucket creation with LocationConstraint. Closes #970."
+models.py;148;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd;"Merge remote-tracking branch 'spulec/master'"
+responses.py;392;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd;""
+core.py;179;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd;""
+http.py;152;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd;""
+responses.py;294;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd;""
+responses.py;349;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd;""
+models.py;52;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd;""
+models.py;61;ADD;Ali Rizwan;ari@hellofresh.com;2017-08-11 15:19:36+02:00;d8b0df2bef12787058a4b6a2c984f8f3a9e3ad44;"Added support for SSM delete_parameters  Signed-off-by: Ali Rizwan <ari@hellofresh.com>"
+models.py;61;ADD;Jack Danger;github@jackcanty.com;2017-08-13 23:47:03-07:00;d22671a756201de40b8ded4114ce191982c655c7;"Merge pull request #1049 from aleerizw/feature/add_ssm_delete_parameters  Added support for SSM delete_parameters"
+models.py;317;ADD;aohara-admin;aohara@prontoforms.com;2017-09-13 15:00:39-04:00;98f95dd4a7c656a258f0e16afed95b69aafefad2;"add Lambda tag_resource, untag_resource,  and list_tags methods"
+models.py;317;ADD;Jack Danger;github@jackcanty.com;2017-09-13 15:21:21-07:00;11b7284b830ed4a51156e798ae4149135e9915f2;"Merge pull request #1135 from oharaandrew314/lambda-tags  add Lambda tag_resource, untag_resource, and list_tags methods"
+models.py;317;ADD;Chris Keogh;chris.keogh@xero.com;2017-09-14 14:06:05+12:00;c20d3650211bb57354f874cb9d473cba93b683f2;"fix merge conflicts"
+responses.py;531;ADD;Terry Cain;terry@terrys-home.co.uk;2017-09-20 20:56:37+01:00;f7f80293c7a21a6df859dfa0cc35ae1641dcba5e;"Implemented OptInPhoneNumber + Tests"
+responses.py;556;ADD;Terry Cain;terry@terrys-home.co.uk;2017-09-20 21:13:26+01:00;ef8a97f6c35b63bfb6c7c9a0b10c6b9e94faffc2;"Implemented Add/RemovePermission + Tests"
+models.py;235;ADD;Terry Cain;terry@terrys-home.co.uk;2017-09-22 00:20:26+01:00;283b67cb9bbb8e9d4f1a4fb87c469d701010862c;"Added nearly all ACM method implementations  Added cryptography>=2.0.0 to install deps Created base backend and certificate objects Implemented most of the methods Added pregenerated certs"
+responses.py;531;ADD;Jack Danger;github@jackcanty.com;2017-09-21 22:30:32-07:00;4213f88c6b7ed77920e72940105fd00bcbc4d323;"Merge pull request #1166 from terrycain/sns_full  Complete SNS API"
+responses.py;564;ADD;Jack Danger;github@jackcanty.com;2017-09-21 22:30:32-07:00;4213f88c6b7ed77920e72940105fd00bcbc4d323;""
+models.py;289;ADD;Terry Cain;terry@terrys-home.co.uk;2017-09-22 20:37:32+01:00;81e615f5c1bd3cc4ae1baae11bcefa6a88575c84;"Fixed conflicting arguments"
+models.py;289;ADD;Jack Danger;github@jackcanty.com;2017-09-22 13:23:20-07:00;d69221992758e8fcced467c7b1c7cbd5f5a2d671;"Merge pull request #1180 from terrycain/sqs_improvement  SQS Cleanup, and fix #1105"
+models.py;289;ADD;Terry Cain;terry@terrys-home.co.uk;2017-09-22 23:56:43+01:00;a401b4f36d003a4b669f67b6f09c66f28fc17237;"Merge branch 'master' into xray"
+responses.py;531;ADD;Toshiya Kawasaki;kawasakitoshiya@gmail.com;2017-09-23 17:29:18+09:00;aaa5f9ef6b85fa7a4aa1178265565193a6883401;"Merge branch 'master' into feature/scaffold"
+responses.py;564;ADD;Toshiya Kawasaki;kawasakitoshiya@gmail.com;2017-09-23 17:29:18+09:00;aaa5f9ef6b85fa7a4aa1178265565193a6883401;""
+models.py;289;ADD;Toshiya Kawasaki;kawasakitoshiya@gmail.com;2017-09-23 17:29:18+09:00;aaa5f9ef6b85fa7a4aa1178265565193a6883401;""
+responses.py;531;ADD;Chris Keogh;chris.keogh@xero.com;2017-09-25 11:40:02+13:00;631252dd50c27eaa9aff3a5cad69aafdee82eaf9;"Merge branch 'master' of https://github.com/spulec/moto"
+responses.py;564;ADD;Chris Keogh;chris.keogh@xero.com;2017-09-25 11:40:02+13:00;631252dd50c27eaa9aff3a5cad69aafdee82eaf9;""
+models.py;289;ADD;Chris Keogh;chris.keogh@xero.com;2017-09-25 11:40:02+13:00;631252dd50c27eaa9aff3a5cad69aafdee82eaf9;""
+models.py;389;ADD;Jack Danger;github@jackcanty.com;2017-09-25 14:36:08-07:00;8e79fadb0f212e33146dddb007ecdd0c370a2416;"Merge pull request #1174 from terrycain/acm  ACM Implementation"
+models.py;642;ADD;Brian Pandola;bpandola@users.noreply.github.com;2017-09-27 17:18:28-07:00;5bb6b98f6d0364543018b63b61c66e5813964cb9;"Implement Redshift Taggable Resources (#1217)  - Implement create_tags, describe_tags, and delete_tags endpoints - Clusters, Parameter Groups, Security Groups, Snapshots, and Subnet Groups can all be tagged - Test Suite updated - Minor clean-up of restore_from_cluster_snapshot endpoint - Miscellaneous typo fixes"
+models.py;642;ADD;Terry Cain;terry@terrys-home.co.uk;2017-09-29 22:11:15+01:00;ea10c4dfb6be18f9b42ac3ebc87f6427a88f1d8b;"Merge branch 'master' into batch"
+models.py;389;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51;"Merge remote-tracking branch 'spulec/master'"
+models.py;526;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51;""
+models.py;642;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51;""
+responses.py;561;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51;""
+responses.py;594;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51;""
+models.py;289;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51;""
+models.py;61;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-02 12:38:11-07:00;b9bf33209ca6824f6ab75eaf06697cd520982f51;""
+comparisons.py;156;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-07 21:57:14+01:00;c86bece382b50b24a629fd431c6c5a640f546a74;"Added FilterExpression to dynamodb scan"
+comparisons.py;243;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-07 21:57:14+01:00;c86bece382b50b24a629fd431c6c5a640f546a74;""
+comparisons.py;255;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-07 21:57:14+01:00;c86bece382b50b24a629fd431c6c5a640f546a74;""
+comparisons.py;138;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-08 04:18:25+01:00;77fcafca18bd95764d6e0f727dc3122517e06491;"Cleaned up code"
+comparisons.py;138;ADD;Jack Danger;github@jackcanty.com;2017-10-10 13:05:07-07:00;de57abf63fdd34aebfc3af1443444a74afa3f1ea;"Merge pull request #1245 from terrycain/scan_filter_expression  Added overkill FilterExpression to dynamodb scan"
+comparisons.py;177;ADD;Jack Danger;github@jackcanty.com;2017-10-10 13:05:07-07:00;de57abf63fdd34aebfc3af1443444a74afa3f1ea;""
+comparisons.py;267;ADD;Jack Danger;github@jackcanty.com;2017-10-10 13:05:07-07:00;de57abf63fdd34aebfc3af1443444a74afa3f1ea;""
+comparisons.py;279;ADD;Jack Danger;github@jackcanty.com;2017-10-10 13:05:07-07:00;de57abf63fdd34aebfc3af1443444a74afa3f1ea;""
+comparisons.py;138;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-10 13:10:46-07:00;5fe5efdb2d75600c7e5930184908c0b846eb47c1;"Merge remote-tracking branch 'spulec/master'"
+comparisons.py;177;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-10 13:10:46-07:00;5fe5efdb2d75600c7e5930184908c0b846eb47c1;""
+comparisons.py;267;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-10 13:10:46-07:00;5fe5efdb2d75600c7e5930184908c0b846eb47c1;""
+comparisons.py;279;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-10-10 13:10:46-07:00;5fe5efdb2d75600c7e5930184908c0b846eb47c1;""
+comparisons.py;138;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-11 23:02:47+01:00;ddd52a5a97b2e66a49cf95aa924492c5938548ff;"Merge branch 'master' into batch"
+comparisons.py;177;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-11 23:02:47+01:00;ddd52a5a97b2e66a49cf95aa924492c5938548ff;""
+comparisons.py;267;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-11 23:02:47+01:00;ddd52a5a97b2e66a49cf95aa924492c5938548ff;""
+comparisons.py;279;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-11 23:02:47+01:00;ddd52a5a97b2e66a49cf95aa924492c5938548ff;""
+comparisons.py;138;DELETED;Terry Cain;terrycain@users.noreply.github.com;2017-10-16 21:56:03+01:00;2bb3e841d12c5f614971492d241629794f35fe85;"Fixed #1261 dynamodb FilterExpression bugs (#1262)  * Fixed #1261 dynamodb FilterExpression bugs  FilterExpression was incorrectly handling numbers, stupid typo there. Also >= <= and <> was not being parsed correctly.  * Switched up logic a bit for better end result. Fixes #1263  * Fixed another bug"
+comparisons.py;177;DELETED;Terry Cain;terrycain@users.noreply.github.com;2017-10-16 21:56:03+01:00;2bb3e841d12c5f614971492d241629794f35fe85;""
+utils.py;250;ADD;Terry Cain;terrycain@users.noreply.github.com;2017-10-17 01:06:22+01:00;49ddb500a839daaee8b916fb0af365825d66467d;"AWS X-Ray client mock. (#1255)  * X-Ray Client SDK patched  Fixes #1250  * Fixed flake8  * Fixed some issues  * Fixed flake8  * Fixed more typos  * Fixed python2 string  * Fixed aws-sdk patch order  * Added more test cases to test the patching"
+utils.py;284;ADD;Terry Cain;terrycain@users.noreply.github.com;2017-10-17 01:06:22+01:00;49ddb500a839daaee8b916fb0af365825d66467d;""
+utils.py;250;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-19 21:16:40+01:00;d67ef8d1289fd636d76a7a892db03e059a8c59e3;"Merge branch 'master' into batch"
+utils.py;284;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-19 21:16:40+01:00;d67ef8d1289fd636d76a7a892db03e059a8c59e3;""
+comparisons.py;138;DELETED;Terry Cain;terry@terrys-home.co.uk;2017-10-19 21:16:40+01:00;d67ef8d1289fd636d76a7a892db03e059a8c59e3;""
+comparisons.py;177;DELETED;Terry Cain;terry@terrys-home.co.uk;2017-10-19 21:16:40+01:00;d67ef8d1289fd636d76a7a892db03e059a8c59e3;""
+responses.py;286;ADD;Toshiya Kawasaki;kawasakitoshiya@gmail.com;2017-10-25 03:45:39+09:00;56793a3b2a54879b9a7e1a555faf957e9fa6d7dc;"Fix scaffold to support rest-json style API (#1291)  * append appropriate urls when scaffolding  * make dispatch for rest-api  * fix dispatch for rest-json  * fix moto/core/response to obtain path and body parameters  * small fixes  * remove unused import  * fix get_int_param  * fix scaffold  * fix formatting of scaffold  * fix misc  * escape service to handle service w/ hyphen like iot-data  * escape service w/ hyphen  * fix regexp to extract region from url  * escape service  * fix syntax  * skip loading body to json object when request body is None"
+responses.py;288;ADD;Toshiya Kawasaki;kawasakitoshiya@gmail.com;2017-10-25 03:45:39+09:00;56793a3b2a54879b9a7e1a555faf957e9fa6d7dc;""
+models.py;2243;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-24 23:57:43+01:00;5b0e463554c9afb5919e006ee73f6ef476b277fe;"Fixed a few ip issues  Fixes #1175"
+responses.py;28;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-25 20:04:00+01:00;62a2d8f75692329bac4b694e41a4fdd197dcde76;"Improved lambda timings"
+responses.py;28;DELETED;Terry Cain;terry@terrys-home.co.uk;2017-10-25 20:14:39+01:00;596bf84480464020b6431168c81baa59cae9be12;"Fixed typo"
+models.py;2247;ADD;Jack Danger;github@jackcanty.com;2017-10-28 03:48:16+02:00;d187942eeb2efa3376ed4273a21bb1eb57a92c24;"Merge pull request #1304 from terrycain/ec2_instance_ip_improvement  Fixed a few ip issues"
+models.py;504;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-29 18:59:40+00:00;75f0deb8289dbd21dc377d164995765042b4623a;"Completed SQS Implementation"
+models.py;2247;ADD;Terry Cain;terry@terrys-home.co.uk;2017-10-29 19:26:27+00:00;c4273c9da185564dddc8192371394c5fef84f576;"Merge branch 'master' into lotsa_stuff"
+models.py;504;ADD;Steve Pulec;spulec@gmail.com;2017-11-04 15:15:20-04:00;adf41244cd3a710ba1c3f785b93873223cf9fdc2;"Merge pull request #1316 from terrycain/lotsa_stuff  Lotsa stuff"
+responses.py;286;ADD;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838;"Merge branch 'master' into jack/validate-protocol-on-target-group-creation"
+responses.py;288;ADD;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838;""
+models.py;2247;ADD;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838;""
+models.py;504;ADD;Terry Cain;terrycain@users.noreply.github.com;2017-11-05 01:58:40+00:00;c186733129dc9adf50f7f4a6b51d946202051838;""
+get_amis.py;37;ADD;Terry Cain;terrycain@users.noreply.github.com;2017-11-12 11:18:25+00:00;bd8c1e456737f395468c26e61b2815a4d608ec65;"adding owner id to amis v2 (#1331)  * Adding owner-id/OwnerId to the AMI classes to allow the value to be specified to test filtering images based on owner.  * Added default AMIs and filtering by owner-id  * Fixed some tests  * Fixed more random tests  * Updated MANIFEST  * ."
+models.py;659;ADD;Terry Cain;terrycain@users.noreply.github.com;2017-11-26 21:28:28+00:00;d5ee48eedd0c9324ba6510f66634d31626bef68b;"Lambda improvements (#1344)  * Revamped the lambda function storage to do versioning.  * Flake8  * .  * Fixes  * Swapped around an if"
+models.py;532;DELETED;Terry Cain;terrycain@users.noreply.github.com;2017-11-26 21:28:28+00:00;d5ee48eedd0c9324ba6510f66634d31626bef68b;""
+models.py;659;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;"Merge remote-tracking branch 'spulec/master'"
+models.py;527;DELETED;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+responses.py;286;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+responses.py;288;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+utils.py;250;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+utils.py;281;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+comparisons.py;138;DELETED;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+comparisons.py;177;DELETED;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+models.py;2283;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+models.py;504;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+get_amis.py;37;ADD;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a;""
+models.py;240;ADD;captainkerk;jrkerkstra@gmail.com;2018-01-28 03:27:06+00:00;92798b9a9fef52f5a79d5cd0b3ea48d2310d2ee7;"improve error handling"
+models.py;240;ADD;Steve Pulec;spulec@gmail.com;2018-03-06 22:10:29-05:00;ddba69982ef84fb033165f0454ba9d614939f935;"Merge pull request #1451 from captainkerk/redshift-add-cross-region-snapshots  Redshift: Add Cross Region Snapshot Functionality"
+models.py;242;ADD;Steve Pulec;spulec@gmail.com;2018-03-06 22:11:34-05:00;8a0cf49b7d552795bdb8b5854c1084a07bc46620;"Merge branch 'master' into redshift-copy-grants"
+models.py;422;ADD;Mike Grima;mikegrima@users.noreply.github.com;2018-04-02 14:19:14-07:00;4184acc0d27b584a921939fb85467cebf27bb025;"Added Filtering support for S3 lifecycle (#1535)  * Added Filtering support for S3 lifecycle  Also added `ExpiredObjectDeleteMarker`.  closes #1533 closes #1479  * Result set no longer contains "Prefix" if "Filter" is set."
+models.py;149;DELETED;Steve Pulec;spulec@gmail.com;2018-04-05 16:57:43-04:00;cd1c6d3e6c3c80bf55fbfd6a657ba642c6fb4e3f;"Unvendor responses, move back to upstream."
+responses.py;294;DELETED;Steve Pulec;spulec@gmail.com;2018-04-05 16:57:43-04:00;cd1c6d3e6c3c80bf55fbfd6a657ba642c6fb4e3f;""
+models.py;149;DELETED;Steve Pulec;spulec@gmail.com;2018-04-06 08:49:13-04:00;774de0d54db89d9f528d5400f2121feee1839cfc;"Merge pull request #1553 from spulec/upgrade-responses  Unvendor responses, move back to upstream"
+responses.py;294;DELETED;Steve Pulec;spulec@gmail.com;2018-04-06 08:49:13-04:00;774de0d54db89d9f528d5400f2121feee1839cfc;""
+models.py;211;ADD;Steve Pulec;spulec@gmail.com;2018-04-06 09:26:47-04:00;2ee484990d4980cc975f5f5d593ceff04d897d4f;"Catch RuntimeError on unpatching in case of multiple unpatching."
+models.py;216;ADD;Steve Pulec;spulec@gmail.com;2018-04-06 09:26:47-04:00;2ee484990d4980cc975f5f5d593ceff04d897d4f;""
+models.py;216;ADD;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577;"Merge remote-tracking branch 'spulec/master'"
+responses.py;294;DELETED;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577;""
+models.py;248;ADD;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577;""
+models.py;422;ADD;Alexander Mohr;thehesiod@hotmail.com;2018-05-02 22:38:45-07:00;22b0298ff9a3fab68fb5e02555a5dcea43d6e577;""
+implementation_coverage.py;72;ADD;Stephan Huber;stephan.huber@solutions.endress.com;2018-05-09 09:21:15+02:00;af7ac58d829d1680cbcc6a84ae686903ebb2e7e4;"Fixes #1633"
+implementation_coverage.py;72;ADD;Steve Pulec;spulec@gmail.com;2018-06-01 07:31:15-04:00;0f816566df3aefc20b9054e4dc9f7ca7373bc6f6;"Merge pull request #1634 from sthuber90/master  Fixes #1624 and closes #1633"
+models.py;390;ADD;Nathan Sutton;nate@zencoder.com;2018-08-08 21:10:13-05:00;8393c7f20be1395fcd1f8d3ccc19e946d679ee0b;"Don't error on double create queue with same attrs  Creating a queue a second time with the same attributes should not raise an error. This change makes it work correctly."
+core.py;106;ADD;Chih-Hsuan Yen;yan12125@gmail.com;2018-07-24 21:11:35+08:00;354d48fb8da739ee7134df41ff55128b2842e821;"Fix HTTPretty on Python 3.7  This is a revised backport of https://github.com/gabrielfalcao/HTTPretty/commit/5776d97da3992b9071db5e21faf175f6e8729060 and the following fixup https://github.com/gabrielfalcao/HTTPretty/pull/341"
+core.py;1022;ADD;Chih-Hsuan Yen;yan12125@gmail.com;2018-07-24 21:11:35+08:00;354d48fb8da739ee7134df41ff55128b2842e821;""
+core.py;1075;ADD;Chih-Hsuan Yen;yan12125@gmail.com;2018-07-24 21:11:35+08:00;354d48fb8da739ee7134df41ff55128b2842e821;""
+models.py;390;ADD;Steve Pulec;spulec@gmail.com;2018-09-22 16:36:35-04:00;ec2b278fc8465c3aaf2c4d5573bd5c97cf7bf0ff;"Merge pull request #1765 from nate/fix/double-create-queue-with-redrive-policy  Don't error on double create queue with same attrs"
+core.py;106;ADD;Steve Pulec;spulec@gmail.com;2018-09-22 16:50:50-04:00;74b7634b958c7c3b35a0ff396219ef97967748de;"Merge pull request #1733 from yan12125/py37  Python 3.7 support"
+core.py;1022;ADD;Steve Pulec;spulec@gmail.com;2018-09-22 16:50:50-04:00;74b7634b958c7c3b35a0ff396219ef97967748de;""
+core.py;1075;ADD;Steve Pulec;spulec@gmail.com;2018-09-22 16:50:50-04:00;74b7634b958c7c3b35a0ff396219ef97967748de;""
+core.py;106;ADD;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79;"Merge pull request #4 from spulec/master  Updating"
+core.py;1022;ADD;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79;""
+core.py;1075;ADD;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79;""
+models.py;390;ADD;Daniele Stefano Ferru;ferruvich@gmail.com;2018-09-28 15:07:20+02:00;9c8ecf6ee70a5fc7996ad1452a33a605de639b79;""
+core.py;106;ADD;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61;"Merge remote-tracking branch 'spulec/moto/master' into organizations_support"
+core.py;1022;ADD;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61;""
+core.py;1075;ADD;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61;""
+models.py;390;ADD;Ashley Gould;agould@ucop.edu;2018-09-28 08:52:22-07:00;95700d6631b34bba77376213e0819b012d8fcd61;""
+core.py;106;ADD;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb;"Merge pull request #1 from spulec/master  Pull latest changes from upstream (version 1.3.6)"
+core.py;1022;ADD;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb;""
+core.py;1075;ADD;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb;""
+models.py;390;ADD;Jon Beilke;jrbeilke@gmail.com;2018-10-01 11:37:43-05:00;fe9b312fd20fa324ae8b95c6bebb3e2e4ca003cb;""
+models.py;339;ADD;Lorenz Hufnagel;lhufnag@amazon.com;2018-10-14 19:58:56+02:00;b20e190995ed469244da3a7e556d76aeaf0cdfa5;"Try to get tests running"
+models.py;339;ADD;Steve Pulec;spulec@gmail.com;2018-11-04 17:26:57-05:00;0fc00e2a3be74e4954227c413a75a89707e080d8;"Merge pull request #1907 from lhufnagel/rebased_pr  Get all tests working with latest botocore"
+responses.py;305;ADD;adam davis;christopher.davis@regence.com;2018-11-02 16:04:17-07:00;b66965e6e879a1647ca031448d8536f2e129d2c4;"Adding cloudformation-validate. Cfn-lint does the heavy lifting."
+responses.py;309;ADD;adam davis;christopher.davis@regence.com;2018-11-02 16:04:17-07:00;b66965e6e879a1647ca031448d8536f2e129d2c4;""
+models.py;339;ADD;Jon Beilke;jrbeilke@gmail.com;2018-12-06 11:46:14-06:00;9cdc4d45f54133154b9588b65bd39d1194590487;"Merge pull request #2 from spulec/master  Pull latest from upstream"
+models.py;339;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 19:50:34-05:00;0c5010989a6089770ec9decd2d64df9c811ac3d8;"Merge branch 'master' into jsondiff-1.1.2"
+responses.py;306;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 20:39:00-05:00;8ba1a09c0d192258cb3fdb744a75184ad057c820;"Merge pull request #1921 from adamdavis40208/cloudformation-validate-spike  Adding cloudformation-validate. Cfn-lint does the heavy lifting."
+responses.py;310;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 20:39:00-05:00;8ba1a09c0d192258cb3fdb744a75184ad057c820;""
+responses.py;306;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2;"Merge branch 'master' into master"
+responses.py;310;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 20:49:24-05:00;39c103ec0bcd334f9fb91f51aa53abcacb5ce9e2;""
+responses.py;306;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0;"Merge branch 'master' into master"
+responses.py;310;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 20:57:47-05:00;46bf7f01767bdc745067dbd8c19f68758b5f7ef0;""
+responses.py;306;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435;"Merge branch 'master' into bucket-name-length-limit"
+responses.py;310;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435;""
+responses.py;306;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18;"Merge branch 'master' into idna"
+responses.py;310;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18;""

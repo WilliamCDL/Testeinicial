@@ -1,5 +1,0 @@
-Filename;NomeDeFunc;Quantidade;Autor;Email;Data;Hash
-get_amis.py;;1;Terry Cain;terrycain@users.noreply.github.com;2017-11-12 11:18:25+00:00;bd8c1e456737f395468c26e61b2815a4d608ec65
-get_amis.py;;1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-11-30 13:01:33-08:00;c36f1b6aab438c31c75a262ca9ba863706fc1d7a
-get_amis.py;;1;Andrew Basson;andrew.basson@gmail.com;2018-07-13 11:07:09+02:00;7d201c48b5696cb525975477f119e7de6fe7c78c
-get_amis.py;;1;Stephan Huber;stephan.huber@solutions.endress.com;2018-09-12 11:48:19+02:00;88596518f5c5fb093d1ed8508c3072ad0cd488c8

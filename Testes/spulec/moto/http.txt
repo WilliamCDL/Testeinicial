@@ -1,7 +1,0 @@
-Filename;NomeDeFunc;Quantidade;Autor;Email;Data;Hash
-http.py;last_requestline(sent_data);1;Steve Pulec;spulec@gmail.com;2017-02-15 22:35:45-05:00;fde721bed7db62ad289c13667e428bbfb1399aa1
-http.py;last_requestline(sent_data);1;Peter Gorniak;pgorniak@tidelinedata.com;2017-06-02 13:38:36-07:00;91657a537bc6543ba5bf3c2a76bb9b00b6d2b611
-http.py;last_requestline(sent_data);1;Alexander Mohr;amohr@farmersbusinessnetwork.com;2017-08-10 15:04:30-07:00;46337f95c8621dd510546b33e846480f9d6589bd
-http.py;last_requestline(sent_data);1;William Rubel;rubelw@Williams-MacBook-Pro.local;2019-02-16 20:53:27-06:00;8ad28f8400b6deae46cb666c56758278035a2478
-http.py;last_requestline(sent_data);1;William Rubel;rubelw@Williams-MacBook-Pro.local;2019-02-17 14:30:43-06:00;921a993330a96130b12331f29944d93578a8bd2c
-http.py;last_requestline(sent_data);1;Mike Grima;mikegrima@users.noreply.github.com;2019-02-25 09:58:55-08:00;7f0b1d679591a6b69f5d620b2b0ff0a311ed7582
