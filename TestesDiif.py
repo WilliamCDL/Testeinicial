@@ -6,6 +6,12 @@ if __name__ == "__main__":
     from pydriller import GitRepository
     import re
     repo = GitRepository('~/Downloads/wagtail/')
+    arq = open('repositorios.txt', 'r')
+    urls = []
+    for linha in arq :
+    	urls.append(linha.replace("\n",""))
+    arq.close()
+
     contador0 = 0
     contador1 = 0
     linhaanterior = 0
@@ -19,7 +25,9 @@ if __name__ == "__main__":
     #https://github.com/spulec/moto
     #https://github.com/WilliamCDL/Testeinicial
     print("AuthorDate;Message")
-    for lista in RepositoryMining('https://github.com/spulec/moto', only_modifications_with_file_types=['.py']).traverse_commits():
+
+    
+    for lista in RepositoryMining(path_to_repo=urls, only_modifications_with_file_types=['.py']).traverse_commits():
         jasalvou=False
         for modification in lista.modifications:
             achou == False
@@ -38,7 +46,7 @@ if __name__ == "__main__":
                         	if testestring[0]=="+" or testestring[0]=="-" :
                         		if testestring=="+":
                         			if testestring.endswith("pass") :
-	                        			pasta = 'Testes/spulec/'+lista.project_name+"/"
+	                        			pasta = 'Testes/'+lista.project_name+"/"
 	                        			if os.path.isdir(pasta): # vemos de este diretorio ja existe
 	                        				pass
 	                        			else:
@@ -108,7 +116,7 @@ if __name__ == "__main__":
                         		else:
                         			if testestring.endswith("pass"):
                         				Salvarlista.append(testestring)
-                        				pasta = 'Testes/spulec/'+lista.project_name+"/"
+                        				pasta = 'Testes/'+lista.project_name+"/"
 	                        			if os.path.isdir(pasta): # vemos de este diretorio ja existe
 	                        				pass
 	                        			else:
@@ -206,7 +214,7 @@ if __name__ == "__main__":
 
                                     #auxiliarParaNomeArquivo = modification.filename
                                     #auxiliarParaNomeArquivo = auxiliarParaNomeArquivo.replace('.py', 'csv')
-                                    pasta = 'Testes/spulec/'+lista.project_name+"/"
+                                    pasta = 'Testes/'+lista.project_name+"/"
                                     if os.path.isdir(pasta): # vemos de este diretorio ja existe
                                         pass
                                     else:
@@ -286,7 +294,7 @@ if __name__ == "__main__":
 
                                     #auxiliarParaNomeArquivo = modification.filename
                                     #auxiliarParaNomeArquivo = auxiliarParaNomeArquivo.replace('.py', 'csv')
-                                    pasta = 'Testes/spulec/'+lista.project_name+"/"
+                                    pasta = 'Testes/'+lista.project_name+"/"
                                     if os.path.isdir(pasta): # vemos de este diretorio ja existe
                                         pass
                                     else:
@@ -354,6 +362,6 @@ if __name__ == "__main__":
                         #if re.search("except.*:.*", lineStr):
                             #print("remove"+lista.hash)
                         #print("Deleted line {} - {}".format(lineNumber, lineStr))
-    print(Salvarlista)
+
                 
                 

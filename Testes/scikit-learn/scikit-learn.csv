@@ -1,0 +1,712 @@
+Filename;Linha;Tipo;Autor;Email;Data;Hash;Commit
+test_preprocessing.py;124;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-05 13:42:10+00:00;4b049f1102ff2646aa0c5de6f546d5e6e5abe82f;"Add function to handle Nan data for scaling.  From: cdavid <cdavid@cb17146a-f446-4be1-a4f7-bd7c5bb65646>  git-svn-id: https://scikit-learn.svn.sourceforge.net/svnroot/scikit-learn/trunk@18 22fbfee3-77ab-4535-9bad-27d1bd3bc7d8"
+algorithm.py;198;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-05 13:56:03+00:00;3de66ffb26eaa00bad25cfc9d02186362528b870;"initial checkin of ga library.  From: ej@cb17146a-f446-4be1-a4f7-bd7c5bb65646 <ej@cb17146a-f446-4be1-a4f7-bd7c5bb65646>  git-svn-id: https://scikit-learn.svn.sourceforge.net/svnroot/scikit-learn/trunk@38 22fbfee3-77ab-4535-9bad-27d1bd3bc7d8"
+algorithm.py;203;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-05 13:56:03+00:00;3de66ffb26eaa00bad25cfc9d02186362528b870;""
+algorithm.py;202;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-05 14:53:22+00:00;c017b1f34da310ee64fc3098c7d6a16f1c5baa24;"Run reindent.py (script distributed with Python) over the source to remove extraneous whitespace  From: cookedm <cookedm@cb17146a-f446-4be1-a4f7-bd7c5bb65646>  git-svn-id: https://scikit-learn.svn.sourceforge.net/svnroot/scikit-learn/trunk@62 22fbfee3-77ab-4535-9bad-27d1bd3bc7d8"
+algorithm.py;207;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-05 14:53:22+00:00;c017b1f34da310ee64fc3098c7d6a16f1c5baa24;""
+algorithm.py;202;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-05 14:53:22+00:00;c017b1f34da310ee64fc3098c7d6a16f1c5baa24;""
+algorithm.py;207;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-05 14:53:22+00:00;c017b1f34da310ee64fc3098c7d6a16f1c5baa24;""
+test_likelihoods.py;19;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-06 10:49:35+00:00;b9eb69be4a0a0453ee68acefd627946636391157;"Add tests for logsumexp and mnormalik.  From: cdavid <cdavid@cb17146a-f446-4be1-a4f7-bd7c5bb65646>  git-svn-id: https://scikit-learn.svn.sourceforge.net/svnroot/scikit-learn/trunk@299 22fbfee3-77ab-4535-9bad-27d1bd3bc7d8"
+test_likelihoods.py;27;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-06 10:49:35+00:00;b9eb69be4a0a0453ee68acefd627946636391157;""
+numpydoc.py;130;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-19 12:43:10+00:00;81be8f7d1565a09013602709c5748b2ab6150646;"Sphinx extensions.  Added numpydoc Sphinx extension, needed to render correctly numpy's docstring conventions. They are copied from numpy's source directory.  From: Fabian Pedregosa <fabian.pedregosa@inria.fr>  git-svn-id: https://scikit-learn.svn.sourceforge.net/svnroot/scikit-learn/trunk@356 22fbfee3-77ab-4535-9bad-27d1bd3bc7d8"
+algorithm.py;202;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-22 17:09:40+00:00;6b82d6d034f415fda88ed3bdd917741e47b2a66c;"Remove genetic algorithms.  I decided to remove this module for the following reasons: the module does not quite fit the package's thematic, has references to scipy.ga (which has been removed) and there are already some great genetic algorithm frameworks in Python.  This thread discussed the removal: http://mail.scipy.org/pipermail/scipy-dev/2010-January/013705.html  git-svn-id: https://scikit-learn.svn.sourceforge.net/svnroot/scikit-learn/trunk@365 22fbfee3-77ab-4535-9bad-27d1bd3bc7d8"
+algorithm.py;207;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-22 17:09:40+00:00;6b82d6d034f415fda88ed3bdd917741e47b2a66c;""
+test_likelihoods.py;20;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-29 15:37:53+00:00;04b256b20d373383850e3d96112a941f21fabf2c;"Remove em2 module.  I remove temporarily this module because it is not mature enough to be included in the release. I've moved the code temporarily to http://github.com/fseoane/em2 .  From: Fabian Pedregosa <fabian.pedregosa@inria.fr>  git-svn-id: https://scikit-learn.svn.sourceforge.net/svnroot/scikit-learn/trunk@389 22fbfee3-77ab-4535-9bad-27d1bd3bc7d8"
+test_likelihoods.py;28;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-01-29 15:37:53+00:00;04b256b20d373383850e3d96112a941f21fabf2c;""
+format_stack.py;126;ADD;Gael varoquaux;gael.varoquaux@normalesup.org;2010-07-29 00:10:28+02:00;a3bd41971720ae466b4e1e99f8b1484501c8954e;"ENH: Add joblib as a bundle dependency."
+format_stack.py;239;ADD;Gael varoquaux;gael.varoquaux@normalesup.org;2010-07-29 00:10:28+02:00;a3bd41971720ae466b4e1e99f8b1484501c8954e;""
+format_stack.py;336;ADD;Gael varoquaux;gael.varoquaux@normalesup.org;2010-07-29 00:10:28+02:00;a3bd41971720ae466b4e1e99f8b1484501c8954e;""
+format_stack.py;126;ADD;revilyo;revilyo@earth.(none);2010-07-29 21:55:18+02:00;e6272b0627c592b904ca89f9346ab8e38bd050b2;"Merge branch 'master' of http://github.com/GaelVaroquaux/scikit-learn"
+format_stack.py;239;ADD;revilyo;revilyo@earth.(none);2010-07-29 21:55:18+02:00;e6272b0627c592b904ca89f9346ab8e38bd050b2;""
+format_stack.py;336;ADD;revilyo;revilyo@earth.(none);2010-07-29 21:55:18+02:00;e6272b0627c592b904ca89f9346ab8e38bd050b2;""
+numpydoc.py;131;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2010-08-19 16:34:06+02:00;222188163f00301cad2e8f6c11cfa86b3c962049;"Update numpydoc (sphinx extension).  Updated from numpy's trunk to work with latest docutils."
+numpydoc.py;131;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-08-20 16:48:19+02:00;570787dec65f767e9681ef267443d0d0a3875e36;"tracking changes from master and restore broken SparseHashingVectorizer"
+numpydoc.py;131;DELETED;Gael varoquaux;gael.varoquaux@normalesup.org;2010-08-23 02:09:52+02:00;ae05aa1310a393d6bf075f2f01d30964022a18cd;"Merge branch 'master' of github.com:scikit-learn/scikit-learn"
+numpydoc.py;131;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2010-08-23 10:48:43+02:00;99c03a0812204560cd67d57b63a29dbeb144caaa;"Merge branch 'master' of git@github.com:scikit-learn/scikit-learn"
+test_preprocessing.py;120;DELETED;Alexandre Gramfort;alexandre.gramfort@inria.fr;2010-08-24 14:12:11+02:00;97bbe311ea03477bb5fb6471824085709258b951;"ENH : removing unused preprocessing routines"
+test_preprocessing.py;120;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2010-08-27 10:58:05+02:00;5db18a5445cce70fcc9a49fa85380e84adc22992;"Merge branch 'master' of git@github.com:GaelVaroquaux/scikit-learn"
+csgraph.py;64;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2010-08-27 14:02:03+02:00;0f24c7a07c5cea484bd4dd6f9b8d655d9b70721b;"ENH: Backport a fast graph connect component algorithm from scipy."
+__init__.py;42;ADD;Gael varoquaux;gael.varoquaux@normalesup.org;2010-09-11 20:25:28+02:00;2ab74cdb6adc979195f6ba60d5f8e9bf9dd4b74d;"ENH: Add a tester to the scikit."
+__init__.py;42;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-09-12 01:30:13+02:00;0de7e5dc9b1bd73a340efd01b63df921127734c1;"Merge branch 'master' of github.com:scikit-learn/scikit-learn"
+__init__.py;42;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-09-14 09:29:35+02:00;a555f22f3524637df4389daf60c16da5de306d6d;"Merge branch 'master' into issue-77-sparse-cd"
+__init__.py;42;ADD;bthirion;bertrand.thirion@inria.fr;2010-09-15 14:30:31+02:00;ac02b3308838d5b67ecd7abbec8dadd53ecfdddf;"merged origin"
+test_sparse.py;66;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-23 20:40:46+02:00;2847e3d3e897758aa6193fe9b3d5b54a2d1af50b;"added class encoding. added tests added l1 final penalty."
+test_sparse.py;73;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-23 20:40:46+02:00;2847e3d3e897758aa6193fe9b3d5b54a2d1af50b;""
+test_sparse.py;84;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-23 20:40:46+02:00;2847e3d3e897758aa6193fe9b3d5b54a2d1af50b;""
+test_sparse.py;66;ADD;pprett;peter.prettenhofer@gmail.com;2010-10-24 11:32:37+02:00;8ce4c6456e307c247d2009cd2df7b3609c7be42e;"Merge branch 'master' of git@github.com:pprett/scikit-learn"
+test_sparse.py;73;ADD;pprett;peter.prettenhofer@gmail.com;2010-10-24 11:32:37+02:00;8ce4c6456e307c247d2009cd2df7b3609c7be42e;""
+test_sparse.py;84;ADD;pprett;peter.prettenhofer@gmail.com;2010-10-24 11:32:37+02:00;8ce4c6456e307c247d2009cd2df7b3609c7be42e;""
+test_sparse.py;68;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-10-24 14:53:21+02:00;d9ddde0c976f5e3dce098c5aaf27e44bd0284bbb;"mereging pprett sgd work while tracking master"
+test_sparse.py;75;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-10-24 14:53:21+02:00;d9ddde0c976f5e3dce098c5aaf27e44bd0284bbb;""
+test_sparse.py;86;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-10-24 14:53:21+02:00;d9ddde0c976f5e3dce098c5aaf27e44bd0284bbb;""
+test_sparse.py;59;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-24 21:21:43+02:00;ca77c797f9783871b59744f6d58aa63465d4fe55;"100% code coverage."
+test_sparse.py;77;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-24 21:21:43+02:00;ca77c797f9783871b59744f6d58aa63465d4fe55;""
+test_sparse.py;122;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-24 21:21:43+02:00;ca77c797f9783871b59744f6d58aa63465d4fe55;""
+test_sparse.py;66;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-23 20:40:46+02:00;843fe8b29208dd6d1cba55354689bfdc07546fd6;"added class encoding. added tests added l1 final penalty."
+test_sparse.py;73;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-23 20:40:46+02:00;843fe8b29208dd6d1cba55354689bfdc07546fd6;""
+test_sparse.py;84;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-23 20:40:46+02:00;843fe8b29208dd6d1cba55354689bfdc07546fd6;""
+test_sparse.py;59;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-24 21:21:43+02:00;29e3afb364ec1fddb6b517f70526c80354668b3c;"100% code coverage."
+test_sparse.py;77;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-24 21:21:43+02:00;29e3afb364ec1fddb6b517f70526c80354668b3c;""
+test_sparse.py;123;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-24 21:21:43+02:00;29e3afb364ec1fddb6b517f70526c80354668b3c;""
+test_sparse.py;59;ADD;Ron Weiss;ronweiss@gmail.com;2010-10-25 08:58:44-04:00;2ae5c6587935408e0590b37799482427529e837f;"merge"
+test_sparse.py;77;ADD;Ron Weiss;ronweiss@gmail.com;2010-10-25 08:58:44-04:00;2ae5c6587935408e0590b37799482427529e837f;""
+test_sparse.py;87;ADD;Ron Weiss;ronweiss@gmail.com;2010-10-25 08:58:44-04:00;2ae5c6587935408e0590b37799482427529e837f;""
+test_sparse.py;94;ADD;Ron Weiss;ronweiss@gmail.com;2010-10-25 08:58:44-04:00;2ae5c6587935408e0590b37799482427529e837f;""
+test_sparse.py;110;ADD;Ron Weiss;ronweiss@gmail.com;2010-10-25 08:58:44-04:00;2ae5c6587935408e0590b37799482427529e837f;""
+test_sparse.py;123;ADD;Ron Weiss;ronweiss@gmail.com;2010-10-25 08:58:44-04:00;2ae5c6587935408e0590b37799482427529e837f;""
+test_sparse.py;59;ADD;Mathieu Blondel;mathieu@mblondel.org;2010-10-26 14:55:34+09:00;b0eb68c6cba14043d2d14d9cdd80cbaa05e64631;"Merge branch 'master' into textextract"
+test_sparse.py;77;ADD;Mathieu Blondel;mathieu@mblondel.org;2010-10-26 14:55:34+09:00;b0eb68c6cba14043d2d14d9cdd80cbaa05e64631;""
+test_sparse.py;87;ADD;Mathieu Blondel;mathieu@mblondel.org;2010-10-26 14:55:34+09:00;b0eb68c6cba14043d2d14d9cdd80cbaa05e64631;""
+test_sparse.py;94;ADD;Mathieu Blondel;mathieu@mblondel.org;2010-10-26 14:55:34+09:00;b0eb68c6cba14043d2d14d9cdd80cbaa05e64631;""
+test_sparse.py;110;ADD;Mathieu Blondel;mathieu@mblondel.org;2010-10-26 14:55:34+09:00;b0eb68c6cba14043d2d14d9cdd80cbaa05e64631;""
+test_sparse.py;123;ADD;Mathieu Blondel;mathieu@mblondel.org;2010-10-26 14:55:34+09:00;b0eb68c6cba14043d2d14d9cdd80cbaa05e64631;""
+test_sparse.py;59;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-10-26 14:31:38+02:00;bd4c5959dd721bb55ed82caa1f8b1d846a233c67;"Merge branch 'master' into textextract"
+test_sparse.py;77;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-10-26 14:31:38+02:00;bd4c5959dd721bb55ed82caa1f8b1d846a233c67;""
+test_sparse.py;87;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-10-26 14:31:38+02:00;bd4c5959dd721bb55ed82caa1f8b1d846a233c67;""
+test_sparse.py;94;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-10-26 14:31:38+02:00;bd4c5959dd721bb55ed82caa1f8b1d846a233c67;""
+test_sparse.py;110;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-10-26 14:31:38+02:00;bd4c5959dd721bb55ed82caa1f8b1d846a233c67;""
+test_sparse.py;123;ADD;Olivier Grisel;olivier.grisel@ensta.org;2010-10-26 14:31:38+02:00;bd4c5959dd721bb55ed82caa1f8b1d846a233c67;""
+test_sparse.py;110;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-10-28 15:03:54+02:00;9840e5574deb5dd6d5963e15f8b6c5a8bf33dd5f;"implemented OVA for multi-class SGD."
+test_sparse.py;106;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-03 18:21:39+01:00;de4caee868b1ad1f62b58b1a8e97937a3a4c04fd;"SGD classifier supports multi-class with OVA."
+test_sparse.py;125;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-03 18:21:39+01:00;de4caee868b1ad1f62b58b1a8e97937a3a4c04fd;""
+test_sparse.py;114;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 11:17:36+01:00;fada652163b27cdebc5fafe250c87854c33827c8;"Changed docstrings for coef_ and intercept_ in sgd package. Wrap intercept_ in an array in the case of binary classification."
+test_sparse.py;162;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 11:17:36+01:00;fada652163b27cdebc5fafe250c87854c33827c8;""
+test_sparse.py;176;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 11:17:36+01:00;fada652163b27cdebc5fafe250c87854c33827c8;""
+test_sgd.py;60;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;"Added dense implemenation of SGD. Modified plot_separating_hyperplane to use dense instead of sparse version."
+test_sgd.py;78;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;""
+test_sgd.py;88;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;""
+test_sgd.py;95;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;""
+test_sgd.py;106;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;""
+test_sgd.py;114;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;""
+test_sgd.py;129;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;""
+test_sgd.py;158;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;""
+test_sgd.py;172;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;""
+test_sgd.py;189;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-04 18:09:25+01:00;13e059fadc4ae7c4a81ae5da806dbd229ffd2aa9;""
+test_sgd.py;60;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;"Merge branch 'dense' of github.com:pprett/scikit-learn"
+test_sgd.py;78;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;""
+test_sgd.py;88;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;""
+test_sgd.py;95;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;""
+test_sgd.py;106;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;""
+test_sgd.py;114;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;""
+test_sgd.py;129;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;""
+test_sgd.py;158;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;""
+test_sgd.py;172;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;""
+test_sgd.py;189;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-05 09:22:40+01:00;82338487cbfdc5404e35ffd1116f7f8fa8a826e8;""
+test_sgd.py;54;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 20:06:35+01:00;8a5a50ffb130eb22311d2a6e64f41fe0d23a8a9f;"cosmits in SGD tests"
+test_sgd.py;72;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 20:06:35+01:00;8a5a50ffb130eb22311d2a6e64f41fe0d23a8a9f;""
+test_sgd.py;85;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:06:18+01:00;7b1fc52207f522a3d0794bddb513c140c902d41b;"more comits in the sgd tests"
+test_sgd.py;92;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:06:18+01:00;7b1fc52207f522a3d0794bddb513c140c902d41b;""
+test_sgd.py;103;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:06:18+01:00;7b1fc52207f522a3d0794bddb513c140c902d41b;""
+test_sgd.py;111;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:06:18+01:00;7b1fc52207f522a3d0794bddb513c140c902d41b;""
+test_sgd.py;126;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:06:18+01:00;7b1fc52207f522a3d0794bddb513c140c902d41b;""
+test_sgd.py;155;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:06:18+01:00;7b1fc52207f522a3d0794bddb513c140c902d41b;""
+test_sgd.py;169;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:06:18+01:00;7b1fc52207f522a3d0794bddb513c140c902d41b;""
+test_sgd.py;186;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:06:18+01:00;7b1fc52207f522a3d0794bddb513c140c902d41b;""
+test_sparse_sgd.py;54;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;"reuse the dense SGD test suite for the sparse variant using test case inheritance"
+test_sparse_sgd.py;72;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;""
+test_sparse_sgd.py;82;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;""
+test_sparse_sgd.py;89;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;""
+test_sparse_sgd.py;100;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;""
+test_sparse_sgd.py;108;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;""
+test_sparse_sgd.py;127;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;""
+test_sparse_sgd.py;156;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;""
+test_sparse_sgd.py;170;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;""
+test_sparse_sgd.py;187;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2010-11-07 21:31:54+01:00;83bde9878ab607bf703d4a403987ada66e980241;""
+test_sparse.py;60;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;"Merge branch 'master' of github.com:scikit-learn/scikit-learn"
+test_sparse.py;78;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;""
+test_sparse.py;88;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;""
+test_sparse.py;95;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;""
+test_sparse.py;106;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;""
+test_sparse.py;114;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;""
+test_sparse.py;133;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;""
+test_sparse.py;162;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;""
+test_sparse.py;176;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;""
+test_sparse.py;193;DELETED;Ron Weiss;ronweiss@gmail.com;2010-11-08 01:45:46-05:00;ca7b39ace5a4d27417d1aa68d9b5ec5ca9c0d3c3;""
+test_parallel.py;103;ADD;Gael varoquaux;gael.varoquaux@normalesup.org;2010-11-22 13:08:23+01:00;e50c37c9eadc8b10658878b478cc734b24c50133;"ENH: Update embedded joblib to 0.4.6"
+test_parallel.py;103;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2010-11-22 19:42:49+01:00;dede5c47a9b90aa9681930e0ba747f0271a50fa4;"Merge branch 'master' into importanceweighting"
+test_parallel.py;103;ADD;dubourg;vincent.dubourg@gmail.com;2010-11-24 18:48:37+01:00;d2ec8a36d85d7fd821a6f770210fcc0785db4f12;"Merge branch 'master' of https://github.com/scikit-learn/scikit-learn  Conflicts: 	scikits/learn/__init__.py"
+setup.py;45;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2011-02-28 09:34:28+01:00;075931dc6cea4003c4a0534e47e03597c477ef12;"Python 3 compatibility.  Simplified version of scipy strategy: copy files into build/py3k, and patch them using lib2to3."
+setup.py;45;ADD;vene;vlad@vene.ro;2011-04-01 00:25:00+03:00;1c04b54339c43c7cbcc1a708dc04b8fcd08dedfd;"Merge branch 'master' into nmf-nnls"
+memory.py;407;ADD;Gael varoquaux;gael.varoquaux@normalesup.org;2011-04-01 08:14:28+02:00;160c9529d57fdc3eaacb5eef7192a77c0902ad04;"MISC: Update joblib"
+setup.py;45;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2011-04-01 09:57:05+02:00;95ece32fc7a95455154e2ded46cb76dc8f85bbce;"Revert "Python 3 compatibility."  This reverts commit 075931dc6cea4003c4a0534e47e03597c477ef12."
+setup.py;45;DELETED;Mathieu Blondel;mathieu@mblondel.org;2011-04-01 19:20:10+09:00;344c78235eb74ca1b63740cd1ec80f8c0c5d3cae;"Merge branch 'master' into kpca"
+setup.py;45;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2011-04-01 09:57:05+02:00;867fec547cc70ed9b1ae7a7659539834cae13834;"Revert "Python 3 compatibility."  This reverts commit 075931dc6cea4003c4a0534e47e03597c477ef12."
+setup.py;45;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2011-04-01 16:23:13+02:00;d4fd5f7d5cf326a0628772c9513150af157ce30a;"Python 3 compat, this time with npy_3kcompat.h  This reverts commit 95ece32fc7a95455154e2ded46cb76dc8f85bbce."
+memory.py;407;ADD;Alexandre Passos;alexandre.tp@gmail.com;2011-04-01 15:51:49-03:00;4f9a126404731e2d896755c34ed3d8d0f7c7097f;"Merge branch 'master' into variational-infinite-gmm"
+memory.py;407;ADD;Noel Dawe;Noel.Dawe@cern.ch;2011-04-02 12:29:04-07:00;e5d8ded64095df92976d7f9d76aa1af24c0321b5;"Merge branch 'master' of git://github.com/scikit-learn/scikit-learn"
+memory.py;407;ADD;vene;vlad@vene.ro;2011-04-03 00:37:18+03:00;8868aaa2fcc06997f758be243b57653678a3445e;"Merge branch 'master' into nmf-lite"
+memory.py;407;ADD;Mathieu Blondel;mathieu@mblondel.org;2011-04-04 14:58:49+09:00;5020fbd26fd6dd81f011f93cd96b27ccc1ab1c29;"Merge branch 'master' into lda  Conflicts: 	scikits/learn/lda.py"
+setup.py;49;ADD;Mathieu Blondel;mathieu@mblondel.org;2011-04-04 14:58:49+09:00;5020fbd26fd6dd81f011f93cd96b27ccc1ab1c29;""
+conf.py;26;ADD;Gael varoquaux;gael.varoquaux@normalesup.org;2011-04-19 07:49:05+02:00;a6a2097ce47ec7ba0ccc3f5f5e03544829c71049;"DOC: Make sure that mpl is not interactive"
+conf.py;26;ADD;Olivier Grisel;olivier.grisel@ensta.org;2011-04-20 14:56:35+02:00;b87d8a515a1d11e14290984cc68c8df5bfc9cd26;"Merge branch 'master' into alextp-variational-infinite-gmm"
+conf.py;26;ADD;Alexandre Passos;alexandre.tp@gmail.com;2011-04-20 10:15:48-03:00;726a9aadc0e2900610afa2862972076398432d98;"Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into variational-infinite-gmm"
+conf.py;26;ADD;Paolo Losi;paolo.losi@gmail.com;2011-04-21 23:41:35+02:00;27206e07b4f837a9e867813be3d6ba7a6a650ab2;"Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into l1_logreg_minC"
+conf.py;26;ADD;Olivier Grisel;olivier.grisel@ensta.org;2011-05-02 17:05:55+02:00;ef42c40c56323dd149d17014f77c8519d1466168;"merged master"
+conf.py;26;ADD;Nelle Varoquaux;nelle.varoquaux@gmail.com;2011-05-04 19:05:57+01:00;52c4cef7839a1399e2b2afd4908d295a2930b6ee;"merge with master"
+base.py;329;ADD;Gael varoquaux;gael.varoquaux@normalesup.org;2011-05-09 15:26:20+02:00;348d9aa6cab8fe0c0819514fc0cc00c32f6abba1;"DOC: improve datasets information  Add some links accross the documentation and examples  Add the dataset's description in their docstring"
+base.py;329;ADD;Olivier Grisel;olivier.grisel@ensta.org;2011-05-11 10:08:20+02:00;d90ba25d339d2ee62bae720d77b858b6b0b2d61a;"Merge branch 'master' into clustering-metrics"
+conf.py;26;ADD;Amit Aides;amitibo@tx.technion.ac.il;2011-05-11 17:27:37+03:00;595bf835c27a87537bd68ef0f1236eb42eb52a0f;"Merge remote branch 'upstream/master'  Conflicts: 	scikits/learn/naive_bayes.py"
+base.py;329;ADD;Amit Aides;amitibo@tx.technion.ac.il;2011-05-11 17:27:37+03:00;595bf835c27a87537bd68ef0f1236eb42eb52a0f;""
+memory.py;420;ADD;Amit Aides;amitibo@tx.technion.ac.il;2011-05-11 17:27:37+03:00;595bf835c27a87537bd68ef0f1236eb42eb52a0f;""
+setup.py;49;ADD;Amit Aides;amitibo@tx.technion.ac.il;2011-05-11 17:27:37+03:00;595bf835c27a87537bd68ef0f1236eb42eb52a0f;""
+base.py;331;ADD;vene;vlad@vene.ro;2011-05-17 12:48:20+03:00;3b46e421d1680a428eac959b0860250d298eddce;"Merge branch 'master' into sparsepca"
+base.py;331;ADD;Nelle Varoquaux;nelle.varoquaux@gmail.com;2011-05-17 21:10:38+01:00;0cb216b2ac0c5dab416513e277dede795fb14ce7;"merge with master"
+base.py;331;ADD;Olivier Grisel;olivier.grisel@ensta.org;2011-05-18 00:35:58+02:00;7638a39a42a07b98e176a5abccd51eef31a7536f;"Merge branch 'batchKMeans' of https://github.com/NelleV/scikit-learn into NelleV-batchKMeans"
+base.py;331;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2011-05-20 09:34:11+02:00;e219a7cd395434b11110df85d1de81c9b29c064e;"Merge branch 'master' of github.com:scikit-learn/scikit-learn into manifold"
+conf.py;26;ADD;Pietro Berkes;pietro.berkes@googlemail.com;2011-05-24 07:24:55-07:00;4ec4a02e5991150af5154ce78afff39b99a8c7b4;"Merge pull request #1 from ogrisel/pberkes-mldata  pep8 fixes"
+base.py;331;ADD;Pietro Berkes;pietro.berkes@googlemail.com;2011-05-24 07:24:55-07:00;4ec4a02e5991150af5154ce78afff39b99a8c7b4;""
+setup.py;49;ADD;Pietro Berkes;pietro.berkes@googlemail.com;2011-05-24 07:24:55-07:00;4ec4a02e5991150af5154ce78afff39b99a8c7b4;""
+base.py;331;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2011-06-03 14:54:13-07:00;76b8a9e63775e27174e0b5b75345bfa180c0b25c;"Merge branch 'manifold' of git://github.com/fabianp/scikit-learn into manifold  Conflicts: 	scikits/learn/datasets/samples_generator.py"
+test_locally_linear.py;12;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2011-07-05 10:57:42+02:00;24ab71e11182e81ed13be5c201ddcfd3a1f50f47;"Backward compatibility fixes for testing LLE."
+test_locally_linear.py;12;ADD;vene;vlad@vene.ro;2011-07-08 14:42:12+03:00;6fa3a6bd9a328ae3bec004b910a83a354bc8b232;"Merge branch 'master' into sparsepca"
+test_locally_linear.py;12;ADD;vene;vlad@vene.ro;2011-07-08 14:44:02+03:00;c154810e188ac11beb196d15d9d2a4b79136d789;"Merge branch 'sparsepca' into sc"
+test_locally_linear.py;12;ADD;Minwoo Jake Lee;lemin@cs.colostate.edu;2011-07-16 10:42:38-06:00;4ca0cce7b5ea07688f23b1f97a3069712c840ab3;"Merge remote-tracking branch 'master/master' into sparse-mbkm"
+test_locally_linear.py;12;ADD;Robert Layton;robertlayton@gmail.com;2011-07-28 00:44:13+10:00;54cc23e510aceaf0e76d317d452729a5b7790544;"Merge branch 'master' of https://github.com/robertlayton/scikit-learn"
+base.py;329;DELETED;Satrajit Ghosh;satra@mit.edu;2011-07-29 12:00:30-04:00;3de1c0ab9e041f57b27f81df3488c52ce997e693;"resolved conflicts"
+conf.py;26;ADD;Brian Holt;bh00038@cvplws63.eps.surrey.ac.uk;2011-08-01 14:06:05+01:00;1e75e9ae18461dd8641232753a4e9daa0a828279;"Merge branch 'enh/ensemble' of https://github.com/satra/scikit-learn"
+test_locally_linear.py;12;ADD;Brian Holt;bh00038@cvplws63.eps.surrey.ac.uk;2011-08-01 14:06:05+01:00;1e75e9ae18461dd8641232753a4e9daa0a828279;""
+base.py;343;DELETED;Brian Holt;bdholt1@gmail.com;2011-08-05 10:56:10+01:00;c85651987ca58317d3cf60d174d8fe524d9417a1;"Added the Boston House Prices dataset"
+base.py;344;DELETED;Alexandre Gramfort;alexandre.gramfort@m4x.org;2011-08-08 06:35:07-07:00;485db454cec358debe0cb9c7eafaac319668075a;"Merge pull request #295 from bdholt1/boston  New Dataset: Boston House Prices"
+base.py;343;DELETED;Jake Vanderplas;vanderplas@astro.washington.edu;2011-08-08 10:35:14-07:00;7658bcffe683b9d818a171a0fa3a16a8154ba859;"fix conflicts with master"
+base.py;329;DELETED;Jake Vanderplas;vanderplas@astro.washington.edu;2011-08-08 10:38:42-07:00;cde824aa4e74a22fd0383f475f74987df8ce9d01;"Merge branch 'manifold-isomap' into manifold-doc"
+base.py;334;DELETED;Gilles Louppe;g.louppe@gmail.com;2011-08-09 11:43:34+02:00;abc35e2b333b41450345bf40d642e0f991ede2a1;"Merge remote-tracking branch 'upstream/master'  Solved conflict: 	scikits/learn/datasets/base.py"
+base.py;344;DELETED;vene;vlad@vene.ro;2011-08-09 21:31:57+03:00;5d1429ee2a6d390bc37157a659ce2c2f05d319ff;"Merge branch 'master' into sc  Conflicts: 	scikits/learn/feature_extraction/image.py 	scikits/learn/feature_extraction/tests/test_image.py"
+base.py;344;DELETED;Jean Kossaifi;jean.kossaifi@gmail.com;2011-08-10 17:12:17+02:00;1f2ad602640e5f78bd135280adbe26737983e35c;"Merge remote branch 'upstream/master' into normalize_data  Conflicts: 	scikits/learn/linear_model/omp.py"
+base.py;343;DELETED;Brian Holt;bdholt1@gmail.com;2011-08-11 18:43:52+01:00;5b6b343a5c004294bc270496cd65a4d4aca53cd5;"Merge with master"
+test_locally_linear.py;12;DELETED;Jake Vanderplas;vanderplas@astro.washington.edu;2011-08-11 19:13:33-07:00;d4d6dfa7c1552e5f28bc3bb2b43a8ea9ac7a949f;"remove lobpcg from LocallyLinearEmbedding"
+test_locally_linear.py;12;DELETED;vene;vlad@vene.ro;2011-08-12 14:00:41+03:00;d68ebfd6e17777d5fbf6e0d0cdec0d9ea21ab658;"Merge branch 'master' into sc  Conflicts: 	scikits/learn/decomposition/__init__.py 	scikits/learn/decomposition/sparse_pca.py 	scikits/learn/decomposition/tests/test_sparse_pca.py"
+base.py;329;DELETED;Robert Layton;robertlayton@gmail.com;2011-08-13 09:56:58+10:00;05a26727cce44c029f5fc53368bed7387812c1a7;"Merge remote-tracking branch 'upstream/master'  Conflicts: 	scikits/learn/datasets/twenty_newsgroups.py"
+test_locally_linear.py;12;DELETED;Robert Layton;robertlayton@gmail.com;2011-08-13 09:56:58+10:00;05a26727cce44c029f5fc53368bed7387812c1a7;""
+test_locally_linear.py;12;DELETED;Brian Holt;bdholt1@gmail.com;2011-08-13 11:31:45+01:00;bb9f32a37defbc7e137721269c2328ebd6201e59;"Merge https://github.com/scikit-learn/scikit-learn"
+test_locally_linear.py;12;DELETED;Jake Vanderplas;vanderplas@astro.washington.edu;2011-08-13 10:06:52-07:00;c72dd9fd39a3f1d9d63985a71f876e5460f2fc00;"merge with master; remove lobpcg references"
+test_locally_linear.py;12;DELETED;Robert Layton;robertlayton@gmail.com;2011-08-14 10:12:45+10:00;c3ab8584b376d0a5c181c324ca963bbfbf52953b;"Merge branch 'master' into kmeans_transform2  Conflicts: 	scikits/learn/datasets/twenty_newsgroups.py"
+base.py;329;DELETED;Clay Woolam;clay@woolam.org;2011-08-16 10:40:35-07:00;1fcb4f81dd2e49c274aa3c0213c4e683fc749352;"Merge remote-tracking branch 'upstream/master'"
+test_locally_linear.py;12;DELETED;Clay Woolam;clay@woolam.org;2011-08-16 10:40:35-07:00;1fcb4f81dd2e49c274aa3c0213c4e683fc749352;""
+base.py;343;DELETED;Conrad Lee;conradlee@gmail.com;2011-08-21 11:37:16+02:00;83b6af2c62c5a7903eabdfedd0d11b6c65f1995a;"Brought my branch for mean shift modification up to date with current head on github"
+test_locally_linear.py;12;DELETED;Conrad Lee;conradlee@gmail.com;2011-08-21 11:37:16+02:00;83b6af2c62c5a7903eabdfedd0d11b6c65f1995a;""
+test_locally_linear.py;12;DELETED;Brian Holt;bdholt1@gmail.com;2011-08-22 21:33:07+01:00;73fc08a12d52b9723b96189e4c2fe8cc3d9cd4d4;"Merge git://github.com/scikit-learn/scikit-learn into enh/tree"
+test_locally_linear.py;12;DELETED;Gilles Louppe;g.louppe@gmail.com;2011-08-30 09:46:11+02:00;1493cce91cb325cc5b17ead1cea5a30b2773b66e;"Merge remote-tracking branch 'upstream/master'"
+__init__.py;40;DELETED;Fabian Pedregosa;fabian.pedregosa@inria.fr;2011-09-02 23:19:56-07:00;3ec3153807701e4f58a881b8feb333c080a1657c;"Merge pull request #335 from fabianp/rename  move sources from scikits/learn to sklearn"
+__init__.py;40;ADD;Fabian Pedregosa;fabian.pedregosa@inria.fr;2011-09-02 23:19:56-07:00;3ec3153807701e4f58a881b8feb333c080a1657c;""
+__init__.py;35;DELETED;Robert Layton;robertlayton@gmail.com;2011-09-03 17:55:07+10:00;ed9d1ac3b64dfc563a9ae66df409d13560179283;"Merge branch 'master' into pairwise_distance  Conflicts: 	scikits/learn/datasets/twenty_newsgroups.py 	scikits/learn/metrics/__init__.py 	sklearn/metrics/metrics.py"
+__init__.py;40;ADD;Robert Layton;robertlayton@gmail.com;2011-09-03 17:55:07+10:00;ed9d1ac3b64dfc563a9ae66df409d13560179283;""
+__init__.py;40;DELETED;Brian Holt;bdholt1@gmail.com;2011-09-03 13:04:27+01:00;b484aa443217d75273dd4c2d11de602b110309b8;"merged upstream-master into enh/tree"
+__init__.py;40;ADD;Brian Holt;bdholt1@gmail.com;2011-09-03 13:04:27+01:00;b484aa443217d75273dd4c2d11de602b110309b8;""
+__init__.py;40;DELETED;Jake Vanderplas;vanderplas@astro.washington.edu;2011-09-03 08:02:22-07:00;17c4a3c8d93b5e49df1647f726b75fbe2fe7a184;"merge with upstream/master"
+__init__.py;40;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2011-09-03 08:02:22-07:00;17c4a3c8d93b5e49df1647f726b75fbe2fe7a184;""
+__init__.py;40;DELETED;Gilles Louppe;g.louppe@gmail.com;2011-09-03 17:28:04+02:00;769714e9ead4edd09134506fd80ef010862812d1;"Merge remote-tracking branch 'upstream/master'"
+__init__.py;40;ADD;Gilles Louppe;g.louppe@gmail.com;2011-09-03 17:28:04+02:00;769714e9ead4edd09134506fd80ef010862812d1;""
+__init__.py;40;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2011-09-04 21:34:26+02:00;b87a75da74a5eb0ef5ae2c58954d685d12b689f3;"Merge remote-tracking branch 'glouppe/master' into glouppe-master"
+__init__.py;40;ADD;Olivier Grisel;olivier.grisel@ensta.org;2011-09-04 21:34:26+02:00;b87a75da74a5eb0ef5ae2c58954d685d12b689f3;""
+__init__.py;40;DELETED;vene;vlad@vene.ro;2011-09-05 01:45:31+03:00;40eb1010d2701ae116304d33f9e4e8e46aeb3de2;"Merge branch 'master' into sc  Conflicts: 	doc/modules/linear_model.rst 	scikits/learn/decomposition/__init__.py"
+__init__.py;40;ADD;vene;vlad@vene.ro;2011-09-05 01:45:31+03:00;40eb1010d2701ae116304d33f9e4e8e46aeb3de2;""
+__init__.py;35;DELETED;clay woolam;clay@woolam.org;2011-09-04 16:10:07-07:00;00c3d4df5eb3666e48c06c3871c237734d0b01a1;"Merge git://github.com/scikit-learn/scikit-learn"
+__init__.py;40;ADD;clay woolam;clay@woolam.org;2011-09-04 16:10:07-07:00;00c3d4df5eb3666e48c06c3871c237734d0b01a1;""
+__init__.py;40;DELETED;Jake Vanderplas;vanderplas@astro.washington.edu;2011-09-08 13:46:01-07:00;364d1df68cd75c63c4a39ce6aa5772206a2e6e0f;"Merge commit 'upstream-RW/master'"
+__init__.py;40;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2011-09-08 13:46:01-07:00;364d1df68cd75c63c4a39ce6aa5772206a2e6e0f;""
+__init__.py;40;DELETED;Brian Holt;bdholt1@gmail.com;2011-09-09 16:15:14+01:00;c9f20a25e42c7ed45395ea5bc782bb878228c021;"merged upstream/master moving to sklearn"
+__init__.py;40;ADD;Brian Holt;bdholt1@gmail.com;2011-09-09 16:15:14+01:00;c9f20a25e42c7ed45395ea5bc782bb878228c021;""
+__init__.py;35;DELETED;Olivier Hervieu;olivier.hervieu@tinyclues.com;2011-09-13 18:01:32+02:00;8cae2c142bf5f7b278b530d83bf9d630deb8fde6;"Merge branch 'master' of git://github.com/scikit-learn/scikit-learn"
+__init__.py;39;ADD;Olivier Hervieu;olivier.hervieu@tinyclues.com;2011-09-13 18:01:32+02:00;8cae2c142bf5f7b278b530d83bf9d630deb8fde6;""
+tree.py;84;ADD;Brian Holt;bdholt1@gmail.com;2011-09-18 09:20:13+01:00;ba509fa9369cc5b76bc6745cea0b3b8dfea0e7f6;"added feature_names to GraphViz export"
+tree.py;79;DELETED;Brian Holt;bdholt1@gmail.com;2011-09-19 11:42:26+01:00;70ba1f5f986ee01e8326f29bcbb2c3447802cdb7;"test for improperly formed feature_names"
+tree.py;84;DELETED;Brian Holt;bdholt1@gmail.com;2011-09-21 20:27:48+01:00;7d3bc4a560c751b9f7494064c8f7e38c4b6409f0;"Merge branch 'enh/tree' of github.com:bdholt1/scikit-learn into enh/tree"
+numpy_pickle.py;274;ADD;Gael varoquaux;gael.varoquaux@normalesup.org;2011-12-25 23:15:55+01:00;826443e90cbb5f0391e784048ca47ddcdd60b664;"ENH: update joblib  This release brings zipped storage"
+test_parallel.py;116;DELETED;Gael varoquaux;gael.varoquaux@normalesup.org;2011-12-25 23:15:55+01:00;826443e90cbb5f0391e784048ca47ddcdd60b664;""
+numpy_pickle.py;274;ADD;Olivier Grisel;olivier.grisel@ensta.org;2011-12-26 10:34:18+01:00;9fe13b322f521c518e4dcbf2b156f69ad2a006c4;"Merge branch 'master' of github.com:scikit-learn/scikit-learn"
+test_parallel.py;116;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2011-12-26 10:34:18+01:00;9fe13b322f521c518e4dcbf2b156f69ad2a006c4;""
+numpy_pickle.py;274;ADD;bthirion;bertrand.thirion@inria.fr;2011-12-26 19:14:57+01:00;90a9ae6e303886f38ac4327164aca2f390604ee6;"Merge branch 'master' of github.com:scikit-learn/scikit-learn into gmm-fixes"
+test_parallel.py;116;DELETED;bthirion;bertrand.thirion@inria.fr;2011-12-26 19:14:57+01:00;90a9ae6e303886f38ac4327164aca2f390604ee6;""
+numpy_pickle.py;274;ADD;Olivier Grisel;olivier.grisel@ensta.org;2011-12-27 09:53:09+01:00;59cdcc748bd72e7edbf39f55e482f1e2d3ea9ac9;"Merge branch 'master' into sparse-scaler"
+test_parallel.py;116;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2011-12-27 09:53:09+01:00;59cdcc748bd72e7edbf39f55e482f1e2d3ea9ac9;""
+numpy_pickle.py;274;ADD;Gilles Louppe;g.louppe@gmail.com;2011-12-27 17:51:07+01:00;ab23e22fd0c508027c3f85ec3e3186f2d3da5d89;"Merge remote-tracking branch 'upstream/master' into tree  Conflicts: 	sklearn/ensemble/forest.py 	sklearn/tree/tree.py"
+test_parallel.py;116;DELETED;Gilles Louppe;g.louppe@gmail.com;2011-12-27 17:51:07+01:00;ab23e22fd0c508027c3f85ec3e3186f2d3da5d89;""
+numpy_pickle.py;280;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2011-12-29 11:57:41+01:00;a3aa805bc5d55ee673793d5bd6cf6f2fdc2cc7ef;"Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into doc_underscores_for_real  Conflicts: 	sklearn/decomposition/nmf.py 	sklearn/decomposition/pca.py"
+test_parallel.py;116;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2011-12-29 11:57:41+01:00;a3aa805bc5d55ee673793d5bd6cf6f2fdc2cc7ef;""
+numpy_pickle.py;280;ADD;Gilles Louppe;g.louppe@gmail.com;2011-12-29 21:03:56+01:00;84a4d39c5f587adb2b057a36e3805bd050a56449;"Merge remote-tracking branch 'upstream/master' into parallel-forest  Conflicts: 	sklearn/ensemble/forest.py"
+test_parallel.py;116;DELETED;Gilles Louppe;g.louppe@gmail.com;2011-12-29 21:03:56+01:00;84a4d39c5f587adb2b057a36e3805bd050a56449;""
+numpy_pickle.py;280;ADD;Shiqiao Du;lucidfrontier.45@gmail.com;2012-01-02 23:44:31+09:00;51024b9cbf856193f1807c00b8ef4a20d8c12064;"Merge remote branch 'upstream/master'"
+test_parallel.py;109;DELETED;Shiqiao Du;lucidfrontier.45@gmail.com;2012-01-02 23:44:31+09:00;51024b9cbf856193f1807c00b8ef4a20d8c12064;""
+numpy_pickle.py;280;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-01-06 20:02:15+01:00;4a70636701d71549fc2f5474ab6d521509912f6c;"Merge branch 'tree-feature-importance' into old-gradient-boosting  Conflicts: 	sklearn/tree/_tree.c 	sklearn/tree/tree.py"
+test_parallel.py;109;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-01-06 20:02:15+01:00;4a70636701d71549fc2f5474ab6d521509912f6c;""
+numpy_pickle.py;280;DELETED;GaelVaroquaux;gael.varoquaux@normalesup.org;2012-01-07 16:37:02+01:00;54fcfc2da3ca7a8a4e5f5fe6de60147eaa3ddf2c;"ENH: update joblib"
+numpy_pickle.py;280;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-01-09 20:42:13+01:00;f4da029f5abcfe1396a1de27eab77c17acee44ff;"Merge branch 'master' into old-gradient-boosting"
+numpy_pickle.py;280;ADD;Clay Woolam;clay@woolam.org;2012-01-09 16:39:44-08:00;fdfb53177d5d16bc5db0aceab76341760bd20eb0;"Merge branch 'larsmans-label-propagation'  Conflicts: 	doc/modules/classes.rst 	doc/modules/label_propagation.rst 	sklearn/label_propagation.py 	sklearn/tests/test_label_propagation.py"
+test_parallel.py;109;DELETED;Clay Woolam;clay@woolam.org;2012-01-09 16:39:44-08:00;fdfb53177d5d16bc5db0aceab76341760bd20eb0;""
+numpy_pickle.py;280;DELETED;Clay Woolam;clay@woolam.org;2012-01-09 18:12:02-08:00;af0feb953cad00f78fc24d9e556d6d2b287b90cc;"Merge branch 'master' of https://github.com/scikit-learn/scikit-learn"
+numpy_pickle.py;280;DELETED;Clay Woolam;clay@woolam.org;2012-01-09 18:12:27-08:00;691ac41fe21c9c2fd452f4bc6c51a40ef71d3505;"Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into label-propagation"
+test_parallel.py;109;DELETED;Satrajit Ghosh;satra@mit.edu;2012-01-27 09:13:43-05:00;c68f4f540dba0eea7f713a36363aacba7111e74e;"Merge remote-tracking branch 'upstream/master' into enh/metrics  * upstream/master: (823 commits)   Set the download link to PYPI.   Address Issue #590 : use relative path link to about.html   check random state in _fit_transform   add random_state to LocallyLinearEmbedding   MISC: fix bibtex   Add n_jobs option to pairwise_distances and pairwise_kernels.   euclidian_distances is to be deprecated in v0.11.   Better default threshold for L1-regularized models.   Remove CoefSelectTransformerMixin and use SelectorMixin instead.   COSMIT removed unused imports   Cosmit: remove unused imports   Refactor in KFold.   COSMIT pep8   FIX: MurmurHash3 compilation on older GCC   DOC added required versions of python, numpy and scipy to install documentation. Closes issue #579   DOC website: added link to 0.10 docs under support.   FIX: broken build / tests   Move preprocessing.py to sklearn/.   preprocessing/__init__.py -> preprocessing/preprocessing.py   ENH: Default in Vectorizer "None" as @ogrisel suggested   ..."
+numpy_pickle.py;280;DELETED;bthirion;bertrand.thirion@inria.fr;2012-02-03 19:51:56+01:00;91164d0aa06c02394b20b32335d099e95c03612f;"Merge branch 'master' of github.com:scikit-learn/scikit-learn into gmm-fixes"
+dictvectorizer.py;162;ADD;Lars Buitinck;L.J.Buitinck@uva.nl;2012-03-07 18:25:25+01:00;86f621b1c738bd2b6d50a663b117500eae2fd63f;"ENH add DictVectorizer"
+dict_vectorizer.py;198;ADD;Lars Buitinck;L.J.Buitinck@uva.nl;2012-03-17 00:48:28+01:00;49e29534d5ee0d2ef642c58b7166221e405091d7;"ENH optimize DictVectorizer (sparse case)  Constructing a 7944 × 9491 coo_matrix (55608 non-empty elements) is about 3x faster than with the old lil_matrix-based code."
+dict_vectorizer.py;215;ADD;Lars Buitinck;L.J.Buitinck@uva.nl;2012-03-17 00:48:28+01:00;49e29534d5ee0d2ef642c58b7166221e405091d7;""
+dict_vectorizer.py;193;DELETED;Lars Buitinck;L.J.Buitinck@uva.nl;2012-03-17 00:48:28+01:00;49e29534d5ee0d2ef642c58b7166221e405091d7;""
+dict_vectorizer.py;196;ADD;Lars Buitinck;L.J.Buitinck@uva.nl;2012-03-18 18:09:43+01:00;20b04689d9ae04b2bce6749d258449c52287f549;"Merge branch 'dictvectorizer'  Conflicts: 	doc/modules/feature_extraction.rst"
+dict_vectorizer.py;214;ADD;Lars Buitinck;L.J.Buitinck@uva.nl;2012-03-18 18:09:43+01:00;20b04689d9ae04b2bce6749d258449c52287f549;""
+dict_vectorizer.py;196;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-03-18 20:30:22+01:00;0d1777c18122d45da4ce4455e8e0ac869faf42fe;"Merge remote branch 'upstream/master' into sgd-weight-vector"
+dict_vectorizer.py;214;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-03-18 20:30:22+01:00;0d1777c18122d45da4ce4455e8e0ac869faf42fe;""
+dict_vectorizer.py;196;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-03-19 10:00:34+01:00;c831764bf840a176dcab433dc1ea0fc0c7ad7052;"Merge branch 'master' into gradient_boosting"
+dict_vectorizer.py;214;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-03-19 10:00:34+01:00;c831764bf840a176dcab433dc1ea0fc0c7ad7052;""
+dict_vectorizer.py;196;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2012-03-22 17:12:36+01:00;0d63d785e7e099d7a5170dd6d25d63ebdd8d31cc;"Merge branch 'master' into WIP_tut  Conflicts: 	examples/linear_model/plot_ols.py"
+dict_vectorizer.py;214;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2012-03-22 17:12:36+01:00;0d63d785e7e099d7a5170dd6d25d63ebdd8d31cc;""
+test_testing.py;16;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2012-05-06 17:10:55+02:00;1cf2faae9e2a39487726efdaab3d63f015274b6c;"BUG: fix assert_greater  And add a test: when doing a backport, it is always wise to check ones implementation against the original"
+test_testing.py;30;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2012-05-06 17:10:55+02:00;1cf2faae9e2a39487726efdaab3d63f015274b6c;""
+test_common.py;77;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-06-07 22:14:45+02:00;7a585e46ea96624b633fc8613eff996352e83b1f;"ENH more tests"
+test_common.py;85;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-06-07 22:14:45+02:00;7a585e46ea96624b633fc8613eff996352e83b1f;""
+test_common.py;99;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-06-26 10:05:43-07:00;549d82f72ef24c11665211201f5f27d0551520c6;"Merge pull request #893 from amueller/common_test  MRG factorize common tests."
+test_common.py;109;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-06-26 10:05:43-07:00;549d82f72ef24c11665211201f5f27d0551520c6;""
+test_common.py;98;ADD;Gilles Louppe;g.louppe@gmail.com;2012-06-29 14:07:11+02:00;55dbb493ecf7edb5e5f2916edd02160ac467a311;"Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-mo  Conflicts: 	sklearn/tree/_tree.c"
+test_common.py;108;ADD;Gilles Louppe;g.louppe@gmail.com;2012-06-29 14:07:11+02:00;55dbb493ecf7edb5e5f2916edd02160ac467a311;""
+test_common.py;98;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-07-02 08:58:50+02:00;8792cbd6f76c46adc9b70ef5a18b2ecd06ee3e82;"Merge remote branch 'upstream/master' into gbrt-huber"
+test_common.py;108;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-07-02 08:58:50+02:00;8792cbd6f76c46adc9b70ef5a18b2ecd06ee3e82;""
+__init__.py;57;ADD;David Cournapeau;cournape@gmail.com;2012-07-25 11:34:04+01:00;d8e30f1ca8dad740e8b936c9c8d3f094cf915810;"REF: hack to be able to share distutils utilities.  We took the ugly trick from NumPy to separate build vs normal use of sklearn imports."
+__init__.py;48;DELETED;David Cournapeau;cournape@gmail.com;2012-07-25 11:34:04+01:00;d8e30f1ca8dad740e8b936c9c8d3f094cf915810;""
+__init__.py;57;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-07-25 12:06:08-07:00;bb73ff8e17c4d20da6a3433dba9b5041e5e39fdf;"Merge pull request #1 from cournape/linking_arrayfuncs  REF: hack to be able to share distutils utilities."
+__init__.py;48;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2012-07-25 12:06:08-07:00;bb73ff8e17c4d20da6a3433dba9b5041e5e39fdf;""
+__init__.py;62;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2012-07-26 23:33:29+02:00;b5519f08dabcbd632ce930273af6f9265aac5b1b;"Merge branch 'linking_arrayfuncs'  Conflicts: 	setup.py 	sklearn/__init__.py"
+__init__.py;48;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2012-07-26 23:33:29+02:00;b5519f08dabcbd632ce930273af6f9265aac5b1b;""
+__init__.py;62;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-08-05 14:44:05+01:00;5c3853cceb81adb2d32d719ea4621f069b864eeb;"Merge branch 'master' into fit_pairwise"
+__init__.py;48;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2012-08-05 14:44:05+01:00;5c3853cceb81adb2d32d719ea4621f069b864eeb;""
+test_common.py;102;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-08-05 14:44:05+01:00;5c3853cceb81adb2d32d719ea4621f069b864eeb;""
+test_common.py;112;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-08-05 14:44:05+01:00;5c3853cceb81adb2d32d719ea4621f069b864eeb;""
+test_common.py;231;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-08-29 19:08:02+02:00;7a5e118899f0f42f735c80ba7c258feb468b0b81;"ENH add test for consistend predict_proba shape also in the two-class case."
+test_common.py;243;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2012-08-29 19:08:02+02:00;7a5e118899f0f42f735c80ba7c258feb468b0b81;""
+test_common.py;224;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2012-08-29 19:08:02+02:00;7a5e118899f0f42f735c80ba7c258feb468b0b81;""
+test_common.py;236;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2012-08-29 19:08:02+02:00;7a5e118899f0f42f735c80ba7c258feb468b0b81;""
+__init__.py;62;ADD;Vlad Niculae;vlad@vene.ro;2012-09-02 13:50:40+03:00;ad339a4ec054521557151556ba07cd728b0f9467;"Merge branch 'master' into mixins  Conflicts: 	sklearn/tests/test_common.py"
+__init__.py;48;DELETED;Vlad Niculae;vlad@vene.ro;2012-09-02 13:50:40+03:00;ad339a4ec054521557151556ba07cd728b0f9467;""
+test_common.py;328;ADD;Vlad Niculae;vlad@vene.ro;2012-09-02 13:50:40+03:00;ad339a4ec054521557151556ba07cd728b0f9467;""
+test_common.py;340;ADD;Vlad Niculae;vlad@vene.ro;2012-09-02 13:50:40+03:00;ad339a4ec054521557151556ba07cd728b0f9467;""
+test_common.py;99;DELETED;Vlad Niculae;vlad@vene.ro;2012-09-02 13:50:40+03:00;ad339a4ec054521557151556ba07cd728b0f9467;""
+test_common.py;109;DELETED;Vlad Niculae;vlad@vene.ro;2012-09-02 13:50:40+03:00;ad339a4ec054521557151556ba07cd728b0f9467;""
+__init__.py;62;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-10-18 08:53:24+02:00;6ac7fbfc97fc8ba92d0d097ec60939ad5ba50abc;"Merge branch 'master' into pr/975  Conflicts: 	sklearn/ensemble/gradient_boosting.py"
+__init__.py;48;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-10-18 08:53:24+02:00;6ac7fbfc97fc8ba92d0d097ec60939ad5ba50abc;""
+test_common.py;358;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-10-18 08:53:24+02:00;6ac7fbfc97fc8ba92d0d097ec60939ad5ba50abc;""
+test_common.py;373;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-10-18 08:53:24+02:00;6ac7fbfc97fc8ba92d0d097ec60939ad5ba50abc;""
+test_common.py;98;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-10-18 08:53:24+02:00;6ac7fbfc97fc8ba92d0d097ec60939ad5ba50abc;""
+test_common.py;108;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-10-18 08:53:24+02:00;6ac7fbfc97fc8ba92d0d097ec60939ad5ba50abc;""
+__init__.py;62;ADD;Alexandre Abraham;alexandre.abraham@cea.fr;2012-11-15 10:20:19+01:00;1f6d7e09ec5fd3d94017b76a368b0ede5096465d;"Merge branch 'master' of https://github.com/jaquesgrobler/scikit-learn into fix_doc_clean"
+__init__.py;48;DELETED;Alexandre Abraham;alexandre.abraham@cea.fr;2012-11-15 10:20:19+01:00;1f6d7e09ec5fd3d94017b76a368b0ede5096465d;""
+test_common.py;362;ADD;Alexandre Abraham;alexandre.abraham@cea.fr;2012-11-15 10:20:19+01:00;1f6d7e09ec5fd3d94017b76a368b0ede5096465d;""
+test_common.py;377;ADD;Alexandre Abraham;alexandre.abraham@cea.fr;2012-11-15 10:20:19+01:00;1f6d7e09ec5fd3d94017b76a368b0ede5096465d;""
+test_common.py;98;DELETED;Alexandre Abraham;alexandre.abraham@cea.fr;2012-11-15 10:20:19+01:00;1f6d7e09ec5fd3d94017b76a368b0ede5096465d;""
+test_common.py;108;DELETED;Alexandre Abraham;alexandre.abraham@cea.fr;2012-11-15 10:20:19+01:00;1f6d7e09ec5fd3d94017b76a368b0ede5096465d;""
+hashing.py;46;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2012-11-19 22:41:49+01:00;b2dcfdd0a837781923dab3ea96cc860e66babdc4;"ENH: update joblib to 0.7.0a  Changelog is:      **Dropping support for Python 2.5 in favor of support for Python 3.0**      ENH: Parallel: Turn of pre-dispatch for already expanded lists      ENH: detect recursive sub-process spawning, as when people do not     protect the __main__ in scripts under Windows, and raise a useful     error.      ENH: Full python 3 support"
+memory.py;395;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2012-11-19 22:41:49+01:00;b2dcfdd0a837781923dab3ea96cc860e66babdc4;""
+memory.py;401;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2012-11-19 22:41:49+01:00;b2dcfdd0a837781923dab3ea96cc860e66babdc4;""
+__init__.py;62;ADD;syhw;gabriel.synnaeve@gmail.com;2012-11-22 23:34:51+01:00;41a03a5093205fd5cc667eddac8836ea05b3f382;"Merge https://github.com/scikit-learn/scikit-learn"
+__init__.py;48;DELETED;syhw;gabriel.synnaeve@gmail.com;2012-11-22 23:34:51+01:00;41a03a5093205fd5cc667eddac8836ea05b3f382;""
+hashing.py;46;ADD;syhw;gabriel.synnaeve@gmail.com;2012-11-22 23:34:51+01:00;41a03a5093205fd5cc667eddac8836ea05b3f382;""
+memory.py;395;ADD;syhw;gabriel.synnaeve@gmail.com;2012-11-22 23:34:51+01:00;41a03a5093205fd5cc667eddac8836ea05b3f382;""
+memory.py;401;DELETED;syhw;gabriel.synnaeve@gmail.com;2012-11-22 23:34:51+01:00;41a03a5093205fd5cc667eddac8836ea05b3f382;""
+test_common.py;455;ADD;syhw;gabriel.synnaeve@gmail.com;2012-11-22 23:34:51+01:00;41a03a5093205fd5cc667eddac8836ea05b3f382;""
+test_common.py;470;ADD;syhw;gabriel.synnaeve@gmail.com;2012-11-22 23:34:51+01:00;41a03a5093205fd5cc667eddac8836ea05b3f382;""
+hashing.py;46;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-11-25 21:27:16+01:00;66df36291f1725e8dac83bb73a9528e1d13bbab8;"Merge branch 'master' into gbrt-interactions"
+memory.py;395;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-11-25 21:27:16+01:00;66df36291f1725e8dac83bb73a9528e1d13bbab8;""
+memory.py;401;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-11-25 21:27:16+01:00;66df36291f1725e8dac83bb73a9528e1d13bbab8;""
+plot_manifold_sphere.py;75;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2012-12-02 16:05:44+01:00;b7b91ef9ce63922167565ba96c46e68f702e3abb;"Merge branch 'master' into gbrt-interactions"
+gen_rst.py;145;ADD;Martin Luessi;mluessi@nmr.mgh.harvard.edu;2013-01-22 10:49:01-05:00;d365c1ba5febeb064f019017362dfbd0b9217c3b;"use Sphinx searchindex.js"
+gen_rst.py;125;ADD;Martin Luessi;mluessi@nmr.mgh.harvard.edu;2013-01-24 17:00:27-05:00;965b6e4fc79a44f4186b60f4e934a8c6309f3124;"links for scipy, cleanup"
+gen_rst.py;154;DELETED;Martin Luessi;mluessi@nmr.mgh.harvard.edu;2013-01-24 17:00:27-05:00;965b6e4fc79a44f4186b60f4e934a8c6309f3124;""
+hashing.py;46;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2013-02-13 23:20:55+01:00;f63cdbbcba04657cb3254facfc2214b9ed4c73ee;"BUG: update joblib to 0.7.0d  Fixes hashing bug that could lead to collisions in memory"
+gen_rst.py;125;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2013-02-17 19:52:21+01:00;42c7496c0cdf0fd137f3466f5a7b979a6e8e4680;"Merge branch 'master' into gbrt-deviance-fix"
+hashing.py;46;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2013-02-17 19:52:21+01:00;42c7496c0cdf0fd137f3466f5a7b979a6e8e4680;""
+setup.py;86;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2013-02-14 10:17:25+01:00;0cd16d1c0204efa57ddb44b5a450db171d5ad0d7;"PY3: Disable lib2to3"
+test_svmlight_format.py;217;ADD;Steven De Gryze;sdegryze@gmail.com;2013-03-18 21:01:45-07:00;461b58559aa5cab344409230688e216ae5383b14;"PY3 fixing utf8 comments in svm through try/except and six.b"
+test_svmlight_format.py;225;ADD;Steven De Gryze;sdegryze@gmail.com;2013-03-18 21:01:45-07:00;461b58559aa5cab344409230688e216ae5383b14;""
+setup.py;86;DELETED;Lars Buitinck;L.J.Buitinck@uva.nl;2013-03-21 13:46:20+01:00;b556759a560650506da58e59f6a7c6a2c4bcb8f4;"Merge branch 'pr/1790' -- Python 3 support from PyCon sprint"
+test_svmlight_format.py;217;ADD;Lars Buitinck;L.J.Buitinck@uva.nl;2013-03-21 13:46:20+01:00;b556759a560650506da58e59f6a7c6a2c4bcb8f4;""
+test_svmlight_format.py;225;ADD;Lars Buitinck;L.J.Buitinck@uva.nl;2013-03-21 13:46:20+01:00;b556759a560650506da58e59f6a7c6a2c4bcb8f4;""
+setup.py;86;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2013-03-25 08:41:43+01:00;bf0c1a38bb01c138c354319d4d7cf5bf5fbffe67;"Merge branch 'master' into pr/1798"
+test_svmlight_format.py;217;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2013-03-25 08:41:43+01:00;bf0c1a38bb01c138c354319d4d7cf5bf5fbffe67;""
+test_svmlight_format.py;225;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2013-03-25 08:41:43+01:00;bf0c1a38bb01c138c354319d4d7cf5bf5fbffe67;""
+text.py;852;ADD;lqdc;roman.sinayev@gmail.com;2013-03-14 11:34:41-04:00;3444bfbe8897a4738800cf3d2676c12b56d3ae08;"ENH Rewrote CountVectorizer fit_transform to be ~40% faster  Performance Results: http://i.imgur.com/5IGEz3Q.png"
+pyparsing.py;805;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;"add instructions for editing Readme, and script needed for that"
+pyparsing.py;1569;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+pyparsing.py;1637;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+pyparsing.py;1753;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+pyparsing.py;1822;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+pyparsing.py;2106;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+pyparsing.py;2465;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+pyparsing.py;2504;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+pyparsing.py;2543;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+pyparsing.py;2578;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+pyparsing.py;2885;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-23 17:16:09+02:00;707887d85841f987f1ce82028906a3490456d365;""
+text.py;852;DELETED;lqdc;roman.sinayev@gmail.com;2013-04-17 23:59:27-04:00;d562b461cfc27b0be82a646396ad6e4a867600e1;"ENH refactor and further speed up CountVectorizer"
+pyparsing.py;805;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;"remove svg2html script,toctree section added,doc page for ml_map created"
+pyparsing.py;1569;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;1637;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;1753;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;1822;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;2106;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;2465;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;2504;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;2543;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;2578;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;2885;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-04-24 20:05:52+02:00;021f515ef8250dbfc69094e5189381138ed7e0c1;""
+pyparsing.py;805;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;"maintenance scripts added for machine learning maps - needed for modifying the map in future"
+pyparsing.py;1569;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;1637;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;1753;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;1822;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;2106;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;2465;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;2504;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;2543;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;2578;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;2885;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-05-14 21:28:30+02:00;962e2e1d9946523785715e17474dae9d62d3b1dc;""
+pyparsing.py;805;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;"fix conflicts with master"
+pyparsing.py;1569;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+pyparsing.py;1637;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+pyparsing.py;1753;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+pyparsing.py;1822;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+pyparsing.py;2106;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+pyparsing.py;2465;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+pyparsing.py;2504;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+pyparsing.py;2543;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+pyparsing.py;2578;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+pyparsing.py;2885;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+test_svmlight_format.py;218;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+test_svmlight_format.py;226;ADD;Jake Vanderplas;vanderplas@astro.washington.edu;2013-07-06 07:53:37-07:00;eaac7aa19f8e3188b8eccc0be593ac2ae1c87a9f;""
+grid_search.py;488;ADD;Joel Nothman;joel.nothman@gmail.com;2013-07-10 12:17:01+10:00;c3f973950ab6144fd91d63f27f0cbd7714347b6c;"ENH print number of fits in BaseSearchCV._fit"
+grid_search.py;488;DELETED;Lars Buitinck;L.J.Buitinck@uva.nl;2013-07-12 17:04:35+02:00;5bff742d012c7ddbbe50dc004c276765c7a7f496;"COSMIT simplify printing of number of fits in grid search"
+weight_boosting.py;431;ADD;Gilles Louppe;g.louppe@gmail.com;2013-07-08 13:37:20+02:00;c806cdf7a1a094acdb204d93939bbddf6d6e280c;"FIX: set random_state in adaboost"
+weight_boosting.py;493;ADD;Gilles Louppe;g.louppe@gmail.com;2013-07-08 13:37:20+02:00;c806cdf7a1a094acdb204d93939bbddf6d6e280c;""
+weight_boosting.py;940;ADD;Gilles Louppe;g.louppe@gmail.com;2013-07-08 13:37:20+02:00;c806cdf7a1a094acdb204d93939bbddf6d6e280c;""
+weight_boosting.py;438;ADD;Gilles Louppe;g.louppe@ulg.ac.be;2013-07-22 03:44:01-07:00;239054d1409d05d828f918b6c4b3530568b1bfbd;"Merge pull request #2131 from glouppe/trees-v2  [MRG] Complete rewrite of the tree module"
+weight_boosting.py;500;ADD;Gilles Louppe;g.louppe@ulg.ac.be;2013-07-22 03:44:01-07:00;239054d1409d05d828f918b6c4b3530568b1bfbd;""
+weight_boosting.py;947;ADD;Gilles Louppe;g.louppe@ulg.ac.be;2013-07-22 03:44:01-07:00;239054d1409d05d828f918b6c4b3530568b1bfbd;""
+pyparsing.py;805;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;"fix merge conflict"
+pyparsing.py;1569;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+pyparsing.py;1637;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+pyparsing.py;1753;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+pyparsing.py;1822;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+pyparsing.py;2106;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+pyparsing.py;2465;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+pyparsing.py;2504;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+pyparsing.py;2543;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+pyparsing.py;2578;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+pyparsing.py;2885;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+weight_boosting.py;438;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+weight_boosting.py;500;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+weight_boosting.py;947;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-07-22 16:20:31+02:00;65cce1b43cedd39ba5644304b433b4af2a0a2101;""
+fastica_.py;398;ADD;Lars Buitinck;larsmans@gmail.com;2013-06-29 19:40:56+02:00;0e55dfe2023bc54b2490e3aefb9cbfafa18f87d3;"ENH fit_inverse_transform for FastICA  Modeled after KernelPCA's parameter of the same name.  Conflicts: 	sklearn/decomposition/fastica_.py"
+fastica_.py;400;DELETED;Lars Buitinck;larsmans@gmail.com;2013-07-22 10:56:53+02:00;5ee41cc66db256f35c94445e16bfae1744598159;"COSMIT attribute checking in FastICA"
+test_testing.py;103;ADD;Arnaud Joly;arnaud.v.joly@gmail.com;2013-05-28 13:48:57+02:00;cdfaa825f574399b5af72238c4f26834e4a6cffc;"Backport assert_warns and assert_no_warnings from np 1.7"
+__init__.py;64;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2013-08-04 23:35:07+02:00;bec85af38596c2a4c38b8a53e3960a9ba375fe6f;"MAINT: remove sklearn.test()"
+__init__.py;64;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2013-08-07 09:47:08+02:00;a25e4364f102fc626e900431e1d054cc0f476e47;"merge conflict fix"
+weight_boosting.py;438;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-08-07 09:47:08+02:00;a25e4364f102fc626e900431e1d054cc0f476e47;""
+weight_boosting.py;500;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-08-07 09:47:08+02:00;a25e4364f102fc626e900431e1d054cc0f476e47;""
+weight_boosting.py;947;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-08-07 09:47:08+02:00;a25e4364f102fc626e900431e1d054cc0f476e47;""
+test_testing.py;102;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-08-07 09:47:08+02:00;a25e4364f102fc626e900431e1d054cc0f476e47;""
+bagging.py;69;ADD;Gilles Louppe;g.louppe@gmail.com;2013-07-23 12:59:32+02:00;74d395215bbd2009dc922967b41c43f5469942ce;"ENH bagging meta-estimator"
+bagging.py;69;ADD;Lars Buitinck;larsmans@gmail.com;2013-09-11 13:51:44+02:00;524daee76522f00b4fda1d857bf6d1ed9426b215;"Merge branch 'bagging'  Fixes #2375."
+ransac.py;169;ADD;Johannes Schönberger;jsch@demuc.de;2013-09-26 15:54:24+02:00;58d56541caf7c68d3d03ffed1db0e914ef73841b;"Set random state of base estimator as well"
+ransac.py;182;ADD;eustache;eustache@diemert.fr;2013-10-28 09:41:26+01:00;9593fa71cfb06d23df591e9e0d54a8d579d358bd;"Merge remote-tracking branch 'upstream/master' into pred_latency"
+bagging.py;69;ADD;Nelle Varoquaux;nelle.varoquaux@gmail.com;2013-10-28 16:23:05+01:00;15434800d722400400feab33f414bf290c6dde7a;"Merge master in hc_linkage"
+ransac.py;182;ADD;Nelle Varoquaux;nelle.varoquaux@gmail.com;2013-10-28 16:23:05+01:00;15434800d722400400feab33f414bf290c6dde7a;""
+ransac.py;182;ADD;Mathieu Blondel;mathieu@mblondel.org;2013-11-06 23:44:40+09:00;63f7dd15236bc5e4df34c1298b156bb7c8477304;"Merge branch 'master' of github.com:scikit-learn/scikit-learn"
+bagging.py;69;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-11-25 14:51:52+01:00;99e32456580c6476004b92788386cd1413e78cf9;"Merge branch 'master' into DOC_olivier_tut"
+ransac.py;182;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-11-25 14:51:52+01:00;99e32456580c6476004b92788386cd1413e78cf9;""
+test_common.py;151;ADD;Olivier Grisel;olivier.grisel@ensta.org;2013-12-04 15:27:37+01:00;699079e0db0774436ece2d530a1cbd9460781935;"ENH: more explicit traceback + message in case of common failure on sparse input"
+test_common.py;151;ADD;eustache;eustache@diemert.fr;2013-12-05 09:28:33+01:00;54b03b35a9c213df6e68bf8135d8fd88383112a2;"Merge remote-tracking branch 'upstream/master' into pred_latency"
+test_common.py;151;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2013-12-09 14:58:10+01:00;97392248b24df00854dfd91c56a41dcd6a42df43;"Merge branch 'master' into gbrt-enh-stackrec-greedy  Conflicts: 	sklearn/ensemble/tests/test_gradient_boosting.py"
+test_common.py;151;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2013-12-17 15:03:13+01:00;6996bde28d91a6e202ac671816085a9460443496;"whatsnew conflict fix"
+test_common.py;159;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2013-12-30 13:49:17+01:00;40024f6477a96ed5c3a5dc7b45521b88c55f9f03;"ENH use nostests yield construct for better error reporting in common tests."
+test_common.py;612;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2013-12-30 13:49:17+01:00;40024f6477a96ed5c3a5dc7b45521b88c55f9f03;""
+test_common.py;627;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2013-12-30 13:49:17+01:00;40024f6477a96ed5c3a5dc7b45521b88c55f9f03;""
+test_common.py;151;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2013-12-30 13:49:17+01:00;40024f6477a96ed5c3a5dc7b45521b88c55f9f03;""
+test_common.py;596;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2013-12-30 13:49:17+01:00;40024f6477a96ed5c3a5dc7b45521b88c55f9f03;""
+test_common.py;611;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2013-12-30 13:49:17+01:00;40024f6477a96ed5c3a5dc7b45521b88c55f9f03;""
+test_common.py;163;ADD;Olivier Grisel;olivier.grisel@ensta.org;2013-12-30 07:17:51-08:00;9775be92fde090c7bc62bbd7ad3ca34aabd464df;"Merge pull request #2700 from amueller/refactor_common_tests  MRG Use yield to generate common tests."
+test_common.py;628;ADD;Olivier Grisel;olivier.grisel@ensta.org;2013-12-30 07:17:51-08:00;9775be92fde090c7bc62bbd7ad3ca34aabd464df;""
+test_common.py;643;ADD;Olivier Grisel;olivier.grisel@ensta.org;2013-12-30 07:17:51-08:00;9775be92fde090c7bc62bbd7ad3ca34aabd464df;""
+test_common.py;151;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2013-12-30 07:17:51-08:00;9775be92fde090c7bc62bbd7ad3ca34aabd464df;""
+test_common.py;596;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2013-12-30 07:17:51-08:00;9775be92fde090c7bc62bbd7ad3ca34aabd464df;""
+test_common.py;611;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2013-12-30 07:17:51-08:00;9775be92fde090c7bc62bbd7ad3ca34aabd464df;""
+test_common.py;164;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2014-01-04 13:35:43+01:00;a5210cf50621d9792bbb6e27df5ae521a3c1b0c8;"Merge branch 'master' into gbrt-enh-stackrec-greedy  Conflicts: 	sklearn/tree/_tree.c"
+test_common.py;629;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2014-01-04 13:35:43+01:00;a5210cf50621d9792bbb6e27df5ae521a3c1b0c8;""
+test_common.py;644;ADD;Peter Prettenhofer;peter.prettenhofer@gmail.com;2014-01-04 13:35:43+01:00;a5210cf50621d9792bbb6e27df5ae521a3c1b0c8;""
+test_common.py;151;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2014-01-04 13:35:43+01:00;a5210cf50621d9792bbb6e27df5ae521a3c1b0c8;""
+test_common.py;596;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2014-01-04 13:35:43+01:00;a5210cf50621d9792bbb6e27df5ae521a3c1b0c8;""
+test_common.py;611;DELETED;Peter Prettenhofer;peter.prettenhofer@gmail.com;2014-01-04 13:35:43+01:00;a5210cf50621d9792bbb6e27df5ae521a3c1b0c8;""
+test_common.py;160;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2014-01-07 14:10:45+01:00;4cf9865e3d1647f872254ecd1762fbafe903afd0;"Merge branch 'master' into DOC_olivier_tut"
+test_common.py;613;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2014-01-07 14:10:45+01:00;4cf9865e3d1647f872254ecd1762fbafe903afd0;""
+test_common.py;628;ADD;Jaques Grobler;jaquesgrobler@gmail.com;2014-01-07 14:10:45+01:00;4cf9865e3d1647f872254ecd1762fbafe903afd0;""
+test_common.py;151;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2014-01-07 14:10:45+01:00;4cf9865e3d1647f872254ecd1762fbafe903afd0;""
+test_common.py;596;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2014-01-07 14:10:45+01:00;4cf9865e3d1647f872254ecd1762fbafe903afd0;""
+test_common.py;611;DELETED;Jaques Grobler;jaquesgrobler@gmail.com;2014-01-07 14:10:45+01:00;4cf9865e3d1647f872254ecd1762fbafe903afd0;""
+test_common.py;169;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2014-02-04 22:04:48+01:00;1ada65fea2f225e6ad42a1a10c185ccf46e05a7b;"Merge branch 'master' into hc_linkage  Conflicts: 	sklearn/cluster/tests/test_hierarchical.py"
+test_common.py;623;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2014-02-04 22:04:48+01:00;1ada65fea2f225e6ad42a1a10c185ccf46e05a7b;""
+test_common.py;638;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2014-02-04 22:04:48+01:00;1ada65fea2f225e6ad42a1a10c185ccf46e05a7b;""
+test_common.py;588;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2014-02-04 22:04:48+01:00;1ada65fea2f225e6ad42a1a10c185ccf46e05a7b;""
+test_common.py;603;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2014-02-04 22:04:48+01:00;1ada65fea2f225e6ad42a1a10c185ccf46e05a7b;""
+test_common.py;169;DELETED;Lars Buitinck;larsmans@gmail.com;2014-02-27 18:30:35+01:00;0f5685b8eed8e71c91611c5d48e2acabec09261f;"FIX predict_proba status on SGD and SVC when disabled  Using a property trick suggested by @mblondel. The following now works:      >>> clf = SVC(probability=False)     >>> hasattr(clf, "predict_proba")     False  This simplifies the smoke tests.  Added a note to SVC stating that this should be done in new code."
+test_common.py;638;DELETED;Lars Buitinck;larsmans@gmail.com;2014-02-27 18:30:35+01:00;0f5685b8eed8e71c91611c5d48e2acabec09261f;""
+test_common.py;169;DELETED;Lars Buitinck;larsmans@users.noreply.github.com;2014-02-28 14:36:06+01:00;f73ce69c91615e26e5b2c7963f20b134d055e6f9;"Merge pull request #2910 from larsmans/hasattr-predict-proba  make hasattr(clf, "predict_proba") work with probabilities disabled"
+test_common.py;638;DELETED;Lars Buitinck;larsmans@users.noreply.github.com;2014-02-28 14:36:06+01:00;f73ce69c91615e26e5b2c7963f20b134d055e6f9;""
+bagging.py;69;ADD;Brooke Osborn;dsullivan7@hotmail.com;2014-03-01 14:42:37-05:00;a83fddf01a90dab8b5c592f6fecdb735158840d7;"Merge remote-tracking branch 'upstream/master' into rbmbranch"
+ransac.py;182;ADD;Brooke Osborn;dsullivan7@hotmail.com;2014-03-01 14:42:37-05:00;a83fddf01a90dab8b5c592f6fecdb735158840d7;""
+test_common.py;620;ADD;Brooke Osborn;dsullivan7@hotmail.com;2014-03-01 14:42:37-05:00;a83fddf01a90dab8b5c592f6fecdb735158840d7;""
+test_common.py;584;DELETED;Brooke Osborn;dsullivan7@hotmail.com;2014-03-01 14:42:37-05:00;a83fddf01a90dab8b5c592f6fecdb735158840d7;""
+test_common.py;599;DELETED;Brooke Osborn;dsullivan7@hotmail.com;2014-03-01 14:42:37-05:00;a83fddf01a90dab8b5c592f6fecdb735158840d7;""
+test_common.py;160;DELETED;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-03-02 22:39:06+01:00;601b82b596c7fdbbd85415f71c3474f7a3e7f51b;"Merge branch 'master' into theilsen"
+test_common.py;628;DELETED;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-03-02 22:39:06+01:00;601b82b596c7fdbbd85415f71c3474f7a3e7f51b;""
+memory.py;112;ADD;Olivier Grisel;olivier.grisel@ensta.org;2014-05-28 15:12:27+02:00;181ffb87ff87ed9098b7f711041dd9f5643e9a31;"MAINT: joblib 0.8.0"
+memory.py;191;ADD;Olivier Grisel;olivier.grisel@ensta.org;2014-05-28 15:12:27+02:00;181ffb87ff87ed9098b7f711041dd9f5643e9a31;""
+memory.py;112;ADD;Olivier Grisel;olivier.grisel@ensta.org;2014-05-28 15:40:31+02:00;1e64b7b95fa95f60e1432be6f8edcea874bbbcef;"Merge pull request #3212 from ogrisel/joblib-0.8.0  MAINT: joblib 0.8.0"
+memory.py;191;ADD;Olivier Grisel;olivier.grisel@ensta.org;2014-05-28 15:40:31+02:00;1e64b7b95fa95f60e1432be6f8edcea874bbbcef;""
+memory.py;112;ADD;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-07-17 19:22:03+02:00;4b6768f368b14566fe8b6e5da469593f07ba199e;"Merge branch 'master' into theilsen  Conflicts: 	doc/modules/linear_model.rst"
+memory.py;191;ADD;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-07-17 19:22:03+02:00;4b6768f368b14566fe8b6e5da469593f07ba199e;""
+test_cross_validation.py;513;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2014-07-18 10:02:14+02:00;b080d93b5ea15111ee1a97f142e020dee661dbb6;"ENH don't convert dataframes in grid search and cross-validation"
+test_cross_validation.py;630;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2014-07-18 10:02:14+02:00;b080d93b5ea15111ee1a97f142e020dee661dbb6;""
+test_grid_search.py;432;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2014-07-18 10:02:14+02:00;b080d93b5ea15111ee1a97f142e020dee661dbb6;""
+test_common.py;661;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2014-07-18 13:46:35+02:00;718f6ad19f90794e62f56d980c6e730a854e56d7;"split test_common.py into checks and test file. move dataset generation into estimator_checks"
+estimator_checks.py;488;ADD;Andreas Mueller;amueller@ais.uni-bonn.de;2014-07-18 13:46:35+02:00;718f6ad19f90794e62f56d980c6e730a854e56d7;""
+test_common.py;661;DELETED;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-07-19 22:08:54+02:00;2fcba229c4c97a689919f894c01814a47c01d841;"Merge remote-tracking branch 'upstream/master' into theilsen  Conflicts: 	sklearn/metrics/__init__.py 	sklearn/metrics/metrics.py"
+test_cross_validation.py;513;ADD;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-07-19 22:08:54+02:00;2fcba229c4c97a689919f894c01814a47c01d841;""
+test_cross_validation.py;630;ADD;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-07-19 22:08:54+02:00;2fcba229c4c97a689919f894c01814a47c01d841;""
+test_grid_search.py;432;ADD;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-07-19 22:08:54+02:00;2fcba229c4c97a689919f894c01814a47c01d841;""
+estimator_checks.py;490;ADD;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-07-19 22:08:54+02:00;2fcba229c4c97a689919f894c01814a47c01d841;""
+dict_vectorizer.py;303;DELETED;Lars Buitinck;larsmans@gmail.com;2014-09-22 16:21:53+02:00;7354359bca58c080b36bf4459448d0ea0d2e5338;"MAINT refactor DictVectorizer's transform+fit_transform (1)  Also:  * postpone attribute setting to the end of the fit_transform algorithm,   so that exceptions leave the transformer in a consistent state; * call sort_indices on CSR result.  Didn't refactor fit as I couldn't get the code shorter without making _transform cumbersome to read."
+dict_vectorizer.py;232;DELETED;Lars Buitinck;larsmans@gmail.com;2014-09-22 16:48:05+02:00;8f183967d98804ce6ab194656e71f080b2f4b11a;"Merge branch 'pr/3683'  Fixes #3683 (squashed and refactored)."
+dict_vectorizer.py;232;DELETED;Florian Wilhelm;Florian.Wilhelm@gmail.com;2014-09-24 19:30:39+02:00;b0ab7146994fee2e2d05bfcc5123f6690ee2d913;"Merge branch 'master' into theilsen"
+dict_vectorizer.py;232;DELETED;Danny Sullivan;dsullivan7@hotmail.com;2014-10-09 16:23:45+02:00;a0f0d461bcf52dbc6ea270c9fbe7dbf32b4db10d;"fixing merge conflicts"
+bench_20newsgroups.py;65;ADD;Arnaud Joly;arnaud.v.joly@gmail.com;2014-09-30 11:37:15+02:00;06701fcfe04b46b94e34628461f7d9c583b03969;"ENH add a benchmark script for sparse input data"
+bench_20newsgroups.py;71;ADD;Olivier Grisel;olivier.grisel@ensta.org;2014-11-21 10:10:33+01:00;8621f00f6ff711fe3a4cfe59e6c0accb72d32f97;"Merge pull request #3173 from arjoly/sparse-tree  [MRG] Sparse input support for decision tree and forest"
+test_lda.py;57;ADD;Clemens Brunner;clemens.brunner@tugraz.at;2014-09-26 13:00:49+02:00;a98e0d361dd78a11a7c9c429ee5ccb02b4de8383;"Moved some common code into helper function"
+test_common.py;331;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2015-01-11 13:54:29-05:00;16662744acda542b45e997289d051621ac02b04d;"TST slight cleanup of common tests."
+test_common.py;340;DELETED;Andreas Mueller;amueller@ais.uni-bonn.de;2015-01-11 13:54:29-05:00;16662744acda542b45e997289d051621ac02b04d;""
+test_common.py;338;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2015-01-15 11:14:07+01:00;c1f3080e1d38bf147c05bbbcba0603da1262e89f;"Merge pull request #4058 from amueller/cleanup_common_tests  [MRG+1] slight cleanup of common tests."
+test_common.py;347;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2015-01-15 11:14:07+01:00;c1f3080e1d38bf147c05bbbcba0603da1262e89f;""
+test_voting_classifier.py;145;ADD;rasbt;se.raschka@me.com;2015-04-20 19:27:30-04:00;2910198f14059f4a0130068cb7daa77e9d0bea8f;"votingclassifier"
+test_estimator_checks.py;61;ADD;Andreas Mueller;amueller@nyu.edu;2015-04-19 14:29:25-04:00;2d4c8d7bf11f70a27185b3f9f45f6b042ca2d622;"check output, not error on sparse data handling"
+test_estimator_checks.py;65;ADD;Olivier Grisel;olivier.grisel@ensta.org;2015-04-30 13:16:05+02:00;b92ed8f2dc415d89f111d887f71faf2a32d1ef7c;"Merge pull request #4550 from amueller/common_test_refactoring  [MRG+1] Common test refactoring"
+test_voting_classifier.py;145;ADD;Alexandre Gramfort;alexandre.gramfort@m4x.org;2015-05-08 09:21:36+02:00;9eb1964724bcfd15ea35ead476f3dcf2ad367bcf;"Merge pull request #4161 from rasbt/ensemble-classifier  [MRG + 2] EnsembleClassifier implementation"
+test_cross_validation.py;1077;ADD;Andreas Mueller;amueller@nyu.edu;2015-05-19 15:04:45-04:00;c5b395fb3e6b411d45bf1ad1b868ead7c3289af0;"FIX / TST make cross_val_predict work on lists, test pass-through and compatibility with various input types."
+test_cross_validation.py;1077;ADD;Olivier Grisel;olivier.grisel@ensta.org;2015-05-20 13:42:23+02:00;db56cf7cf53e97f398e20d4ef22b2eacb68e5bce;"Merge pull request #4705 from amueller/cross_val_predict_input_types  [MRG+2] make cross_val_predict work on lists"
+multiclass.py;267;ADD;Raghav R V;ragvrv@gmail.com;2015-07-04 16:05:02+05:18;3bd6132f255ba97fa1c31c1d7ed201a0d46e2127;"FIX make sure empty target vectors are returned as binary"
+multiclass.py;239;ADD;jnothman;joel.nothman@gmail.com;2015-08-13 22:34:32+10:00;4c2d61a05115625808e67693f9c6ca16865ddcb4;"Merge pull request #4919 from rvraghav93/label_binarizer  [MRG] MAINT Remove deprecated sequence of sequence support etc"
+multiclass.py;239;ADD;mhg;michigraber@gmail.com;2015-08-25 14:07:56+09:00;535536e537f9a8f1a8375a633fe35b4a5ad8661a;"merge with upstream/master"
+bench_20newsgroups.py;71;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 10:48:16+01:00;c7795695d06622acc805e98c83c305de1cb5905f;"Merge branch 'master' into pr_3651"
+test_voting_classifier.py;143;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 10:48:16+01:00;c7795695d06622acc805e98c83c305de1cb5905f;""
+dict_vectorizer.py;232;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 10:48:16+01:00;c7795695d06622acc805e98c83c305de1cb5905f;""
+test_common.py;328;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 10:48:16+01:00;c7795695d06622acc805e98c83c305de1cb5905f;""
+test_common.py;337;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 10:48:16+01:00;c7795695d06622acc805e98c83c305de1cb5905f;""
+test_cross_validation.py;1072;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 10:48:16+01:00;c7795695d06622acc805e98c83c305de1cb5905f;""
+multiclass.py;239;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 10:48:16+01:00;c7795695d06622acc805e98c83c305de1cb5905f;""
+test_estimator_checks.py;87;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 10:48:16+01:00;c7795695d06622acc805e98c83c305de1cb5905f;""
+test_voting_classifier.py;143;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 11:54:40+01:00;fb58d37846f2baca48117b0fa52bce54a3cd3c0f;"Merge branch 'master' into pr_4009  Conflicts: 	sklearn/neighbors/ball_tree.c 	sklearn/neighbors/dist_metrics.c 	sklearn/neighbors/dist_metrics.pyx 	sklearn/neighbors/kd_tree.c 	sklearn/neighbors/tests/test_neighbors.py"
+test_cross_validation.py;1072;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 11:54:40+01:00;fb58d37846f2baca48117b0fa52bce54a3cd3c0f;""
+multiclass.py;239;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 11:54:40+01:00;fb58d37846f2baca48117b0fa52bce54a3cd3c0f;""
+test_estimator_checks.py;87;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-08-30 11:54:40+01:00;fb58d37846f2baca48117b0fa52bce54a3cd3c0f;""
+estimator_checks.py;365;ADD;Vighnesh Birodkar;vighneshbirodkar@gmail.com;2015-08-24 19:52:40-04:00;2f099334f956e91d8ac1ae8f5f9c852488de1da8;"MAINT deprecate 1d input arrays for all estimators  Passing 1D arrays to check_array, without setting `ensure_2d` to false now raises a deprecation warning before reshaping it. This will later throw an error.  All Scaler classes also throw warnings when 1D arrays are passed.  All unit tests/doctests are modified to ensure that no 1D arrays are passed, except in explicit 1D array tests where the warnings have been silenced.  Additional tests are also included which check for different 1D array cases.  2D array tests with one samples and one features are also added and where they failed, `check_array` call has been modified to give a more useful error message"
+estimator_checks.py;387;ADD;Vighnesh Birodkar;vighneshbirodkar@gmail.com;2015-08-24 19:52:40-04:00;2f099334f956e91d8ac1ae8f5f9c852488de1da8;""
+estimator_checks.py;409;ADD;Vighnesh Birodkar;vighneshbirodkar@gmail.com;2015-08-24 19:52:40-04:00;2f099334f956e91d8ac1ae8f5f9c852488de1da8;""
+estimator_checks.py;432;ADD;Vighnesh Birodkar;vighneshbirodkar@gmail.com;2015-08-24 19:52:40-04:00;2f099334f956e91d8ac1ae8f5f9c852488de1da8;""
+estimator_checks.py;455;ADD;Vighnesh Birodkar;vighneshbirodkar@gmail.com;2015-08-24 19:52:40-04:00;2f099334f956e91d8ac1ae8f5f9c852488de1da8;""
+funcsigs.py;79;ADD;Olivier Grisel;olivier.grisel@ensta.org;2015-09-23 13:59:28+02:00;6966881328c256bbef37752cce23bbac8e23fb27;"MAINT use inspect.signature for introspection"
+funcsigs.py;88;ADD;Olivier Grisel;olivier.grisel@ensta.org;2015-09-23 13:59:28+02:00;6966881328c256bbef37752cce23bbac8e23fb27;""
+funcsigs.py;419;ADD;Olivier Grisel;olivier.grisel@ensta.org;2015-09-23 13:59:28+02:00;6966881328c256bbef37752cce23bbac8e23fb27;""
+odict.py;19;ADD;Olivier Grisel;olivier.grisel@ensta.org;2015-09-23 13:59:28+02:00;6966881328c256bbef37752cce23bbac8e23fb27;""
+odict.py;94;ADD;Olivier Grisel;olivier.grisel@ensta.org;2015-09-23 13:59:28+02:00;6966881328c256bbef37752cce23bbac8e23fb27;""
+funcsigs.py;79;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-09-23 16:36:33+01:00;218e255a87a62053396cb8e848bcb60832f1cce9;"Merge pull request #5301 from ogrisel/python-3.5-inspect-deprecation  [MRG+2] MAINT use inspect.signature for introspection"
+funcsigs.py;88;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-09-23 16:36:33+01:00;218e255a87a62053396cb8e848bcb60832f1cce9;""
+funcsigs.py;419;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-09-23 16:36:33+01:00;218e255a87a62053396cb8e848bcb60832f1cce9;""
+odict.py;19;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-09-23 16:36:33+01:00;218e255a87a62053396cb8e848bcb60832f1cce9;""
+odict.py;94;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-09-23 16:36:33+01:00;218e255a87a62053396cb8e848bcb60832f1cce9;""
+funcsigs.py;79;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;"Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into patch-1  Conflicts: 	doc/whats_new.rst"
+funcsigs.py;88;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+funcsigs.py;419;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+odict.py;19;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+odict.py;94;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+estimator_checks.py;392;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+estimator_checks.py;414;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+estimator_checks.py;436;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+estimator_checks.py;459;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+estimator_checks.py;482;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+multiclass.py;255;ADD;yanlend;peter.fischer@fau.de;2015-10-19 13:53:13+02:00;56796e42d03e5cf22689d897d2b5cae707ae91bf;""
+exceptions.py;98;ADD;Raghav R V;ragvrv@gmail.com;2015-06-06 00:03:45+05:18;e3afc0e8c9de522324a2f0cf0f7a17fee5147195;"MAINT move custom error/warning classes into sklearn.exceptions  ENH NonBLASDotWarning -> EfficiencyWarning; Improve error message DOC Add exceptions module to modules/classes.rst MAINT Move ConvergenceWarning, UndefinedMetricWarning et al into exceptions MAINT Remove ChangedBehaviorWarning from base DOC/FIX Improve DataConversionWarning's docstring"
+exceptions.py;98;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2015-10-20 10:48:44+02:00;d4e9d7991af3d036bb50e44b4356ff5f9bee559c;"Merge pull request #4826 from rvraghav93/exceptions  [MRG + 1] move custom error/warning classes into sklearn.exceptions (and move `deprecated` away from `utils.__init__.py`)"
+estimator_checks.py;145;ADD;hlin117;hlin117@gmail.com;2015-10-17 17:16:30-05:00;92068ef7de92752ab14a1e601e021cda4a51149d;"#5322: Wrote check_supervised_y_no_nan in estimator_checks"
+estimator_checks.py;145;DELETED;hlin117;hlin117@gmail.com;2015-10-17 17:54:58-05:00;7745319e337213fa9c419b280697e0fbfe9375c3;"#5322: Added check for DecisionTreeRegressor"
+multilayer_perceptron.py;486;ADD;Andreas Mueller;amueller@nyu.edu;2014-12-04 15:26:59-05:00;b52bae49b1c74d9c4f09a21963c63e980c356fb3;"refactor mlp optimization methods into _fit_lbfgs and _fit_sgd, add Ctrl+C stop option for SGD"
+test_search.py;525;ADD;Raghav R V;ragvrv@gmail.com;2015-06-05 01:03:10+05:18;3f8743f47b61a269e8bfff2322cb544170976574;"Main Commits - Major --------------------  * ENH Reogranize classes/fn from grid_search into search.py * ENH Reogranize classes/fn from cross_validation into split.py * ENH Reogranize cls/fn from cross_validation/learning_curve into validate.py  * MAINT Merge _check_cv into check_cv inside the model_selection module * MAINT Update all the imports to point to the model_selection module * FIX use iter_cv to iterate throught the new style/old style cv objs * TST Add tests for the new model_selection members * ENH Wrap the old-style cv obj/iterables instead of using iter_cv  * ENH Use scipy's binomial coefficient function comb for calucation of nCk * ENH Few enhancements to the split module * ENH Improve check_cv input validation and docstring * MAINT _get_test_folds(X, y, labels) --> _get_test_folds(labels) * TST if 1d arrays for X introduce any errors * ENH use 1d X arrays for all tests; * ENH X_10 --> X (global var)  Minor -----  * ENH _PartitionIterator --> _BaseCrossValidator; * ENH CVIterator --> CVIterableWrapper * TST Import the old SKF locally * FIX/TST Clean up the split module's tests. * DOC Improve documentation of the cv parameter * COSMIT consistently hyphenate cross-validation/cross-validator * TST Calculate n_samples from X * COSMIT Use separate lines for each import. * COSMIT cross_validation_generator --> cross_validator  Commits merged manually -----------------------  * FIX Document the random_state attribute in RandomSearchCV * MAINT Use check_cv instead of _check_cv * ENH refactor OVO decision function, use it in SVC for sklearn-like   decision_function shape * FIX avoid memory cost when sampling from large parameter grids  ENH Major to Minor incremental enhancements to the model_selection  Squashed commit messages - (For reference)  Major -----  * ENH p --> n_labels * FIX *ShuffleSplit: all float/invalid type errors at init and int error at split * FIX make PredefinedSplit accept test_folds in constructor; Cleanup docstrings * ENH+TST KFold: make rng to be generated at every split call for reproducibility * FIX/MAINT KFold: make shuffle a public attr * FIX Make CVIterableWrapper private. * FIX reuse len_cv instead of recalculating it * FIX Prevent adding *SearchCV estimators from the old grid_search module * re-FIX In all_estimators: the sorting to use only the 1st item (name)     To avoid collision between the old and the new GridSearch classes. * FIX test_validate.py: Use 2D X (1D X is being detected as a single sample) * MAINT validate.py --> validation.py * MAINT make the submodules private * MAINT Support old cv/gs/lc until 0.19 * FIX/MAINT n_splits --> get_n_splits * FIX/TST test_logistic.py/test_ovr_multinomial_iris:     pass predefined folds as an iterable * MAINT expose BaseCrossValidator * Update the model_selection module with changes from master   - From #5161   -  - MAINT remove redundant p variable   -  - Add check for sparse prediction in cross_val_predict   - From #5201 - DOC improve random_state param doc   - From #5190 - LabelKFold and test   - From #4583 - LabelShuffleSplit and tests   - From #5300 - shuffle the `labels` not the `indxs` in LabelKFold + tests   - From #5378 - Make the GridSearchCV docs more accurate.   - From #5458 - Remove shuffle from LabelKFold   - From #5466(#4270) - Gaussian Process by Jan Metzen   - From #4826 - Move custom error / warnings into sklearn.exception  Minor -----  * ENH Make the KFold shuffling test stronger * FIX/DOC Use the higher level model_selection module as ref * DOC in check_cv "y : array-like, optional" * DOC a supervised learning problem --> supervised learning problems * DOC cross-validators --> cross-validation strategies * DOC Correct Olivier Grisel's name ;) * MINOR/FIX cv_indices --> kfold * FIX/DOC Align the 'See also' section of the new KFold, LeaveOneOut * TST/FIX imports on separate lines * FIX use __class__ instead of classmethod * TST/FIX import directly from model_selection * COSMIT Relocate the random_state documentation * COSMIT remove pass * MAINT Remove deprecation warnings from old tests * FIX correct import at test_split * FIX/MAINT Move P_sparse, X, y defns to top; rm unused W_sparse, X_sparse * FIX random state to avoid doctest failure * TST n_splits and split wrapping of _CVIterableWrapper * FIX/MAINT Use multilabel indicator matrix directly * TST/DOC clarify why we conflate classes 0 and 1 * DOC add comment that this was taken from BaseEstimator * FIX use of labels is not needed in stratified k fold * Fix cross_validation reference * Fix the labels param doc  FIX/DOC/MAINT Addressing the review comments by Arnaud and Andy  COSMIT Sort the members alphabetically COSMIT len_cv --> n_splits COSMIT Merge 2 if; FIX Use kwargs DOC Add my name to the authors :D DOC make labels parameter consistent FIX Remove hack for boolean indices; + COSMIT idx --> indices; DOC Add Returns COSMIT preds --> predictions DOC Add Returns and neatly arrange X, y, labels FIX idx(s)/ind(s)--> indice(s) COSMIT Merge if and else to elif COSMIT n --> n_samples COSMIT Use bincount only once COSMIT cls --> class_i / class_i (ith class indices) --> perm_indices_class_i  FIX/ENH/TST Addressing the final reviews  COSMIT c --> count FIX/TST make check_cv raise ValueError for string cv value TST nested cv (gs inside cross_val_score) works for diff cvs FIX/ENH Raise ValueError when labels is None for label based cvs; TST if labels is being passed correctly to the cv and that the ValueError is being propagated to the cross_val_score/predict and grid search FIX pass labels to cross_val_score FIX use make_classification DOC Add Returns; COSMIT Remove scaffolding TST add a test to check the _build_repr helper REVERT the old GS/RS should also be tested by the common tests. ENH Add a tuple of all/label based CVS FIX raise VE even at get_n_splits if labels is None FIX Fabian's comments PEP8"
+test_split.py;399;ADD;Raghav R V;ragvrv@gmail.com;2015-06-05 01:03:10+05:18;3f8743f47b61a269e8bfff2322cb544170976574;""
+test_split.py;729;ADD;Raghav R V;ragvrv@gmail.com;2015-06-05 01:03:10+05:18;3f8743f47b61a269e8bfff2322cb544170976574;""
+test_validation.py;196;ADD;Raghav R V;ragvrv@gmail.com;2015-06-05 01:03:10+05:18;3f8743f47b61a269e8bfff2322cb544170976574;""
+test_validation.py;517;ADD;Raghav R V;ragvrv@gmail.com;2015-06-05 01:03:10+05:18;3f8743f47b61a269e8bfff2322cb544170976574;""
+multilayer_perceptron.py;555;ADD;Andreas Mueller;t3kcit@gmail.com;2015-10-23 19:22:21+02:00;965a71517f2f06d1311ae1666a784d60f0832105;"Merge pull request #5214 from glennq/mlp_refactoring  [MRG + 2] Mlp with adam, nesterov's momentum, early stopping"
+cythonize.py;63;ADD;Arthur Mensch;arthur.mensch@gmail.com;2015-10-21 17:05:19+02:00;986fb60947f91306d9dcf8d09a321ba52f4417af;"C file removal + cython build + Travis build cache"
+cythonize.py;63;ADD;Manoj Kumar;mks542@nyu.edu;2015-11-11 11:41:18-05:00;f49a558162d2acd07ab206f72716e00e6cbf2e6d;"Merge pull request #5492 from arthurmensch/remove_cython  [MRG + 2] Removing generated C files, adding build cache to Travis"
+test_classification.py;1288;ADD;Maniteja Nandana;manitejanmt@gmail.com;2015-12-17 22:49:20+05:18;0d597c02c5b09a21195bbe515467844f63918132;"Solves issue #5715: enables pandas input to log_loss  Enable pandas input to log_loss function Added a regression test. Correct the check_array function in log_loss"
+test_classification.py;1288;ADD;Alexandre Gramfort;alexandre.gramfort@m4x.org;2015-12-31 18:23:11+01:00;4afbccedd3ced50e9b4019a2509df8eacdc1c7ba;"Merge pull request #6104 from maniteja123/issue5715  [MRG+1] Enable pandas input to log_loss"
+bench_20newsgroups.py;71;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;"Correct typo in ``decomposition.rst``. Merge latest changes."
+cythonize.py;63;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_voting_classifier.py;162;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+exceptions.py;98;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+funcsigs.py;79;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+funcsigs.py;88;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+funcsigs.py;419;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+memory.py;114;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+memory.py;193;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+odict.py;19;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+odict.py;94;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+dict_vectorizer.py;231;DELETED;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_classification.py;1379;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_search.py;525;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_split.py;411;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_split.py;741;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_validation.py;198;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_validation.py;526;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+multilayer_perceptron.py;555;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_common.py;621;DELETED;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_cross_validation.py;671;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_cross_validation.py;843;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_cross_validation.py;1190;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_grid_search.py;494;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+estimator_checks.py;418;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+estimator_checks.py;440;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+estimator_checks.py;462;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+estimator_checks.py;485;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+estimator_checks.py;508;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+estimator_checks.py;999;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+multiclass.py;255;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_estimator_checks.py;89;ADD;Paul Strickland;p.e.strickland@gmail.com;2016-02-06 14:41:22+00:00;ef307ecf9c9a9e47aa76a318fab863dcec1b688c;""
+test_svmlight_format.py;234;ADD;YenChenLin;yenchenlin1994@gmail.com;2016-02-18 18:36:27+08:00;22d7cd5cd07e301461d635aa4235c7d10135a4a9;"Make dump_svmlight_file support sparse y"
+test_svmlight_format.py;242;ADD;YenChenLin;yenchenlin1994@gmail.com;2016-02-18 18:36:27+08:00;22d7cd5cd07e301461d635aa4235c7d10135a4a9;""
+test_svmlight_format.py;224;DELETED;YenChenLin;yenchenlin1994@gmail.com;2016-02-18 18:36:27+08:00;22d7cd5cd07e301461d635aa4235c7d10135a4a9;""
+test_svmlight_format.py;232;DELETED;YenChenLin;yenchenlin1994@gmail.com;2016-02-18 18:36:27+08:00;22d7cd5cd07e301461d635aa4235c7d10135a4a9;""
+test_svmlight_format.py;234;ADD;Tom Dupré la Tour;TomDLT@users.noreply.github.com;2016-03-23 19:19:43+01:00;eed5fc5f0f84d1152604858837fa807e5716ea36;"Merge pull request #6395 from yenchenlin1994/make-dump_svmlight_file-support-sparse-y  [MRG+1] Make dump_svmlight_file support sparse y (fixes #6301)"
+test_svmlight_format.py;242;ADD;Tom Dupré la Tour;TomDLT@users.noreply.github.com;2016-03-23 19:19:43+01:00;eed5fc5f0f84d1152604858837fa807e5716ea36;""
+test_svmlight_format.py;224;DELETED;Tom Dupré la Tour;TomDLT@users.noreply.github.com;2016-03-23 19:19:43+01:00;eed5fc5f0f84d1152604858837fa807e5716ea36;""
+test_svmlight_format.py;232;DELETED;Tom Dupré la Tour;TomDLT@users.noreply.github.com;2016-03-23 19:19:43+01:00;eed5fc5f0f84d1152604858837fa807e5716ea36;""
+test_gaussian_mixture.py;795;ADD;Thierry;thierry.guillemot.work@gmail.com;2016-04-14 16:30:47+02:00;0625e0384e320e563e30aab966243f1808759168;"Integration of the new GaussianMixture class.  Depreciation of the GMM class.  Modification of the GaussianMixture class.   Some functions from the original GSoC code have been removed, renamed or simplified.   Some new functions have been introduced (as the 'check_parameters' function).   Some parameters names have been changed :    - covars_ -> covariances_ : to be coherent with sklearn/covariances   Addition of the parameter 'warm_start' allowing to fit data by using the previous computation.  The old examples have been modified to replace the deprecated GMM class by the new GaussianMixture class. Every exemple use the eigenvectors norm to solve the scale ellipse problem (Issues 6548).  Correction of all commentaries from the PR - Rename MixtureBase -> BaseMixture - Remove n_features_ - Fix some problems - Add some tests  Correction of the bic/aic test.  Fix the test_check_means and test_check_covariances.  Remove all references to the deprecated GMM class.  Remove initialized_. Add and correct docstring.  Correct the order of random_state.  Fix small typo.  Some fix in prevision of the integration of the new BayesianGaussianMixture class.  Modification in preparation of the integration of the BayesianGaussianMixture class. Add 'best_n_iter' attribute. Fix some bugs and tests.  Change the parameter order in the documentation.  Change best_n_iter_ name to n_iter_.  Fix of the warm_start problem. Fix the divergence error message. Correction of the random state init in the test file. Fix the testing problems.  Update and add comments into the monotonic test."
+test_gaussian_mixture.py;795;ADD;Olivier Grisel;olivier.grisel@ensta.org;2016-04-22 00:23:58+02:00;6bc346bbe7bdc30809ad1557b0f26e4afaf0d32b;"Merge pull request #6666 from tguillemot/GSoC-GMM-new  [MRG+1] Integration of GSoC2015 Gaussian Mixture (first step)"
+test_search.py;762;ADD;Raghav R V;rvraghav93@gmail.com;2016-06-16 04:23:04+02:00;afd5d18b0cfe1512a4a8f99835c693b3724cf6ed;"[MRG] ENH Restructure grid_scores_ into a dict of 1D arrays  Also, DOC what's new section for model_selection changes"
+numpy_pickle_utils.py;617;ADD;Olivier Grisel;olivier.grisel@ensta.org;2016-07-17 20:31:16+02:00;e0d501f3109e60f9fec12d4d4b4f6c74a0ff75ef;"Joblib 0.10.0 (#6985)  * joblib 0.10.0  * LC_ALL=C is necessary for sed"
+docs_resolv.py;108;ADD;Óscar Nájera;najera.oscar@gmail.com;2016-01-24 23:16:36+01:00;ca4e8023e4244e4638210b7ee6a2ead70430ad76;"[MAINT] Install sphinx-gallery v0.1.0"
+conf.py;33;DELETED;Óscar Nájera;najera.oscar@gmail.com;2016-01-24 23:50:12+01:00;17885af9b72cd44946fb93298cafdc1a4facc4ef;"conf.py integrate sphinx-gallery"
+gen_rst.py;171;DELETED;Óscar Nájera;najera.oscar@gmail.com;2016-01-24 23:50:12+01:00;17885af9b72cd44946fb93298cafdc1a4facc4ef;""
+conf.py;33;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2016-08-03 14:28:06-07:00;40169b94eb0637b8334bea38072294bc32b17a2d;"Merge pull request #4658 from Titan-C/sphx-glr  [MRG+2] Sphinx-gallery use"
+gen_rst.py;171;DELETED;Gael Varoquaux;gael.varoquaux@normalesup.org;2016-08-03 14:28:06-07:00;40169b94eb0637b8334bea38072294bc32b17a2d;""
+docs_resolv.py;108;ADD;Gael Varoquaux;gael.varoquaux@normalesup.org;2016-08-03 14:28:06-07:00;40169b94eb0637b8334bea38072294bc32b17a2d;""
+export.py;422;ADD;themrmax;max.flander@gmail.com;2016-09-12 13:47:08+10:00;802814ee015c604c98813f7e95d879ab49b4da44;"make export_graphviz return string if out_file is None"
+export.py;422;DELETED;themrmax;max.flander@gmail.com;2016-09-13 10:11:34+10:00;b4b23a340427be65ea14c024aa5ccba4c567a44b;"only return string if out_file is None"
+bagging.py;93;DELETED;Joel Nothman;joel.nothman@gmail.com;2016-09-23 17:00:32+10:00;32d1236f4a4d01a2e1544fe9929e4e78630fa9eb;"[MRG+2] FIX adaboost estimators not randomising correctly (#7411)  * FIX adaboost estimators not randomising correctly  (fixes #7408)  FIX ensure nested random_state is set in ensembles  * DOC add what's new  * Only affect *__random_state, not *_random_state for now  * TST More informative assertions for ensemble tests  * More specific testing of different random_states"
+weight_boosting.py;473;DELETED;Joel Nothman;joel.nothman@gmail.com;2016-09-23 17:00:32+10:00;32d1236f4a4d01a2e1544fe9929e4e78630fa9eb;""
+weight_boosting.py;536;DELETED;Joel Nothman;joel.nothman@gmail.com;2016-09-23 17:00:32+10:00;32d1236f4a4d01a2e1544fe9929e4e78630fa9eb;""
+weight_boosting.py;1002;DELETED;Joel Nothman;joel.nothman@gmail.com;2016-09-23 17:00:32+10:00;32d1236f4a4d01a2e1544fe9929e4e78630fa9eb;""
+test_search.py;856;ADD;Raghav RV;rvraghav93@gmail.com;2016-09-27 12:14:33+02:00;b444cc9c6457590b33b365185b3eafb0d312b9be;"[MRG+2] Timing and training score in GridSearchCV (#7325)  * Resolved issue #6894 and #6895:     Now *SearchCV.results_ includes both timing and training scores.  wrote new test (sklearn/model_selection/test_search.py) and new doctest (sklearn/model_selection/_search.py) added a few more lines in the docstring of GridSearchCV and RandomizedSearchCV. Revised code according to suggestions. Add a few more lines to test_grid_search_results():     1. check test_rank_score always >= 1     2. check all regular scores (test/train_mean/std_score) and timing >= 0     3. check all regular scores <= 1 Note that timing can be greater than 1 in general, and std of regular scores always <= 1 because the scores are bounded between 0 and 1.  * ENH/FIX timing and training score.  * ENH separate fit / score times * Make score_time=0 if errored; Ignore warnings in test * Cleanup docstrings * ENH Use helper to store the results * Move fit time computation to else of try...except...else * DOC readable sample scores * COSMIT Add a commnent on why time test is >= 0 instead of > 0   (Windows time.time precision is not accurate enought to be non-zero    for trivial fits)  * Convey that times are in seconds"
+cythonize.py;63;DELETED;Loïc Estève;loic.esteve@ymail.com;2016-11-02 12:57:04+01:00;6a2d8d5bbc261309d59ac30bf650e982f1477dd7;"[MRG+2] BUILD Rewrite setup.py files to handle cython dependencies (#7719)  * Rewriting of cythonization in setup.py  By using Cython.Build.cythonize and switching between .c and .pyx files as appropriate cython dependencies are correctly taken into account.  * Use cythonize once on the root config rather than in each subpackage  * Fix for Windows  * Remove caching from Travis  Cython dependencies are taken care of by Cython.Build.cythonize and based on file timestamps, so .C and .so files will always be rebuild from scratch on each build in Travis.  * Specify .pyx in setup.files for cython generated extensions  More natural this way. Tweak the extensions to generate from .c and .cpp files for a release.  * COSMIT Remove commented out code  * Check cython version is greater than 0.23  * COSMIT better names for functions  * flake8 fix (imported module not at top of file)  * Install cython 0.23 for Python 2.6  now that cython >= 0.23 requirement is enforced in setup.py  * Use module constant for minimum required cython version  * Fix Travis install.sh  No easy way to put comments inside multi-line command"
+odict.py;19;DELETED;Loïc Estève;loic.esteve@ymail.com;2016-11-23 23:11:04+01:00;e5bf61eee1c62dbb5a2103e68cf73936e4ac3e58;"[MRG+1] Dropping python 2.6 support (#7890)  * Remove Python 2.6 support  Some details about some slightly orthogonal changes: * Note about cheking safely for nan is likely not valid any more (commit   introducing it is c80ca91b) * scipy.linalg.qr econ parameter removed since scipy 0.9 in favour of   mode='economic' * Remove unnecessary libgfortran in conda create command  * Putative fix by setting the random seed  * Revert unintended change  * Reinstate previous logic for checking for NaNs  * Reinstate change in error message  Error messages from Python 2.7 assertRegexp does not contain the function name, in contrast with Python 3 assertRegex"
+odict.py;94;DELETED;Loïc Estève;loic.esteve@ymail.com;2016-11-23 23:11:04+01:00;e5bf61eee1c62dbb5a2103e68cf73936e4ac3e58;""
+test_testing.py;32;DELETED;Loïc Estève;loic.esteve@ymail.com;2016-11-23 23:11:04+01:00;e5bf61eee1c62dbb5a2103e68cf73936e4ac3e58;""
+test_testing.py;46;DELETED;Loïc Estève;loic.esteve@ymail.com;2016-11-23 23:11:04+01:00;e5bf61eee1c62dbb5a2103e68cf73936e4ac3e58;""
+test_estimator_checks.py;115;ADD;Kathy Chen;kchen2013@gmail.com;2016-12-03 15:56:22-05:00;04b67e2bcd26bfc8ce50b6c4b61bd6333809ed62;"[MRG+1] Fix estimators to work if sample_weight parameter is pandas Series type (#7825)  * addressed comments in the PR about parameters in check_array  * update the test case for the evaluation of estimators with pandas series  * bug fix, need to check for *not* None explicitly  * updated with isinstance check if the documentation says there is acceptance of floats  * ran pep8 linter on modified files  * moving the test case to estimators_check  * add a predict function into the testing pandas.Series class  * avoid running anything beyond the newly added meta checks  * check if pandas is installed before running the specific test  * changed the order of the try-catch to check for sample_weight param beforehand  * pass on import error rather than printing something to std out  * improve test case naming and pd.Series check in the bad estimator class  * address a pep8 linter error with unused import  * pep8 warning disabled for potential unused import  * throw a warning when SkipTest is raised  * add a SkipTestWarning  * updated the whats_new.rst with this issue  * rebase and fix a spacing issue"
+estimator_checks.py;494;DELETED;Andreas Mueller;t3kcit@gmail.com;2016-12-13 11:48:12-05:00;09b2df1bb0515326455792255a501eb2f707ad77;"left-over deprecation of 1d X (#8045)"
+test_validation.py;977;ADD;Stijn Tonk;equialgo@gmail.com;2016-12-29 02:46:53+01:00;986a49bbe018aa8060f53c146fc06f278f80b7a6;"FIX Split data using _safe_split in _permutaion_test_score (#5697)  Squashed commits: [94fd9f4] split data using _safe_split in _permutaion_test_scorer [522053b] adding test case test_permutation_test_score_pandas() to check if permutation_test_score plays nice with pandas dataframe/series [21b23ce] running test_permutation_test_score_pandas on iris data to prevent warnings. [15a48bf] adding safe_indexing to _shuffle function [9ea5c9e] adding test case test_permutation_test_score_pandas() to check if permutation_test_score plays nice with pandas dataframe/series [3cf5e8f] split  data using _safe_split in _permutaion_test_scorer to fix error when using Pandas DataFrame/Series"
+docs_resolv.py;257;ADD;Óscar Nájera;najera.oscar@gmail.com;2017-01-17 23:43:40+01:00;bddda7bc69f86470d2b046d2b116fba444360e97;"[MRG + 2] [MAINT] Update to Sphinx-Gallery 0.1.7 (#7986)  and use latest version of sphinx in CircleCI"
+plot_manifold_sphere.py;74;DELETED;Rishikesh;rishikksh20@gmail.com;2017-03-10 12:43:37+05:18;d0ce40e8b27235a550dc7c23d2fdfed929be555b;"[MRG] remove "matplotlib <1" compatibility code from manifold  examples  (#8552)"
+test_tree.py;810;ADD;(Venkat) Raghav (Rajagopalan);rvraghav93@gmail.com;2017-04-03 18:38:53+02:00;fc2f24927fc37d7e42917369f17de045b14c59b5;"[MRG+1] ENH/FIX Introduce min_impurity_decrease param for early stopping based on impurity; Deprecate min_impurity_split (#8449)  [MRG+2] ENH/FIX Introduce min_impurity_decrease param for early stopping based on impurity; Deprecate min_impurity_split"
+test_config.py;51;ADD;Joel Nothman;joel.nothman@gmail.com;2017-06-08 21:42:17+10:00;ee88cf44ea533803849379f48bd44fcdefc14a93;"[MRG+1] Option to suppress validation for finiteness (#7548)  * ENH add suppress validation option  * TST skip problematic doctest  * Rename SUPPRESS_VALIDATION to PRESUME_FINITE  * Change PRESUME_ to ASSUME_ for convention's sake  * DOC add note regarding assert_all_finite  * ENH add set_config context manager for ASSUME_FINITE  * Make ASSUME_FINITE private and provide get_config  * Fix ImportError due to incomplete change in last commit  * TST/DOC tests and more cautious documentation for set_config  * DOC what's new entry for validation suppression  * context manager is now config_context; set_config affects global config  * Rename missed set_config to config_context  * Fix mis-named test  * Mention set_config in narrative docs  * More explicit about limmited restoration of context  * Handle case where error raised in config_context  * Reset all settings after exiting context manager"
+test_search.py;1076;DELETED;(Venkat) Raghav, Rajagopalan;rvraghav93@gmail.com;2017-07-16 17:58:59-05:00;75d6005feacfedad33df8bed31e34f7bec51f62d;"[MRG] Add few more tests + Documentation for re-entrant cross-validation estimators (#7823)  * DOC Add NOTE that unless random_state is set, split will not be identical  * TST use np.testing.assert_equal for nested lists/arrays  * TST Make sure cv param can be a generator  * DOC rank_ becomes a link when rendered  * Use test_...  * Remove blank line; Add if shuffle is True  * Fix tests  * Explicitly test for GeneratorType  * TST Add the else clause  * TST Add comment on usage of np.testing.assert_array_equal  * TYPO  * MNT Remove if ;  * Address Joel's comments  * merge the identical points in doc  * DOC address Andy's comments  * Move comment to before the check for generator type"
+test_search.py;1081;DELETED;(Venkat) Raghav, Rajagopalan;rvraghav93@gmail.com;2017-07-16 17:58:59-05:00;75d6005feacfedad33df8bed31e34f7bec51f62d;""
+test_search.py;1076;DELETED;Joel Nothman;joel.nothman@gmail.com;2017-07-17 11:39:57+10:00;7c878137cfe5d0a5dbc81a8cb118a78adc0b99aa;"Merge branch 'master' of github.com:scikit-learn/scikit-learn"
+test_search.py;1081;DELETED;Joel Nothman;joel.nothman@gmail.com;2017-07-17 11:39:57+10:00;7c878137cfe5d0a5dbc81a8cb118a78adc0b99aa;""
+test_search.py;1076;DELETED;Joel Nothman;joel.nothman@gmail.com;2017-08-31 19:03:29+10:00;56902d3dc90c2cd78e4517f70f4801685739d618;"Merge branch 'master' into discrete"
+test_search.py;1081;DELETED;Joel Nothman;joel.nothman@gmail.com;2017-08-31 19:03:29+10:00;56902d3dc90c2cd78e4517f70f4801685739d618;""
+testing.py;57;ADD;Loïc Estève;loic.esteve@ymail.com;2017-09-01 12:53:59+02:00;846313b57009dd9f8340f5f7004bc2bf1119b709;"[MRG+1] Deprecate sklearn.utils.testing.raises and remove it from tests (#9660)"
+testing.py;59;ADD;Joan Massich;mailsik@gmail.com;2017-09-10 05:21:40+02:00;76494a1462c2f4c5660c37a037cd9e7d2a7f4276;"[MRG+1] Remove hard dependency on nose (#9670)"
+docs_resolv.py;112;DELETED;Andreas Mueller;t3kcit@gmail.com;2017-09-10 17:39:37-04:00;08ec7be764e43f63454acd2553badd9beb9dc0cb;"MAINT Stop vendoring sphinx-gallery (#9403)"
+docs_resolv.py;261;DELETED;Andreas Mueller;t3kcit@gmail.com;2017-09-10 17:39:37-04:00;08ec7be764e43f63454acd2553badd9beb9dc0cb;""
+estimator_checks.py;605;DELETED;Albert Thomas;albertthomas88@gmail.com;2017-09-26 18:13:15+02:00;45dc891c96eebdb3b81bf14c2737d8f6540fabfe;"[MRG+2] Clean common tests (#9340)  * rm dupes  * add check_supervised_y_no_nan in classifier checks: this implies changes for Ridge classifiers  * fix docstrings/comments  * FIX check fitting 1d X array raises error and FIX check fitting 2d array with only 1 feature either works or returns informative message  * modify check_fit2d_1sample in common tests so that it checks fitting either works or returns an informative message  * rm SpectralClustering case for the moment  * uniformize error messages for 1 sample case and fix SpectralClustering with ensure_min_samples=2  * add unit test for mean_shift when n_samples * quantile < 1  * FIX travis with ensure_min_samples=2 in _PLS  * try fix for failing tSNE test  * typos  * take @agramfort's review into account  * sc to fix string in gaussian_process  * add the class that is present to preserve information of previous message in gpc.py"
+estimator_checks.py;626;DELETED;Albert Thomas;albertthomas88@gmail.com;2017-09-26 18:13:15+02:00;45dc891c96eebdb3b81bf14c2737d8f6540fabfe;""
+estimator_checks.py;648;DELETED;Albert Thomas;albertthomas88@gmail.com;2017-09-26 18:13:15+02:00;45dc891c96eebdb3b81bf14c2737d8f6540fabfe;""
+estimator_checks.py;670;DELETED;Albert Thomas;albertthomas88@gmail.com;2017-09-26 18:13:15+02:00;45dc891c96eebdb3b81bf14c2737d8f6540fabfe;""
+conftest.py;13;ADD;Loïc Estève;loic.esteve@ymail.com;2017-10-01 09:31:10+02:00;636a73e9c5b5716982acc83649e7561962553b79;"[MRG+1] Travis: move scipy-dev-wheels build to a cron job (#9852)"
+conftest.py;13;ADD;Tom Dupré la Tour;tom.dupre-la-tour@m4x.org;2017-11-23 13:53:24+01:00;0a91bce8ee15cad87cea065693563ffae2e358c3;"Merge branch 'master' into discrete  Conflicts: 	doc/modules/preprocessing.rst"
+docs_resolv.py;112;DELETED;Tom Dupré la Tour;tom.dupre-la-tour@m4x.org;2017-11-23 13:53:24+01:00;0a91bce8ee15cad87cea065693563ffae2e358c3;""
+docs_resolv.py;261;DELETED;Tom Dupré la Tour;tom.dupre-la-tour@m4x.org;2017-11-23 13:53:24+01:00;0a91bce8ee15cad87cea065693563ffae2e358c3;""
+estimator_checks.py;594;DELETED;Tom Dupré la Tour;tom.dupre-la-tour@m4x.org;2017-11-23 13:53:24+01:00;0a91bce8ee15cad87cea065693563ffae2e358c3;""
+estimator_checks.py;615;DELETED;Tom Dupré la Tour;tom.dupre-la-tour@m4x.org;2017-11-23 13:53:24+01:00;0a91bce8ee15cad87cea065693563ffae2e358c3;""
+estimator_checks.py;637;DELETED;Tom Dupré la Tour;tom.dupre-la-tour@m4x.org;2017-11-23 13:53:24+01:00;0a91bce8ee15cad87cea065693563ffae2e358c3;""
+estimator_checks.py;659;DELETED;Tom Dupré la Tour;tom.dupre-la-tour@m4x.org;2017-11-23 13:53:24+01:00;0a91bce8ee15cad87cea065693563ffae2e358c3;""
+testing.py;59;ADD;Tom Dupré la Tour;tom.dupre-la-tour@m4x.org;2017-11-23 13:53:24+01:00;0a91bce8ee15cad87cea065693563ffae2e358c3;""
+testing.py;71;ADD;Tom Dupré la Tour;tom.dupre-la-tour@m4x.org;2017-11-23 13:53:24+01:00;0a91bce8ee15cad87cea065693563ffae2e358c3;""
+pyparsing.py;1471;ADD;cclauss;cclauss@bluewin.ch;2018-01-24 20:41:15+01:00;00d44d1ba6259dead0f4e4e5858cb05fbc8293f8;"[MRG+1] Update pyparsing.py for compatibility with Python 3 (#10513)"
+pyparsing.py;2504;DELETED;cclauss;cclauss@bluewin.ch;2018-01-24 20:41:15+01:00;00d44d1ba6259dead0f4e4e5858cb05fbc8293f8;""
+conftest.py;22;ADD;Loïc Estève;loic.esteve@ymail.com;2018-03-27 07:44:40+02:00;20661b5018ba45f4452218a689640ff007cd361f;"TST: only run doctests on numpy 1.14. (#10835)  Fix doctests due to numpy 1.14 formatting changes."
+conftest.py;13;DELETED;Loïc Estève;loic.esteve@ymail.com;2018-03-27 07:44:40+02:00;20661b5018ba45f4452218a689640ff007cd361f;""
+testing.py;699;ADD;Roman Yurchak;rth.yurchak@gmail.com;2018-05-24 10:47:40+02:00;c50d9e87d024ff3d6fbfa5937101d8921a4bd1e9;"[MRG+1] Pytest parametrize unit tests common tests and ensemble module (#11075)"
+conftest.py;22;ADD;Joel Nothman;joel.nothman@gmail.com;2018-05-30 12:56:45+10:00;f737fe6af3e12bb47f82226fe4e15f9ef4094bfd;"Merge branch 'master' into discrete"
+conftest.py;13;DELETED;Joel Nothman;joel.nothman@gmail.com;2018-05-30 12:56:45+10:00;f737fe6af3e12bb47f82226fe4e15f9ef4094bfd;""
+pyparsing.py;1471;ADD;Joel Nothman;joel.nothman@gmail.com;2018-05-30 12:56:45+10:00;f737fe6af3e12bb47f82226fe4e15f9ef4094bfd;""
+pyparsing.py;2504;DELETED;Joel Nothman;joel.nothman@gmail.com;2018-05-30 12:56:45+10:00;f737fe6af3e12bb47f82226fe4e15f9ef4094bfd;""
+testing.py;699;ADD;Joel Nothman;joel.nothman@gmail.com;2018-05-30 12:56:45+10:00;f737fe6af3e12bb47f82226fe4e15f9ef4094bfd;""
+conftest.py;22;ADD;Joel Nothman;joel.nothman@gmail.com;2018-05-31 10:15:02+10:00;ca4453347cf35acccc96a7b204b0972dbd800694;"Merge branch 'discrete' of github.com:scikit-learn/scikit-learn into discrete"
+conftest.py;13;DELETED;Joel Nothman;joel.nothman@gmail.com;2018-05-31 10:15:02+10:00;ca4453347cf35acccc96a7b204b0972dbd800694;""
+pyparsing.py;1471;ADD;Joel Nothman;joel.nothman@gmail.com;2018-05-31 10:15:02+10:00;ca4453347cf35acccc96a7b204b0972dbd800694;""
+pyparsing.py;2504;DELETED;Joel Nothman;joel.nothman@gmail.com;2018-05-31 10:15:02+10:00;ca4453347cf35acccc96a7b204b0972dbd800694;""
+testing.py;699;ADD;Joel Nothman;joel.nothman@gmail.com;2018-05-31 10:15:02+10:00;ca4453347cf35acccc96a7b204b0972dbd800694;""
+test_cross_validation.py;690;DELETED;Andreas Mueller;t3kcit@gmail.com;2018-06-24 09:06:26-04:00;eec7649236d5216380d05916bb7f6aa3b2fc5508;"MAINT Complete 0.20 deprecations (#9570)"
+test_cross_validation.py;862;DELETED;Andreas Mueller;t3kcit@gmail.com;2018-06-24 09:06:26-04:00;eec7649236d5216380d05916bb7f6aa3b2fc5508;""
+test_cross_validation.py;1211;DELETED;Andreas Mueller;t3kcit@gmail.com;2018-06-24 09:06:26-04:00;eec7649236d5216380d05916bb7f6aa3b2fc5508;""
+test_grid_search.py;505;DELETED;Andreas Mueller;t3kcit@gmail.com;2018-06-24 09:06:26-04:00;eec7649236d5216380d05916bb7f6aa3b2fc5508;""
+test_cross_validation.py;690;DELETED;Joel Nothman;joel.nothman@gmail.com;2018-07-10 09:46:03+10:00;40d1f00c82a93cd6fabef63797e709fe2a6528fa;"Merge branch 'master' into discrete"
+test_cross_validation.py;862;DELETED;Joel Nothman;joel.nothman@gmail.com;2018-07-10 09:46:03+10:00;40d1f00c82a93cd6fabef63797e709fe2a6528fa;""
+test_cross_validation.py;1211;DELETED;Joel Nothman;joel.nothman@gmail.com;2018-07-10 09:46:03+10:00;40d1f00c82a93cd6fabef63797e709fe2a6528fa;""
+test_grid_search.py;505;DELETED;Joel Nothman;joel.nothman@gmail.com;2018-07-10 09:46:03+10:00;40d1f00c82a93cd6fabef63797e709fe2a6528fa;""
+test_split.py;483;ADD;Andreas Mueller;t3kcit@gmail.com;2018-07-17 15:31:45-05:00;8e2c2aa35d234ba5d14f6c2492e2e5ca57de8af6;"raise DeprecationWarnings and FutureWarnings as errors (#11570)  Towards #11252. In the end we'd like to make these errors so we can keep this cleaner in the future."
+test_split.py;481;DELETED;Andreas Mueller;t3kcit@gmail.com;2018-07-17 15:31:45-05:00;8e2c2aa35d234ba5d14f6c2492e2e5ca57de8af6;""
+_dask.py;81;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;"Joblib 0.12.2 (#11741)  * joblib 0.12.2  * Export _joblib's register_parallel_backend  * Use latest version of coverage"
+_store_backends.py;235;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+context.py;97;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+fork_exec.py;32;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+popen_loky_posix.py;116;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+queues.py;160;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+semaphore_tracker.py;77;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+semaphore_tracker.py;151;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+semaphore_tracker.py;187;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+semaphore_tracker.py;196;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+semlock.py;163;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+spawn.py;86;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+synchronize.py;71;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+utils.py;36;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+process_executor.py;293;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+process_executor.py;655;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+memory.py;159;ADD;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+memory.py;118;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+memory.py;272;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+memory.py;805;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2018-08-03 12:34:25+02:00;40e6c43cb49d6c1eb56faa46ca0ffa40ab6228b8;""
+process_executor.py;293;DELETED;Olivier Grisel;olivier.grisel@ensta.org;2018-08-30 22:47:36+02:00;8cbb13161dab31780dd18a1d42072e8cd618e1d1;"MNT joblib 0.12.3 (#11949)  New bugfix release of joblib + loky."
+test_voting_classifier.py;212;DELETED;Roman Yurchak;rth.yurchak@pm.me;2018-09-13 13:57:43+02:00;ec69171d523c24fdb8b004c0a9e2d45aae17798b;"TST Use pytest.raises instead of legacy constructions (#12057)"
+test_split.py;487;DELETED;Roman Yurchak;rth.yurchak@pm.me;2018-09-13 13:57:43+02:00;ec69171d523c24fdb8b004c0a9e2d45aae17798b;""
+test_svmlight_format.py;238;DELETED;Adrin Jalali;adrin.jalali@gmail.com;2018-12-14 10:53:12+01:00;2bd87f6ed8d36f89cab73552665e4e59e892262b;"Remove python < 3.5 from CI (#12746)"
+test_svmlight_format.py;246;DELETED;Adrin Jalali;adrin.jalali@gmail.com;2018-12-14 10:53:12+01:00;2bd87f6ed8d36f89cab73552665e4e59e892262b;""
+funcsigs.py;76;DELETED;Adrin Jalali;adrin.jalali@gmail.com;2018-12-14 10:53:12+01:00;2bd87f6ed8d36f89cab73552665e4e59e892262b;""
+funcsigs.py;85;DELETED;Adrin Jalali;adrin.jalali@gmail.com;2018-12-14 10:53:12+01:00;2bd87f6ed8d36f89cab73552665e4e59e892262b;""
+funcsigs.py;416;DELETED;Adrin Jalali;adrin.jalali@gmail.com;2018-12-14 10:53:12+01:00;2bd87f6ed8d36f89cab73552665e4e59e892262b;""
+estimator_checks.py;1639;ADD;Andreas Mueller;t3kcit@gmail.com;2019-02-23 16:54:41-05:00;ab2f539a32b8099a941cefc598c9625e830ecfe4;"API: Estimator tags (#8022)"
+bench_saga.py;303;ADD;Joan Massich;mailsik@gmail.com;2019-02-27 11:14:29+01:00;f02ef9f52f81c2d212f428092ad7c3f2f3fbd0f5;"LogisticRegression convert to float64 (for SAG solver) (#13243)  * Remove unused code  * Squash all the PR 9040 commits  initial PR commit  seq_dataset.pyx generated from template  seq_dataset.pyx generated from template #2  rename variables  fused types consistency test for seq_dataset  a  sklearn/utils/tests/test_seq_dataset.py  new if statement  add doc  sklearn/utils/seq_dataset.pyx.tp  minor changes  minor changes  typo fix  check numeric accuracy only up 5th decimal  Address oliver's request for changing test name  add test for make_dataset and rename a variable in test_seq_dataset  * FIX tests  * TST more numerically stable test_sgd.test_tol_parameter  * Added benchmarks to compare SAGA 32b and 64b  * Fixing gael's comments  * fix  * solve some issues  * PEP8  * Address lesteve comments  * fix merging  * avoid using assert_equal  * use all_close  * use explicit ArrayDataset64 and CSRDataset64  * fix: remove unused import  * Use parametrized to cover ArrayDaset-CSRDataset-32-64 matrix  * for consistency use 32 first then 64 + add 64 suffix to variables  * it would be cool if this worked !!!  * more verbose version  * revert SGD changes as much as possible.  * Add solvers back to bench_saga  * make 64 explicit in the naming  * remove checking native python type + add comparison between 32 64  * Add whatsnew with everyone with commits  * simplify a bit the testing  * simplify the parametrize  * update whatsnew  * fix pep8"
+_dask.py;81;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;"MAINT Unvendor joblib (#13531)"
+_store_backends.py;237;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+context.py;130;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+fork_exec.py;32;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+popen_loky_posix.py;116;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+queues.py;161;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+semaphore_tracker.py;80;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+semaphore_tracker.py;154;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+semaphore_tracker.py;190;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+semaphore_tracker.py;199;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+semlock.py;163;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+spawn.py;72;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+synchronize.py;71;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+utils.py;42;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+process_executor.py;675;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+format_stack.py;132;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+format_stack.py;238;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+format_stack.py;339;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+memory.py;162;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+numpy_pickle_utils.py;239;DELETED;Roman Yurchak;rth.yurchak@pm.me;2019-04-17 15:22:09+02:00;fc33d303c4f2d614ff2dedaeec444c16a1abaf6a;""
+text.py;327;ADD;Adrin Jalali;adrin.jalali@gmail.com;2019-04-23 05:50:24+02:00;70fd42eec369e6bdb1f1a3f3578eec13c1d69abe;"FIX make sure vectorizers read data from file before analyzing (#13641)"

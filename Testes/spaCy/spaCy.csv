@@ -1,0 +1,79 @@
+Filename;Linha;Tipo;Autor;Email;Data;Hash;Commit
+setup.py;46;ADD;Matthew Honnibal;honnibal@gmail.com;2015-01-25 14:49:10+11:00;7588adf5e760d7da878a02390c9ce1b818f017e7;"* Add numpy to install requires"
+setup.py;49;ADD;Matthew Honnibal;honnibal@gmail.com;2015-01-30 19:48:19+11:00;6c081dd1fc2bce5d9fa9c9a18316d3277737ea28;"* Handle failure when numpy headers are already installed correctly"
+train_ud.py;28;ADD;Matthew Honnibal;honnibal@gmail.com;2015-10-08 12:00:11+11:00;6ea1601e9366e8cc1a135e6225b5746023510ba2;"* Add script to train models off the UD treebanks. Note that the UD data is restricted to research purposes only, and should only be used to train models for academic experiments."
+train_ud.py;28;ADD;Yubing (Tom) Dong;tom.tung.dyb@gmail.com;2015-10-08 22:53:02-07:00;9a6811acc4c369efe4652afe2c3f6a44cb5c27ce;"Merge remote-tracking branch 'upstream/master'"
+download.py;28;ADD;Henning Peters;pete@dexterslab.de;2015-10-20 19:11:29+02:00;4f703f0cb49bbe6aa10b6fa1b527c043cc95005b;"better error reporting, cleanup"
+download.py;27;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2015-10-23 03:45:47+11:00;4f13849065dad2e991189b147a7ee3e76c9e07a1;"Merge pull request #145 from henningpeters/master  better error reporting, cleanup"
+download.py;27;ADD;Matthew Honnibal;honnibal@gmail.com;2015-10-23 03:46:09+11:00;23855db3ca2bce039eff46a1b9838454636c7021;"Merge branch 'master' of ssh://github.com/honnibal/spaCy into develop"
+download.py;27;ADD;Matthew Honnibal;honnibal@gmail.com;2015-10-22 18:48:44+02:00;46fbf290194f7341d7c10b4838884ab29bacd368;"Merge branch 'develop' of https://github.com/honnibal/spaCy into develop"
+download.py;32;ADD;Matthew Honnibal;honnibal@gmail.com;2015-10-23 10:28:05+11:00;f16bd3b853211aaa2853058d0c923c52ff671719;"* Fix FileExistsError for Python2"
+download.py;34;ADD;maxirmx;m.samsonov@ieee.org;2015-10-24 16:10:45+03:00;c27393a85dd972024a6c74bc6ff6fa7034ca7a7e;"Merge remote-tracking branch 'refs/remotes/honnibal/master'"
+displacy.py;281;ADD;Matthew Honnibal;honnibal@gmail.com;2015-10-28 17:36:11+01:00;4a3babcb10feb2c7ea06bbe1d98a7c8c16716bbf;"* Add displacy service"
+displacy.py;281;ADD;Matthew Honnibal;honnibal@gmail.com;2015-10-29 13:10:06+11:00;3072016155f30386c92b64a85f24c9e816ab2015;"Merge branch 'master' of ssh://github.com/honnibal/spaCy"
+download.py;34;DELETED;Henning Peters;pete@dexterslab.de;2015-11-15 15:58:21+01:00;03d2f98cd550ec3162bd27c33409c4d8413367ac;"add sputnik"
+download.py;34;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2015-11-19 20:59:09+11:00;73d47c301075df46f12f7094044f09ac1f6ad8f1;"Merge pull request #185 from henningpeters/sputnik  integrate sputnik"
+download.py;34;DELETED;Matthew Honnibal;honnibal@gmail.com;2015-11-19 11:00:11+01:00;d8c52560d18566e4afc547a038da70fce7999bea;"Merge branch 'master' of ssh://github.com/honnibal/spaCy"
+download.py;34;DELETED;Henning Peters;pete@dexterslab.de;2015-11-19 13:23:12+01:00;b881a0fb94f13e1cb6cb8b96c1a6dae0d9aa3c86;"Merge branch 'master' of github.com:honnibal/spaCy"
+setup.py;93;DELETED;Henning Peters;pete@dexterslab.de;2015-12-13 11:49:17+01:00;ac318b568c9ba22ab0baf3198c95ed65d830da06;"new approach to dependency headers"
+setup.py;95;DELETED;Henning Peters;pete@dexterslab.de;2015-12-13 11:49:17+01:00;ac318b568c9ba22ab0baf3198c95ed65d830da06;""
+cythonize.py;61;ADD;Henning Peters;pete@dexterslab.de;2015-12-13 11:53:02+01:00;9662cf04c9489050540b4393c6e33e0b1f3b126a;"new approach to dependency headers"
+cythonize.py;61;ADD;Matthew Honnibal;honnibal@gmail.com;2015-12-27 17:38:06+01:00;45afda5af32df1536edf001ebd249611690b1b81;"Merge branch 'henningpeters-headers'"
+setup.py;93;DELETED;Matthew Honnibal;honnibal@gmail.com;2015-12-27 17:38:06+01:00;45afda5af32df1536edf001ebd249611690b1b81;""
+setup.py;95;DELETED;Matthew Honnibal;honnibal@gmail.com;2015-12-27 17:38:06+01:00;45afda5af32df1536edf001ebd249611690b1b81;""
+cythonize.py;61;ADD;Matthew Honnibal;honnibal@gmail.com;2015-12-28 18:03:06+01:00;3bc498e9c991a94e59584783695c74acca1efbea;"Merge branch 'master' of https://github.com/honnibal/spaCy"
+setup.py;93;DELETED;Matthew Honnibal;honnibal@gmail.com;2015-12-28 18:03:06+01:00;3bc498e9c991a94e59584783695c74acca1efbea;""
+setup.py;95;DELETED;Matthew Honnibal;honnibal@gmail.com;2015-12-28 18:03:06+01:00;3bc498e9c991a94e59584783695c74acca1efbea;""
+download.py;39;ADD;Henning Peters;pete@dexterslab.de;2016-01-16 12:23:45+01:00;235f0945342419baaca63d8de3c56f4077dc970e;"untangle data_path/via"
+download.py;39;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2016-01-17 02:12:48+11:00;65c5b03b9bb60e4e2027527d3fcf7b8c131c494c;"Merge pull request #223 from henningpeters/revise_packaging  refactored data_dir->via, add zip_safe, add spacy.load()"
+download.py;39;ADD;Matthew Honnibal;honnibal@gmail.com;2016-01-16 16:20:49+01:00;3dc398b72732a8a8c9d3724c6ce116dad4454e51;"* Fix merge conflict in requirements.txt"
+displacy.py;281;DELETED;Henning Peters;pete@dexterslab.de;2016-02-19 13:30:49+01:00;59339d45e5ed31d45bd06f9eb5d044c22e90978b;"remove displacy"
+displacy.py;281;DELETED;Matthew Honnibal;matt@spacy.io;2016-03-15 19:14:50+00:00;80134eb12da07d52c227595c2b14aceb70a97324;"Merge branch 'master' of https://github.com/spacy-io/spaCy"
+download.py;21;ADD;Henning Peters;pete@dexterslab.de;2016-03-24 11:19:43+01:00;a7d7ea3afa776132d5f46f2f1b59a4deeda1748c;"first idea for supporting multiple langs in download script"
+download.py;39;DELETED;Henning Peters;pete@dexterslab.de;2016-03-24 11:19:43+01:00;a7d7ea3afa776132d5f46f2f1b59a4deeda1748c;""
+download.py;21;ADD;Matthew Honnibal;honnibal@gmail.com;2016-03-26 21:54:59+11:00;8c77a994c6ecd19c2165f4a15e485202123f1630;"Merge pull request #305 from henningpeters/master  multiple langs in download script"
+download.py;39;DELETED;Matthew Honnibal;honnibal@gmail.com;2016-03-26 21:54:59+11:00;8c77a994c6ecd19c2165f4a15e485202123f1630;""
+download.py;21;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2016-03-29 14:31:52+11:00;26622f0ffc50f2c9abf14b8fb49e1b8c7a07ea79;"Merge branch 'master' of ssh://github.com/honnibal/spaCy"
+download.py;39;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2016-03-29 14:31:52+11:00;26622f0ffc50f2c9abf14b8fb49e1b8c7a07ea79;""
+download.py;21;ADD;Wolfgang Seeker;seeker@spacy.io;2016-04-11 12:11:01+02:00;d328e0b4a8ed800831b4bcc516a70bd36199add0;"Merge branch 'master' into space_head_bug"
+download.py;39;DELETED;Wolfgang Seeker;seeker@spacy.io;2016-04-11 12:11:01+02:00;d328e0b4a8ed800831b4bcc516a70bd36199add0;""
+test_issue617.py;7;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2016-11-10 22:48:10+01:00;e86f440ca6687fb6cb640fa7b5d5d4f787644e99;"Fix test for issue 617"
+test_issue617.py;7;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2016-11-25 09:16:36-06:00;159e8c46e181ce6b8f61aedd2fd6c85cd6306802;"Merge old training fixes with newer state"
+train_ud.py;23;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2016-11-25 17:45:45-06:00;22189e60dbf92fe22ad49e296c4e41fc84b71f9d;"Use unicode literals in train_ud"
+train_ud.py;30;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2016-11-26 12:36:18+01:00;296d33a4fc60f03f9fa4e80efb7e20a0ffe44e01;"Merge branch 'master' of ssh://github.com/explosion/spaCy"
+train_ud.py;30;DELETED;Janneke van der Zwaan;j.vanderzwaan@esciencecenter.nl;2016-11-30 17:13:39+01:00;88869e0e07c4a0c286d0fd7011abaee520cf29a8;"Merge github.com:explosion/spaCy into dutch"
+train_ud.py;30;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2016-12-20 16:26:57-06:00;5a319060b9802104fc182f4a5b2554c17ae7081f;"Merge branch 'master' of https://github.com/explosion/spaCy"
+train_ud.py;30;DELETED;kengz;kengzwl@gmail.com;2016-12-30 12:19:59-05:00;73a38bd4d1cfa0f3ab780abd9e1931d03db4024d;"Merge remote-tracking branch 'upstream/master'"
+test_issue617.py;7;ADD;kengz;kengzwl@gmail.com;2016-12-30 12:19:59-05:00;73a38bd4d1cfa0f3ab780abd9e1931d03db4024d;""
+download.py;33;DELETED;ines;ines@ines.io;2017-03-15 17:37:18+01:00;58b884b6d4000e46c7ccf4a929d79c3f550dccf6;"Refactor download script and about.py to use new download method"
+download.py;33;DELETED;Matthew Honnibal;honnibal@gmail.com;2017-03-16 12:00:42-05:00;8843b84bd164d9ce4910b050ca8668956c5b8559;"Merge remote-tracking branch 'origin/develop-downloads'"
+download.py;32;DELETED;Matthew Honnibal;honnibal@gmail.com;2017-03-17 08:18:11-05:00;1cc841e600ffc30e4147f375fcea86851e60b3a3;"Merge branch 'master' of https://github.com/explosion/spaCy"
+download.py;33;DELETED;ines;ines@ines.io;2017-03-20 18:02:47+01:00;da7cc4f9b841bfb7f5da6310fc0ef9bd15097dd6;"Merge branch 'master' into develop"
+download.py;33;DELETED;Ines Montani;ines.montani@gmail.com;2017-03-25 10:03:47+01:00;97cb4d5e3c1fb9c91a6de5adb8c6e530cf589fcd;"Merge branch 'master' into master"
+test_issue913.py;15;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2017-04-07 15:47:27+02:00;5887383fc04b0d332ac7ab0051a5c3650bf82dde;"Add test for Issue #913: Hang from bad regex"
+test_issue957.py;15;ADD;ines;ines@ines.io;2017-04-07 17:23:40+02:00;f9869e4dc5f53f640125b1270420816ce0a3e3b8;"Merge branch 'master' into develop"
+train_ud.py;26;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2017-05-07 07:31:09-05:00;e420e5a809657b25a25fd9885213e679b3cf082f;"Tmp"
+train_ud.py;28;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2017-05-08 08:39:59-05:00;5dffb85184e70459e0cf7754bac38997b0509d25;"Don't use gpu"
+language.py;230;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2017-05-18 04:25:19-05:00;2713041571f9a594ad27ba428283f69e8c2c55dd;"Fix GPU usage in Language"
+language.py;230;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2017-05-18 08:30:59-05:00;c2c825127abf50fe30f43502762a2d34bbb44c6c;"Fix use_params and pipe methods"
+test_issue617.py;11;DELETED;ines;ines@ines.io;2017-05-23 12:40:37+02:00;fb0ff0272f6f2232f672928500c3f6c61b66ae06;"xfail neural parser tests for now and remove test for deprecated method"
+test_issue617.py;11;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2017-05-23 05:58:17-05:00;e7d3159d913958f98d04c6e59473c8ec98c6c4ef;"Merge branch 'develop' of https://github.com/explosion/spaCy into develop"
+test_issue617.py;11;DELETED;Jim Regan;joregan@gmail.com;2017-06-26 22:42:27+01:00;d81ceb0cd5526cc9be366bf56bfb84214ae2fa52;"Merge branch 'develop' into polish"
+test_issue617.py;11;DELETED;Jim O'Regan;jaoregan@tcd.ie;2017-08-08 17:21:27+01:00;95921d7d4c69aba7cb56a49b044f6433513ad12b;"Merge branch 'develop' into develop-irish"
+train.py;124;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2017-09-20 19:17:10-05:00;1d73dec8b12a84dcf3d3c7949fe257b1cc0d011f;"Refactor train script"
+train.py;134;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2017-09-26 08:32:55-05:00;d02a41a8c9e2823dc8ddfe16b970cfda20e5b19d;"Merge remote-tracking branch 'origin/develop' into feature/phrasematcher"
+model.py;7;ADD;Matthew Honnibal;honnibal@gmail.com;2017-10-27 01:18:05+00:00;b9616419e1395745ce59288d01e591d72f80f0c8;"Add try/except around bz2 import"
+model.py;7;ADD;Explosion Bot;contact@explosion.ai;2017-10-28 11:52:10+02:00;b22e42af7f2b9593fa47d8b4920c43e64f98f737;"Merge changes to parser and _ml"
+model.py;7;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2017-10-29 02:05:22+02:00;c43cc5361d56899a4e465cd31081d04338501c6f;"Merge pull request #1467 from explosion/feature/better-parser  💫 Bug fixes to parser model (requires retraining)"
+model.py;7;ADD;ines;ines@ines.io;2017-10-29 03:58:21+01:00;256c7dac5a482bdc4fe35b3e490f4fdddbfbad3d;"Merge branch 'develop' of https://github.com/explosion/spaCy into develop"
+model.py;7;ADD;Jim O'Regan;jaoregan@tcd.ie;2017-10-31 14:07:45+00:00;41dd29e48e18fc04286893b1317ee80ae1087fd1;"merge"
+model.py;7;DELETED;ines;ines@ines.io;2017-11-01 13:14:03+01:00;affd3404ab24b5143ba97b26c40a90dc4b1dcbc0;"Remove old model command (now "vocab")"
+model.py;7;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2017-11-01 13:27:35+01:00;273e96b63feb7c402a8d6813b5d7c5a5196ee702;"Merge branch 'develop' of https://github.com/explosion/spaCy into develop"
+model.py;7;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2017-11-01 16:38:26+01:00;d17a12c71d368568b7dc56373a55f208ce4072f9;"Merge branch 'develop' of https://github.com/explosion/spaCy into develop"
+language.py;495;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2017-11-07 20:43:46+01:00;75d2a05c2938f412f0fae44748374e4de19cc2be;"Merge pull request #1502 from explosion/develop  💫 Merge spaCy 2 into master 🎉"
+language.py;501;ADD;Matthew Honnibal;honnibal+gh@gmail.com;2017-11-07 20:43:46+01:00;75d2a05c2938f412f0fae44748374e4de19cc2be;""
+test_issue617.py;11;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2017-11-07 20:43:46+01:00;75d2a05c2938f412f0fae44748374e4de19cc2be;""
+test_issue957.py;17;DELETED;Ines Montani;ines@ines.io;2018-07-24 23:38:44+02:00;75f3234404c08d90ee3e8bae72ebabe72a8c3e45;"💫 Refactor test suite (#2568)  ## Description  Related issues: #2379 (should be fixed by separating model tests)  * **total execution time down from > 300 seconds to under 60 seconds** 🎉 * removed all model-specific tests that could only really be run manually anyway – those will now live in a separate test suite in the [`spacy-models`](https://github.com/explosion/spacy-models) repository and are already integrated into our new model training infrastructure * changed all relative imports to absolute imports to prepare for moving the test suite from `/spacy/tests` to `/tests` (it'll now always test against the installed version) * merged old regression tests into collections, e.g. `test_issue1001-1500.py` (about 90% of the regression tests are very short anyways) * tidied up and rewrote existing tests wherever possible  ### Todo  - [ ] move tests to `/tests` and adjust CI commands accordingly - [x] move model test suite from internal repo to `spacy-models` - [x] ~~investigate why `pipeline/test_textcat.py` is flakey~~ - [x] review old regression tests (leftover files) and see if they can be merged, simplified or deleted - [ ] update documentation on how to run tests   ### Types of change enhancement, tests  ## Checklist <!--- Before you submit the PR, go over this checklist and make sure you can tick off all the boxes. [] -> [x] --> - [x] I have submitted the spaCy Contributor Agreement. - [x] I ran the tests, and all new and existing tests passed. - [ ] My changes don't require a change to the documentation, or if they do, I've added all required information."
+test_issue957.py;17;DELETED;Matthew Honnibal;honnibal+gh@gmail.com;2019-03-16 13:33:01+01:00;9a34d38829eadecfdcdf45955c2fa812ea762c6c;"Merge pull request #3413 from explosion/develop  💫 Merge develop (v2.1) into master"
+lemmatizer.py;56;ADD;Yves Peirsman;yves.peirsman@gmail.com;2019-04-03 14:13:26+02:00;951825532c6380b88c29db31d027f87f3f45990f;"Improved Dutch language resources and Dutch lemmatization (#3409)  * Improved Dutch language resources and Dutch lemmatization  * Fix conftest  * Update punctuation.py  * Auto-format  * Format and fix tests  * Remove unused test file  * Re-add deleted test  * removed redundant infix regex pattern for ','; note: brackets + simple hyphen remains  * Cleaner lemmatization files"
+lemmatizer.py;56;ADD;Jeanne Choo;jchoo@aisingapore.org;2019-04-04 14:18:27+08:00;80e15af76cbca6dda5244ee377352a5c47efa871;"fixed tag_map.py merge conflict"

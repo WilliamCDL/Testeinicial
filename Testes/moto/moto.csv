@@ -169,6 +169,7 @@ models.py;339;ADD;Steve Pulec;spulec@gmail.com;2018-11-04 17:26:57-05:00;0fc00e2
 responses.py;305;ADD;adam davis;christopher.davis@regence.com;2018-11-02 16:04:17-07:00;b66965e6e879a1647ca031448d8536f2e129d2c4;"Adding cloudformation-validate. Cfn-lint does the heavy lifting."
 responses.py;309;ADD;adam davis;christopher.davis@regence.com;2018-11-02 16:04:17-07:00;b66965e6e879a1647ca031448d8536f2e129d2c4;""
 models.py;339;ADD;Jon Beilke;jrbeilke@gmail.com;2018-12-06 11:46:14-06:00;9cdc4d45f54133154b9588b65bd39d1194590487;"Merge pull request #2 from spulec/master  Pull latest from upstream"
+models.py;339;ADD;John Corrales;jjcorrales3@gmail.com;2018-12-20 08:38:43-08:00;dd0f04764c7f0856c6a2d6fdba54f65e57bcc997;"Merge pull request #1 from spulec/master  pull latest"
 models.py;339;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 19:50:34-05:00;0c5010989a6089770ec9decd2d64df9c811ac3d8;"Merge branch 'master' into jsondiff-1.1.2"
 responses.py;306;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 20:39:00-05:00;8ba1a09c0d192258cb3fdb744a75184ad057c820;"Merge pull request #1921 from adamdavis40208/cloudformation-validate-spike  Adding cloudformation-validate. Cfn-lint does the heavy lifting."
 responses.py;310;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 20:39:00-05:00;8ba1a09c0d192258cb3fdb744a75184ad057c820;""
@@ -180,3 +181,5 @@ responses.py;306;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681
 responses.py;310;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 21:04:10-05:00;e681f55ba1cfad0ec2eba5f3fe78f4935eccf435;""
 responses.py;306;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18;"Merge branch 'master' into idna"
 responses.py;310;ADD;Steve Pulec;spulec@gmail.com;2018-12-28 21:23:38-05:00;775b4bbc04d1db9e89ae3b45050fce90cbea1e18;""
+responses.py;306;ADD;John Corrales;jjcorrales3@gmail.com;2019-01-01 18:17:13-08:00;bb747f260de52bece96ea9b2383ab5c21f5656e2;"Merge pull request #2 from spulec/master  Rebasing"
+responses.py;310;ADD;John Corrales;jjcorrales3@gmail.com;2019-01-01 18:17:13-08:00;bb747f260de52bece96ea9b2383ab5c21f5656e2;""

@@ -1,0 +1,13 @@
+Filename;Linha;Tipo;Autor;Email;Data;Hash;Commit
+theano_backend.py;393;ADD;Katherine Crowson;crowsonkb@gmail.com;2016-08-19 20:03:55-07:00;c6daa24e3cac10e3488d5a2eadfd6134de55e677;"Use Theano's CuDNN implementation of batch normalization (#3529)"
+theano_backend.py;393;ADD;Francois Chollet;francois.chollet@gmail.com;2016-08-23 14:30:21-07:00;d1870595966f50730dd2bc1317b85c7470ea5654;"Merge branch 'master' of https://github.com/fchollet/keras"
+theano_backend.py;408;ADD;Gijs van Tulder;gvtulder@users.noreply.github.com;2016-10-11 19:52:07+02:00;ef7911310daeb810f25d3b85001e5f5efef2ebfc;"Use Theano's cuDNN batch normalization for training. (#4023)"
+theano_backend.py;457;ADD;Aloïs Gruson;alois.gruson@niland.io;2016-10-28 19:51:32+02:00;6fd2d43bfeb1195e68693a66e767464835e40abf;"Fix Theano Cudnn BatchNorm when axis!=1 (#3968)  * fix batch_norm when axis!=1  * fix dimshuffle for all backends  * moving cudnn bn fix to theano backend  * fix pep8  * dont use cudnn when bn axis is non broadcastable, ie dim=1"
+theano_backend.py;457;ADD;Francois Chollet;francois.chollet@gmail.com;2016-10-31 13:11:49-07:00;cdab739471ee3c1d3497f8c73fad5ad05324b22f;"Merge branch 'master' of https://github.com/fchollet/keras"
+topology.py;808;ADD;Francois Chollet;francois.chollet@gmail.com;2016-11-16 19:06:46-08:00;771010f43b5b4f26e18c78449d6b42449e294269;"Add shareable BN (per-datastream updates)."
+topology.py;808;ADD;Francois Chollet;francois.chollet@gmail.com;2016-11-16 19:07:06-08:00;8df3effa5f7b71558f6f2fc2a11a6968ae179d34;"Merge branch 'shareable_bn'"
+core.py;395;ADD;Francois Chollet;francois.chollet@gmail.com;2017-02-13 16:55:19-08:00;03a7eb89e27b70f2ca0ac932ef4bace7569d6fab;"Advance API switch (BN; RNNs)."
+__init__.py;51;ADD;Francois Chollet;francois.chollet@gmail.com;2017-04-05 20:25:43-07:00;debbd4740547ab06c38e0dfa8a1852402fc0eb2c;"Make config file handling safer."
+__init__.py;51;DELETED;Moussa Taifi;moutai10@gmail.com;2017-05-06 23:02:08-04:00;a2a0f66276a6ecb8210ba8b9c5df0dbe556c6996;"Add exception handling when attempting to write keras config file (#6453)  * add exception handling when attempting to write keras config file to disk to match tf.contrib.keras implementation  * Add reliance on exceptions rather than testing write access to the target directory."
+core.py;388;DELETED;Hans Gaiser;hansg91@gmail.com;2017-09-27 04:39:16+02:00;408de9b67f56636b9802adae82c06f70f60ae000;"Allow to reshape unknown tensors. (#7960)  * Allow to reshape unknown tensors.  * Add test for reshaping unknown shapes."
+vis_utils.py;188;ADD;Francois Chollet;francois.chollet@gmail.com;2019-02-07 17:25:04-08:00;e2aced27b622642995d1941aa5daa087bf85b710;"Make `plot_model` more delightful for notebook users."
